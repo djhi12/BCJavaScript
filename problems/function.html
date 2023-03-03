@@ -10,10 +10,28 @@
 
 <body>
     <h1>Function Problem</h1>
-    <h2>Check the console</h2>
+    <h2>Check the console.</h2>
 
     <script>
-        
+        /*
+            Write a function called getAverage that takes an array of numbers as an argument and returns the average of all the numbers in the array. If the array is empty, return null.
+
+            For example, getAverage([1, 2, 3, 4, 5]) should return 3 because (1 + 2 + 3 + 4 + 5) / 5 = 3.
+        */
+
+        function getAverage(numbers) {
+            if (numbers.length === 0) {
+                return null;
+            }
+            let sum = 0;
+            for (let i = 0; i < numbers.length; i++) {
+                sum += numbers[i];
+            }
+            return sum / numbers.length;
+        }
+
+        const numbers = [1, 2, 3, 4, 5];
+        console.log(getAverage(numbers));
     </script>
 </body>
 
