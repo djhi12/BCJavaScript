@@ -17,7 +17,8 @@ To handle exceptions, you can use a try and except block. The try block contains
 
 """
 
-
+# The "try" block contains the code that may raise an exception,
+# the "except" block contains the code that is executed if the exception occurs.
 try:
     x = int(input("Enter a number: "))
     y = 1 / x
