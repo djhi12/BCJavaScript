@@ -1,0 +1,21 @@
+In Scratch, the "repeat" block is a control block used to repeat a set of instructions a certain number of times. Here's how to use it:
+
+	1. Drag the "repeat" block from the Control category to your workspace.
+	2. Enter the number of times you want to repeat the instructions into the space inside the block.
+	3. Put the instructions you want to repeat inside the "repeat" block.
+
+For example, if you want to make a sprite move 10 steps to the right 5 times, you would use the following code:
+
+	1. Drag the "repeat" block to your workspace.
+	2. Enter the number 5 inside the "repeat" block.
+	3. Drag a "move 10 steps" block to the inside of the "repeat" block.
+	4. Change the direction to "right" in the "move 10 steps" block.
+
+Your code should look like this:
+
+repeat(5)
+    move(10) steps
+ 
+When you run this code, the sprite will move 10 steps to the right 5 times.
+
+From <https://chat.openai.com/chat/de53336e-94e2-4db7-abef-08881a8e48a4> 
