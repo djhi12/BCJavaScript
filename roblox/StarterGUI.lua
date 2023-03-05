@@ -4,12 +4,17 @@
 
     To create a StarterGUI in Roblox Studio, follow these steps:
 
-	1. Open Roblox Studio and create a new place or open an existing one.
-	2. In the Explorer window, select the Workspace object.
-	3. Right-click the Workspace object and select Insert Object > ScreenGui.
-	4. Rename the ScreenGui to "StarterGui" (note the capitalization) to make it a StarterGUI object.
-	5. With the StarterGui selected, you can now add UI elements to it using the Insert menu. Common UI elements include frames, text labels, buttons, and images.
-	6. Once you've added UI elements, you can customize their properties by selecting them and modifying the properties in the Properties window.
+	    1. Open Roblox Studio and create a new place or open an existing one.
+
+	    2. In the Explorer window, select the Workspace object.
+
+	    3. Right-click the Workspace object and select Insert Object > ScreenGui.
+
+	    4. Rename the ScreenGui to "StarterGui" (note the capitalization) to make it a StarterGUI object.
+
+	    5. With the StarterGui selected, you can now add UI elements to it using the Insert menu. Common UI elements include frames, text labels, buttons, and images.
+        
+	    6. Once you've added UI elements, you can customize their properties by selecting them and modifying the properties in the Properties window.
 
     When a player joins your game, the StarterGUI will be loaded and displayed on their screen. You can use scripting to make the UI elements interactive and respond to player input. For example, you might use a button to open a settings menu or a text box to allow the player to enter their name.
 
