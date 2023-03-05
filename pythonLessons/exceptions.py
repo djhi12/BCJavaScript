@@ -5,13 +5,13 @@ Python exceptions are errors that occur during the execution of a Python program
 
 There are several built-in exceptions in Python, such as:
 
-SyntaxError: Raised when there is a syntax error in the code.
-TypeError: Raised when an operation or function is applied to an object of inappropriate type.
-NameError: Raised when a local or global name is not found.
-IndexError: Raised when an index is out of range.
-ValueError: Raised when an operation or function receives an argument of the right type but an inappropriate value.
-KeyError: Raised when a dictionary key is not found.
-ZeroDivisionError: Raised when a division or modulo operation is performed on zero.
+    SyntaxError: Raised when there is a syntax error in the code.
+    TypeError: Raised when an operation or function is applied to an object of inappropriate type.
+    NameError: Raised when a local or global name is not found.
+    IndexError: Raised when an index is out of range.
+    ValueError: Raised when an operation or function receives an argument of the right type but an inappropriate value.
+    KeyError: Raised when a dictionary key is not found.
+    ZeroDivisionError: Raised when a division or modulo operation is performed on zero.
 
 To handle exceptions, you can use a try and except block. The try block contains the code that may raise an exception, and the except block contains the code that is executed if the exception occurs. You can also use finally block to execute a code regardless of whether an exception was raised or not.
 
