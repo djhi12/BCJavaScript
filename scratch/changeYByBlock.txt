@@ -1,0 +1,11 @@
+The "change y by" block in Scratch is a motion block that is used to change the position of a sprite on the y-axis by a certain number of units. To remove this block from a Scratch project, you can follow these steps:
+
+	1. Open the Scratch project that contains the "change y by" block.
+	2. Locate the block in your script. You can either find it by scrolling through the script or by using the search bar at the top of the coding area.
+	3. Click on the block to select it.
+	4. Press the delete key on your keyboard, or right-click on the block and select "delete" from the dropdown menu.
+	5. The "change y by" block should now be removed from your script.
+
+Alternatively, you can also replace the "change y by" block with another block that achieves the same result. For example, you can use the "set y to" block to set the sprite's y-position to a specific value, or you can use the "move" block to move the sprite a certain number of steps in a specific direction.
+
+From <https://chat.openai.com/chat/fd016a64-6d1d-4fb7-a7d3-cb5f992ccbdb> 

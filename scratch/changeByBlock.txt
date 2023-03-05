@@ -1,0 +1,15 @@
+The "change by" block in Scratch is a math operator block that allows you to change the value of a variable by a specific amount. It is represented by a block with the text "change [variable] by [value]" where "variable" is the name of the variable you want to change and "value" is the amount by which you want to change it.
+
+For example, if you have a variable named "score" that currently has a value of 10, and you want to increase it by 5, you can use the "change by" block like this:
+
+change score by 5
+
+After executing this block, the value of the "score" variable would be 15.
+
+If you want to decrease the value of the variable, you can use a negative value with the "change by" block. For example, to decrease the value of the "score" variable by 3, you can use the following block:
+
+change score by -3
+
+After executing this block, the value of the "score" variable would be 12.
+
+From <https://chat.openai.com/chat/5510b607-8a9f-4a98-a269-617fffef7627> 

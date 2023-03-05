@@ -1,0 +1,27 @@
+The "create clone of" block is a programming block in the Scratch programming language that allows users to create a new sprite that is a copy of an existing sprite.
+
+To create a clone of a sprite in Scratch without using the "create clone of" block, you can use the following code:
+
+	1. Start by creating a new sprite or selecting an existing one.
+	2. Go to the sprite's code area by clicking on the "Scripts" tab.
+	3. Create a new custom block by clicking on the "Make a Block" button and selecting "Make a Block" from the dropdown menu.
+	4. Give the block a name such as "clone sprite" and add any necessary parameters such as x and y position.
+	5. In the block's code area, use the "broadcast" block to send a message to the sprite you want to clone.
+	6. In the sprite you want to clone, add code to listen for the message sent by the "clone sprite" block.
+	7. When the message is received, use the "create clone of" block to create a new sprite that is a copy of the original sprite.
+	8. Set the x and y position of the new sprite using the parameters passed in by the "clone sprite" block.
+	9. The new sprite should now be a clone of the original sprite, with the same appearance and behavior.
+
+Here is an example of the code you can use to create a clone of a sprite:
+In the "clone sprite" custom block:
+
+broadcast("clone sprite")
+
+In the sprite you want to clone:
+
+when I receive "clone sprite"
+create clone of [myself v] at (x position) (y position)
+
+You can then use the "clone sprite" block whenever you want to create a new sprite that is a clone of the original sprite, passing in the x and y position as parameters if necessary.
+
+From <https://chat.openai.com/chat/7446f61f-5eab-4027-b56f-994ca9a81d0c> 
