@@ -1,0 +1,7 @@
+The "wait until" block in Scratch is used to pause the execution of a script until a certain condition is met. Here is how you can remove it:
+
+    Identify the "wait until" block in your script.
+    Right-click on the block and select "delete" or drag the block out of the script area.
+    Replace the "wait until" block with other blocks that achieve the same functionality as the condition you were waiting for.
+
+For example, if you were using the "wait until" block to wait for a certain key to be pressed, you can replace it with an "if-then" block that checks if the key has been pressed, and then executes the code you want to run. Alternatively, you can use an event block such as "when key pressed" to trigger the code when the key is pressed.
