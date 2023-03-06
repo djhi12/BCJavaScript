@@ -1,0 +1,11 @@
+The "say" block in Scratch is used to make the computer-generated voice speak out loud. To delete the "say" block in Scratch, you can follow these steps:
+
+    Open the Scratch project that contains the "say" block.
+
+    Click on the "say" block to select it.
+
+    Press the delete key on your keyboard or right-click on the block and select "delete" from the menu.
+
+    The "say" block will be removed from your project.
+
+Alternatively, you can also remove the "say" block by dragging it out of your Scratch project and dropping it outside of the workspace.
