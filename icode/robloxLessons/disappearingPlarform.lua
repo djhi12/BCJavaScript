@@ -2,13 +2,14 @@
 local vanisher = game.Workspace.DisappearingPlatform.Part2 
 
 
-
--- The next two functions are defined: "disappear()" and "appear()". The "disappear()" function sets the "CanCollide" property of the "vanisher" part to false, which means that other objects in the game cannot collide with it, and sets the "Transparency" property to 1, which makes the part completely transparent. The "appear()" function does the opposite: it sets the "CanCollide" property to true and the "Transparency" property to 0, which makes the part completely visible.
+-- The "disappear()" function sets the "CanCollide" property of the "vanisher" part to false, which means that other objects in the game cannot collide with it, and sets the "Transparency" property to 1, which makes the part completely transparent. 
 local function disappear()
 	vanisher.CanCollide = false
 	vanisher.Transparency = 1
 end
 
+
+-- The "appear()" function does the opposite: it sets the "CanCollide" property to true and the "Transparency" property to 0, which makes the part completely visible.
 local function appear()
 	vanisher.CanCollide = true
 	vanisher.Transparency = 0
