@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template Literals</title>
+</head>
+
+<body>
+    <h1>Template Literals</h1>
+    <h2>Check the console</h2>
+
+    <script>
+        /*
+            JavaScript Template Literals are a feature introduced in ES6 (ECMAScript 2015) that allow for easier string formatting and manipulation in JavaScript.
+
+            They are delimited by backticks ( ) instead of single or double quotes and allow for the inclusion of placeholders that are denoted by the ${} syntax. The placeholders can contain any valid JavaScript expression, including variables, function calls, and even other template literals.
+        */
+
+        // Here's an example of how to use template literals:
+        const name = "John";
+        const age = 30;
+
+        const message = `My name is ${name} and I am ${age} years old.`;
+
+        console.log(message); // Output: "My name is John and I am 30 years old."
+
+        // In the above example, the template literal is used to create a message that includes the values of the name and age variables. The placeholders are denoted by the ${} syntax, and the expressions inside the placeholders are evaluated and then inserted into the resulting string.
+
+
+        // Template literals also support multi-line strings, which can be useful for formatting longer messages. Here's an example:
+        const message2 = `This is a multi-line string that spans multiple lines. It can include variables like ${name} and ${age}.`;
+
+        console.log(message2); // Output: 
+        /*
+        This is a multi-line string
+        that spans multiple lines.
+        It can include variables like John and 30.
+        */
+
+
+        /*
+            Template literals offer a more concise and readable way to create strings with dynamic content, and can be a useful tool in JavaScript development.
+        */
+    </script>
+</body>
+
+</html>

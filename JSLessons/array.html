@@ -11,9 +11,74 @@
 <body>
     <h1>Array Lesson</h1>
     <h2>Check the console.</h2>
-    
-    <script>
 
+    <script>
+        /*
+            JavaScript arrays are data structures used to store and manipulate collections of data. They are a type of object that can hold any number of values, including other arrays. The values can be of any data type, such as numbers, strings, booleans, objects, and even functions.
+
+            Arrays in JavaScript are zero-indexed, which means that the first element in the array has an index of 0, the second element has an index of 1, and so on. To create an array in JavaScript, you can use the array literal syntax, which involves enclosing a list of values in square brackets:
+        */
+
+        const myArray = [1, 2, 3, 'hello', true];
+
+        // You can also create an array using the Array() constructor:
+        const myArray2 = new Array(1, 2, 3, 'hello', true);
+
+
+        // Once you have an array, you can access its elements using square bracket notation and the index of the element you want to access:
+        const myArray3 = [1, 2, 3];
+        console.log(myArray3[0]); // outputs 1
+        console.log(myArray3[2]); // outputs 3
+
+
+        // You can also modify an element in an array by assigning a new value to it:
+        const myArray4 = [1, 2, 3];
+        myArray4[1] = 4;
+        console.log(myArray4); // outputs [1, 4, 3]
+
+
+        /*
+            JavaScript arrays have a variety of built-in methods that allow you to manipulate and transform them. Some common methods include:
+
+                push() and pop(): add or remove elements from the end of an array
+                shift() and unshift(): add or remove elements from the beginning of an array
+                splice(): add or remove elements from any position in an array
+                concat(): merge two or more arrays together
+                slice(): create a new array that contains a subset of the elements in the original array
+                forEach(): iterate over each element in an array and perform a function on it
+                map(): create a new array by transforming each element in the original array with a function
+            Overall, JavaScript arrays are a powerful tool for working with collections of data in a flexible and dynamic way.
+        */
+
+        // Example Code
+        // create an array of numbers
+        const numbers = [3, 7, 1, 9, 4];
+
+        // add a new number to the end of the array
+        numbers.push(6);
+
+        // remove the first number from the array
+        numbers.shift();
+
+        // sort the numbers in the array in ascending order
+        numbers.sort((a, b) => a - b);
+
+        // create a new array that contains only the even numbers from the original array
+        const evenNumbers = numbers.filter(num => num % 2 === 0);
+
+        // create a new array that contains each number in the original array squared
+        const squaredNumbers = numbers.map(num => num ** 2);
+
+        // iterate over each number in the array and log it to the console
+        numbers.forEach(num => console.log(num));
+
+        /*
+            In this example, we first create an array of numbers and then use various array methods to modify and transform the data. We add a new number to the end of the array using the push() method, remove the first number from the array using the shift() method, and sort the numbers in ascending order using the sort() method.
+
+            We then create two new arrays using the filter() and map() methods. The filter() method creates a new array that contains only the even numbers from the original array, while the map() method creates a new array that contains each number in the original array squared.
+
+            Finally, we use the forEach() method to iterate over each number in the array and log it to the console.
+        */
     </script>
 </body>
 
