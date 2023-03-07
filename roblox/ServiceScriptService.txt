@@ -1,14 +1,10 @@
---[[
-    
-    The Roblox Studio ServiceScriptService is a service provided by the Roblox platform that allows developers to create, modify, and manage scripts that run on the server-side of their games.
 
-    The ServiceScriptService provides a range of functions that enable developers to manipulate server scripts, such as adding, removing, and running scripts. This service also allows developers to specify whether a script should run automatically, and whether it should be replicated to clients.
+The Roblox Studio ServiceScriptService is a service provided by the Roblox platform that allows developers to create, modify, and manage scripts that run on the server-side of their games.
 
-    Server scripts are an essential part of any Roblox game that involves multiplayer interactions or game logic that requires server-side processing. By using the ServiceScriptService, developers can manage their server scripts with ease and ensure that their game runs smoothly.
+The ServiceScriptService provides a range of functions that enable developers to manipulate server scripts, such as adding, removing, and running scripts. This service also allows developers to specify whether a script should run automatically, and whether it should be replicated to clients.
 
-    In addition to the ServiceScriptService, Roblox Studio provides a range of other services and tools to help developers create high-quality games on the platform. These include a variety of APIs, tools for building and testing games, and a thriving developer community that provides support and resources to help other developers succeed.
+Server scripts are an essential part of any Roblox game that involves multiplayer interactions or game logic that requires server-side processing. By using the ServiceScriptService, developers can manage their server scripts with ease and ensure that their game runs smoothly.
 
-    From <https://chat.openai.com/chat/74f925e5-d7e7-45e8-bd1a-c3db94bb314f> 
+In addition to the ServiceScriptService, Roblox Studio provides a range of other services and tools to help developers create high-quality games on the platform. These include a variety of APIs, tools for building and testing games, and a thriving developer community that provides support and resources to help other developers succeed.
 
-
---]]
+From <https://chat.openai.com/chat/74f925e5-d7e7-45e8-bd1a-c3db94bb314f> 
