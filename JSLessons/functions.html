@@ -1,12 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Functions Lessons</title>
+    <title>Functions</title>
 </head>
+
 <body>
-    
+    <h1>Functions</h1>
+    <h2>Check the console.</h2>
+    <script>
+        // Reference: https://www.youtube.com/watch?v=W6QaDqud66Y&list=PLyuRouwmQCjm_RIe2_W4-7cqD_5C_zqVu
+        
+        /*
+            JavaScript functions are blocks of code that can be defined and executed repeatedly in a program. They can be thought of as reusable code snippets that can perform specific tasks or operations. Functions can take input parameters and can return output values.
+
+            There are two ways to define a function in JavaScript:
+        */
+
+        // Function Declaration:
+        function functionName(parameter1, parameter2, parameter3, andMore) {
+            // code to be executed
+            return outputValue;
+        }
+
+        // Example:
+        function greet(name) {
+            console.log("Hello " + name + "!");
+        }
+
+        greet("John"); // Output: Hello John!
+
+
+        // Function Expression:
+        var functionName = function (parameter1, parameter2, parameter3, andMore) {
+            // code to be executed
+            return outputValue;
+        };
+
+        // Example:
+        var add = function (a, b) {
+            return a + b;
+        };
+
+        console.log(add(2, 3)); // Output: 5
+
+
+        // Functions can also be defined using arrow function syntax:
+        const functionName2 = (parameter1, parameter2, andMore) => {
+            // code to be executed
+            return outputValue;
+        };
+
+        // Example:
+        const multiply = (a, b) => {
+            return a * b;
+        };
+
+        console.log(multiply(2, 3)); // Output: 6
+
+
+        // Functions can be called or invoked by using their name followed by parentheses:
+        function greet(argument1, argument2, andMore) {
+            return argument1, argument2, andMore;
+        }
+
+        // Example:
+        greet("John", "Mike", "Jane"); // Output: Hello John!
+
+
+        // Functions can also be passed as arguments to other functions:
+        function myFunction(callback) {
+            // code to be executed
+            callback();
+        }
+
+        // Example:
+        function greet(name) {
+            console.log("Hello " + name + "!");
+        }
+
+        function sayHello(callback) {
+            callback("John");
+        }
+
+        sayHello(greet); // Output: Hello John!
+
+
+        // Functions can also be used to create closures, which allow for private variables and encapsulation:
+        function outerFunction() {
+            var outerVariable = "Hello";
+
+            function innerFunction() {
+                var innerVariable = "World";
+                console.log(outerVariable + " " + innerVariable);
+            }
+
+            return innerFunction;
+        }
+
+        var innerFunctionRef = outerFunction();
+        innerFunctionRef(); // Output: Hello World
+    </script>
 </body>
+
 </html>

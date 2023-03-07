@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Callback Function</title>
+</head>
+
+<body>
+    <h1>Callback Function</h1>
+    <h2>Check the console.</h2>
+    <script>
+        // Reference: https://www.youtube.com/watch?v=KiLB8sViPMA
+        
+        /*
+            In JavaScript, a callback function is a function that is passed as an argument to another function and is executed when the other function is finished executing. The main purpose of a callback function is to allow for asynchronous programming, where a function can continue to execute while waiting for another function to finish.
+        */
+
+        // Here's an example of a callback function in JavaScript:
+        function fetchData(callback) {
+            // simulate fetching data from an API
+            setTimeout(() => {
+                const data = [1, 2, 3, 4, 5];
+                callback(data);
+            }, 2000);
+        }
+
+        function process(data) {
+            console.log(`The sum of the data is ${data.reduce((acc, curr) => acc + curr)}`);
+        }
+
+        fetchData(process);
+
+        /*
+            In this example, fetchData is a function that simulates fetching data from an API. It takes a callback function as an argument, which in this case is process. When fetchData finishes fetching the data, it executes the callback function and passes the data as an argument.
+
+            In the process function, the data is processed by calculating the sum of the array and logging it to the console.
+
+            When we call fetchData(process), we pass process as the callback function. This means that when fetchData finishes fetching the data, it will execute process and pass the data as an argument. This allows us to process the data asynchronously, without blocking the main thread of execution.
+        */
+    </script>
+</body>
+
+</html>
