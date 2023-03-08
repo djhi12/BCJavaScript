@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparison Operators</title>
+</head>
+
+<body>
+    <h1>Comparison Operators</h1>
+    <h2>Check the console.</h2>
+
+    <script>
+        /*
+            JavaScript provides a set of comparison operators that allow you to compare values and return a boolean result (either true or false). Here are the comparison operators in JavaScript:
+
+                == (loose equality): Returns true if the operands are equal, but doesn't require them to be of the same type.
+
+                === (strict equality): Returns true if the operands are equal, and requires them to be of the same type.
+
+                != (loose inequality): Returns true if the operands are not equal, but doesn't require them to be of the same type.
+
+                !== (strict inequality): Returns true if the operands are not equal, and requires them to be of the same type.
+
+                < (less than): Returns true if the left operand is less than the right operand.
+
+                > (greater than): Returns true if the left operand is greater than the right operand.
+
+                <= (less than or equal to): Returns true if the left operand is less than or equal to the right operand.
+
+                >= (greater than or equal to): Returns true if the left operand is greater than or equal to the right operand.
+        */
+
+        // Here's an example of how you could use the === operator to compare two values of the same type:
+        let x = 10;
+        let y = 10;
+
+        if (x === y) {
+            console.log("x and y are equal");
+        } else {
+            console.log("x and y are not equal");
+        }
+
+        // In this example, the output would be "x and y are equal" since x and y are both integers with the same value.
+
+
+        // Example Code
+        let age = 25;
+
+        if (age >= 18 && age <= 30) {
+            console.log("You're a young adult");
+        } else if (age > 30) {
+            console.log("You're not a young adult anymore");
+        } else {
+            console.log("You're not yet a young adult");
+        }
+
+        /*
+            In this example, we have a variable age that is set to 25. We use the greater than or equal to (>=) and less than or equal to (<=) operators to check if age falls within the range of young adulthood (between 18 and 30 years old). If age is within that range, we print "You're a young adult" to the console.
+
+            If age is greater than 30, we print "You're not a young adult anymore". Otherwise, if age is less than 18, we print "You're not yet a young adult". Note that we use the logical AND (&&) operator to check that age is both greater than or equal to 18 AND less than or equal to 30.
+        */
+    </script>
+</body>
+
+</html>
