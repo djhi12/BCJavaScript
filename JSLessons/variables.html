@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variables</title>
+</head>
+<body>
+    <h1>Variables</h1>
+    <h2>Check the console.</h2>
+
+    <script>
+        /*
+            In JavaScript, variables are used to store and manipulate data. A variable is essentially a container that holds a value, which can be a number, string, boolean, or more complex data types like arrays or objects.
+        */    
+
+        // To declare a variable in JavaScript, you use the keyword "let" or "const" followed by the variable name:
+        let myVariable;
+        const anotherVariable = "";
+
+
+        // The "let" keyword is used to declare a variable that can be reassigned a new value later on in the program:
+        let myNumber = 5;
+        myNumber = 10; // reassigns the value of myNumber to 10
+
+
+        // The "const" keyword is used to declare a variable that cannot be reassigned:
+        const myString = "Hello";
+        myString = "Goodbye"; // this will cause an error
+
+
+        /*
+            It's important to note that while a "const" variable cannot be reassigned, the value it holds may still be mutable if it is an object or array. In other words, you can modify the contents of the object or array, but you cannot assign a completely new object or array to the variable.
+        */
+
+        // JavaScript also supports a shorthand notation for declaring and initializing variables in a single line:
+        let myNumber2 = 5,
+            myString2 = "Hello",
+            myBoolean = true;
+
+        
+        /*
+            In addition to "let" and "const", JavaScript also supports the older "var" keyword for declaring variables. However, "var" has some different scoping rules that can cause confusion, so it's generally recommended to use "let" and "const" instead.
+        */
+    </script>
+</body>
+</html>
