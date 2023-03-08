@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switch Statement</title>
+</head>
+
+<body>
+    <h1>Switch</h1>
+    <h2>Check the console.</h2>
+
+    <script>
+        /*
+            JavaScript switch statement is a control flow statement that allows you to evaluate an expression and compare it with multiple cases. It is similar to a series of if-else statements. However, it provides a more concise and readable syntax when there are multiple conditions to be evaluated.
+        */
+
+        // Here is the syntax of the switch statement:
+        switch (expression) {
+            case value1:
+                // code block to be executed if expression is equal to value1
+                break;
+            case value2:
+                // code block to be executed if expression is equal to value2
+                break;
+            case value3:
+                // code block to be executed if expression is equal to value3
+                break;
+            default:
+                // code block to be executed if none of the above cases are true
+        }
+
+        /*
+            The expression in the switch statement is evaluated and then compared with the values in the cases. If a match is found, the corresponding code block is executed. If none of the cases match, the code inside the default block is executed.
+
+            The break statement is used to exit the switch statement once a match is found. If you omit the break statement, the switch statement will continue executing the next case even if a match is found.
+        */
+
+
+        // Here is an example of how to use the switch statement in JavaScript:
+        let day = "Tuesday";
+
+        switch (day) {
+            case "Monday":
+                console.log("Today is Monday");
+                break;
+            case "Tuesday":
+                console.log("Today is Tuesday");
+                break;
+            case "Wednesday":
+                console.log("Today is Wednesday");
+                break;
+            default:
+                console.log("Today is neither Monday, Tuesday nor Wednesday");
+        }
+
+        // In this example, the switch statement evaluates the value of the day variable and compares it with three cases. Since the value of day is "Tuesday", the code inside the second case is executed, which logs "Today is Tuesday" to the console.
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Loops</title>
+</head>
+
+<body>
+    <h1>For Loops</h1>
+    <h2>Check the console.</h2>
+
+    <script>
+        /*
+            A for loop in JavaScript is used for iterating over a range of values or a collection of elements. It consists of three parts:
+
+                Initialization: This is where you set the initial value of the loop variable.
+
+                Condition: This is where you specify the condition for continuing the loop. The loop will continue as long as this condition is true.
+
+                Increment: This is where you specify how the loop variable should be incremented or decremented with each iteration.
+        */
+
+        // Here's an example of a for loop that iterates over the numbers 1 to 5 and logs them to the console:
+        for (let i = 1; i <= 5; i++) {
+            console.log(i);
+        }
+
+        // In this example, the loop variable i is initialized to 1, and the loop will continue as long as i is less than or equal to 5. The increment is specified as i++, which means that i will be incremented by 1 with each iteration.
+
+
+        // You can also use a for loop to iterate over an array or other collection of elements. Here's an example that iterates over an array of colors and logs each color to the console:
+        const colors = ['red', 'green', 'blue'];
+
+        for (let i = 0; i < colors.length; i++) {
+            console.log(colors[i]);
+        }
+
+        // In this example, the loop variable i is initialized to 0, and the loop will continue as long as i is less than the length of the colors array. The increment is specified as i++, which means that i will be incremented by 1 with each iteration. Inside the loop, we use the loop variable i to access each element of the array by index, and log it to the console.
+    </script>
+</body>
+
+</html>
