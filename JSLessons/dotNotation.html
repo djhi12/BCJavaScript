@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dot Notation</title>
+</head>
+
+<body>
+    <h1>Dot Notation</h1>
+    <h2>Check the console.</h2>
+
+    <script>
+        /*
+            In JavaScript, dot notation is a way to access properties and methods of an object. It is a simple and concise syntax that involves using a dot (.) followed by the name of the property or method. Here's an example:
+        */
+
+        const person = {
+            name: 'John',
+            age: 30,
+            greet: function () {
+                console.log(`Hello, my name is ${this.name} and I'm ${this.age} years old.`);
+            }
+        };
+
+        console.log(person.name); // Output: John
+        person.greet(); // Output: Hello, my name is John and I'm 30 years old.
+
+        // In the example above, we have an object person with three properties: name, age, and greet. We can access the value of the name property using dot notation with person.name. We can also call the greet method using dot notation with person.greet().
+
+
+        /*
+            Using dot notation is not limited to just accessing properties and methods of an object, but also for adding and modifying them. Here's an example of adding a new property to an object using dot notation:
+        */
+
+        person.job = 'Developer';
+        console.log(person.job); // Output: Developer
+
+        // In the example above, we add a new property job to the person object using dot notation with person.job = 'Developer'. We can then access the value of the job property using dot notation with person.job.
+
+
+        /*
+            Dot notation is a common and easy-to-use syntax in JavaScript and is widely used in many libraries and frameworks.
+        */
+    </script>
+</body>
+
+</html>
