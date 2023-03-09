@@ -1,17 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Length</title>
 </head>
+
 <body>
     <h1>Length</h1>
     <h2>Check the console.</h2>
 
     <script>
-        
+        /*
+            In JavaScript, length is a property that can be used to determine the number of elements in an array or the number of characters in a string.
+        */
+
+        // For example, to get the length of a string:
+        const myString = "Hello, world!";
+        const stringLength = myString.length;
+
+        console.log(stringLength); // output: 13
+
+
+        // To get the length of an array:
+        const myArray = ["apple", "banana", "orange"];
+        const arrayLength = myArray.length;
+
+        console.log(arrayLength); // output: 3
+
+        // Note that the length property only returns the number of elements in the array, not the highest index number. If you have an array with gaps between its indices, the length property will not count those gaps.
     </script>
 </body>
+
 </html>

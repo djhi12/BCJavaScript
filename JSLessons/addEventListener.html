@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>addEventListener</title>
+</head>
+
+<body>
+    <h1>addEventListener</h1>
+    <h2>Check the console.</h2>
+    <script>
+        /*
+            addEventListener is a method in JavaScript that allows you to attach an event handler function to a specified element. The event handler function is executed when the specified event occurs on that element.
+        */
+
+        // The syntax for addEventListener is as follows:
+        //element.addEventListener(event, function, useCapture);
+
+        /*
+            element: This is the HTML element to which you want to attach the event handler.
+            event: This is a string that specifies the name of the event that you want to listen for, such as "click", "mousemove", "keydown", etc.
+            function: This is the function that you want to be executed when the event occurs.
+            useCapture (optional): This is a Boolean value that specifies whether the event should be executed in the capturing phase (true) or in the bubbling phase (false). By default, it is false.
+        */
+
+        // Here's an example of how you can use addEventListener to listen for a "click" event on a button:
+        const button = document.querySelector('button');
+
+        button.addEventListener('click', function () {
+            console.log('Button clicked!');
+        });
+
+        // In this example, we select the button element using querySelector, and then attach a "click" event handler function to it using addEventListener. When the button is clicked, the function will be executed and "Button clicked!" will be logged to the console.
+
+
+        // Here's an example code snippet that uses addEventListener to listen for a "click" event on a button and change the background color of the body when the button is clicked:
+
+        window.addEventListener('DOMContentLoaded', function () {
+            const button = document.getElementById('myButton');
+            const body = document.querySelector('body');
+
+            button.addEventListener('click', function () {
+                body.style.backgroundColor = 'orange';
+            });
+        });
+
+
+        <button id = "myButton" > Change Background Color</button>
+
+        /*
+            In this example, we use addEventListener to attach a "click" event handler function to the button with id "myButton". When the button is clicked, the function will be executed, and the background color of the body will be changed to orange.
+
+            Note that we use the DOMContentLoaded event to make sure that the DOM is fully loaded before we attach the event handler function. This ensures that the button and body elements have been loaded into the DOM and are available for us to manipulate.
+        */
+    </script>
+</body>
+
+</html>
