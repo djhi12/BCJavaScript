@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object</title>
+</head>
+
+<body>
+    <h1>Object</h1>
+    <h2>Check the console.</h2>
+
+    <script>
+        /*
+            In JavaScript, an object is a data structure that stores data and functions together in a key-value pair format. It is a non-primitive data type and is commonly used to represent complex entities such as a person, a car, a book, or any other real-world object.
+        */
+
+        // In JavaScript, objects are created using the object literal notation, which is simply a set of curly braces enclosing key-value pairs. Here is an example of an object representing a person:
+        const person = {
+            firstName: "John",
+            lastName: "Doe",
+            age: 30,
+            email: "johndoe@example.com",
+            sayHello: function () {
+                console.log("Hello, my name is " + this.firstName + " " + this.lastName);
+            }
+        };
+
+        // In the example above, person is an object that has four properties (firstName, lastName, age, and email) and one method (sayHello). The properties can be accessed using dot notation or bracket notation, like this:
+
+        console.log(person.firstName); // Output: John
+        console.log(person['lastName']); // Output: Doe
+
+        // Methods in an object are simply functions that are defined within the object and can be called using the dot notation, like this:
+
+        person.sayHello(); // Output: Hello, my name is John Doe
+
+
+        /*
+            Objects in JavaScript can also be created using the new keyword and a constructor function, or using the Object.create() method. Additionally, objects can inherit properties and methods from other objects using prototype-based inheritance.
+        */
+    </script>
+</body>
+
+</html>
