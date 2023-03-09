@@ -1,0 +1,17 @@
+Scratch is a visual programming language and online community developed by MIT Media Lab that allows users to create interactive projects and animations. Scratch also has a number of extensions that can be used to expand its capabilities and allow users to create even more complex and sophisticated projects.
+
+Some popular Scratch extensions include:
+
+Text-to-Speech: This extension allows users to add text-to-speech functionality to their Scratch projects, enabling them to generate audio output from text input.
+
+Video Sensing: This extension lets users incorporate video input from a webcam or other video source into their Scratch projects, which can be used for interactive games or animations.
+
+Music: With this extension, users can add background music or sound effects to their Scratch projects.
+
+Pen: This extension enables users to draw and animate graphics with the mouse, creating more complex and detailed visual effects.
+
+Translate: This extension allows users to translate text in their Scratch projects into different languages, making it accessible to a wider audience.
+
+Micro:bit: This extension lets users connect their Scratch projects to a micro:bit device, which can be used to interact with the physical world through sensors and motors.
+
+There are many more extensions available for Scratch, and they can be found in the Scratch Extension Library.
