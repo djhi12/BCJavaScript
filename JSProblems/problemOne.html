@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1></h1>
+    <h2></h2>
+    <script>
+        /*
+            Problem: Sorting Algorithm
+
+            Write a function that takes an array of numbers as input and returns a sorted array using the selection sort algorithm. If the input is not an array of numbers, the function should return null.
+
+            Selection sort works by finding the minimum element in the unsorted part of the array and swapping it with the first element. Then, it finds the minimum element in the remaining unsorted part of the array and swaps it with the second element, and so on until the entire array is sorted.
+
+            To implement the algorithm, you can use two nested loops. The outer loop iterates over the unsorted part of the array, and the inner loop finds the minimum element in the remaining unsorted part of the array.
+        */
+
+        // Here's the function signature:
+        function selectionSort(array) {
+            // your code here
+        }
+
+        // You can use the following code as a starting point for your implementation:
+        function selectionSort(array) {
+            // check if the input is an array of numbers
+            for (let i = 0; i < array.length; i++) {
+                if (typeof array[i] !== 'number') {
+                    return null;
+                }
+            }
+
+            // selection sort algorithm
+            for (let i = 0; i < array.length - 1; i++) {
+                let minIndex = i;
+                for (let j = i + 1; j < array.length; j++) {
+                    if (array[j] < array[minIndex]) {
+                        minIndex = j;
+                    }
+                }
+                if (minIndex !== i) {
+                    let temp = array[i];
+                    array[i] = array[minIndex];
+                    array[minIndex] = temp;
+                }
+            }
+
+            return array;
+        }
+
+        // Example usage:
+        selectionSort([3, 1, 4, 1, 5, 9, 2, 6, 5, 3]); // returns [1, 1, 2, 3, 3, 4, 5, 5, 6, 9]
+        selectionSort([10, 2, 7, 5, 8]); // returns [2, 5, 7, 8, 10]
+        selectionSort([1, 'a', 2, 'b']); // returns null
+    </script>
+</body>
+
+</html>
