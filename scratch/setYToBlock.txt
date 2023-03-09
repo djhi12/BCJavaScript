@@ -1,0 +1,11 @@
+In Scratch, the "set y to" block is used to set the value of the variable "y" to a specific number or another variable. To remove this block from your Scratch project, you can follow these steps:
+
+	1. Open your Scratch project.
+	2. Find the block that says "set y to" in your code.
+	3. Click on the block to select it.
+	4. Press the delete key on your keyboard, or right-click on the block and select "delete" from the context menu.
+	5. The block should now be removed from your code.
+
+Note that removing the "set y to" block may cause errors in your code if there are other blocks that rely on the variable "y". Make sure to review your code after removing the block to ensure that it still functions correctly.
+
+From <https://chat.openai.com/chat/bf67dd6d-83f9-4da0-9b35-e18411f1cd13> 

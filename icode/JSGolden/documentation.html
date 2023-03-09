@@ -29,8 +29,8 @@
         // You can also print to the console using console.log() (includes line break)
         // Example:
         console.log("Hello world!");
-        JavaScript
-        Variables
+     
+        // -------------------------------------- VARIABLES -------------------------------- //
         // Declare a variable
         var myVarName;
 
@@ -59,7 +59,7 @@
         PI = 5; // This will give an error
         JavaScript
 
-        // USER INPUT
+        // ----------------------------------------------- USER INPUT --------------------------------- //
         // Read a string
         // Strings are a series of characters - ex: Hello World
         var str = readLine(prompt);
@@ -98,7 +98,7 @@
 
         // To read more about asynchronous user input, see this tutorial.
 
-        MATH
+         // ------------------------------------------------ MATH --------------------------------- //
             // Operators:
             +
             Addition -
@@ -171,7 +171,7 @@
         Math.tan(radians); // Returns value
 
 
-        // RANDOM NUMBERS 
+        // -------------------------------------- RANDOM NUMBERS ------------------------------- // 
         // Random integer between low and high
         Randomizer.nextInt(low, high);
         Randomizer.nextBoolean();
@@ -181,8 +181,8 @@
         var roll = Randomizer.nextInt(1, 6);
 
         var color = Randomizer.nextColor();
-        JavaScript
-        Strings
+        
+        // ------------------------------------------ STRINGS -------------------------------- // 
         // str.length
         // returns the length of a string
 
@@ -220,9 +220,8 @@
         var sub1 = str.substring(0, 2); // equals "he"
         var sub2 = str.substring(1, 4); // equals "ell"
 
-        JavaScript
-        JavaScript
-        Functions
+        
+        // ------------------------------------------ FUNCTIONS ---------------------------------- //  
         // Functions can take in values, called parameters.
         // The function below takes in a parameter called
         // 'input' and prints it.
@@ -256,7 +255,9 @@
         // Removes all objects from the canvas
         removeAll();
         JavaScript
-        Circles
+        
+        
+        // -------------------------------------------- CIRCLES ---------------------------------- //
         // To make a circle
         var circle = new Circle(radius);
 
@@ -290,8 +291,8 @@
 
         // Move the circle dx horizontally and dy vertically
         circle.move(dx, dy);
-        JavaScript
-        Rectangles
+        
+        // --------------------------------------------- RECTANGLES ----------------------------------- //
         // To make a rectangle
         var rect = new Rectangle(width, height);
 
@@ -318,8 +319,9 @@
 
         // Move the rect dx horizontally and dy vertically
         rect.move(dx, dy);
-        JavaScript
-        Arcs
+        
+        
+        // ------------------------------------------------- ARCS ----------------------------------------// 
         // To make an arc
         var myArc = new Arc(radius, start, end, unit);
 
@@ -350,8 +352,8 @@
         // Adding to and removing from screen
         add(myArc); // Add arc
         remove(myArc); // Remove arc
-        JavaScript
-        Lines
+        
+        // ------------------------------------------------ LINES -------------------------------------- // 
         // To draw a line from (x1, y1) to (x2, y2)
         var line = new Line(x1, y1, x2, y2);
 
@@ -377,8 +379,8 @@
         //Get the starting point of the line
         var x = line.getX(); // x has same value as x1
         var y = line.getY(); // y has same value as y1
-        JavaScript
-        Ovals
+        
+        // ----------------------------------------------- OVALS ------------------------------------ //
         // To make an Oval
         var oval = new Oval(width, height);
 
@@ -405,8 +407,8 @@
 
         // Move the oval dx horizontally and dy vertically
         oval.move(dx, dy);
-        JavaScript
-        Polygons
+        
+        // --------------------------------------- POLYGONS ---------------------------------//
         // To make a polygon
         var polygon = new Polygon();
 
@@ -431,8 +433,9 @@
 
         // Move the polygon dx horizontally and dy vertically
         polygon.move(dx, dy);
-        JavaScript
-        Text
+       
+        
+        // ------------------------------------------------ TEXT -------------------------------------- //
         // To make a graphical text object
         var txt = new Text(label, font);
 
@@ -463,8 +466,10 @@
 
         // Move the text dx horizontally and dy vertically
         txt.move(dx, dy);
-        JavaScript
-        Images
+        
+        
+        
+        // --------------------------------------------- IMAGES ------------------------------ //
         // A web image can be added to the graphics canvas
         // as a WebImage. WebImages are created, sized,
         // and positioned much like other graphics objects.
@@ -487,7 +492,7 @@
         // something like .png, .jpg, or another image file type.
 
    
-        // IMAGES HOSTED ON CODEHS
+        // -------------------------------- IMAGES HOSTED ON CODEHS ------------------------------------ //
         // https: //static.codehs.com/img/library/characters/penguin.png
         // https: //static.codehs.com/img/library/characters/monkey.jpg
         // https: //static.codehs.com/img/library/characters/leopard.jpg
@@ -552,8 +557,9 @@
 
         // Get a random color from the randomizer
         var color = Randomizer.nextColor();
-        JavaScript
-        Rotation
+        
+        
+        // ------------------------------------------- ROTATION ----------------------------------- //
         /**
          * The following graphic objects can be rotated:
          * - Rectangle
@@ -589,7 +595,7 @@
         rect.rotate(Math.PI / 2, 1);
         JavaScript
         
-        // GRAPHICS TYPE AND LAYERS
+        // --------------------------------- GRAPHICS TYPE AND LAYERS --------------------- // 
 
         // To get the type of the object:
         var type = obj.getType();
@@ -609,7 +615,7 @@
         obj2.layer = 5; // will be drawn on top of layers 0 - 4
 
        
-        // DEBUG MODE AND ANCHORS
+        // --------------------------------- DEBUG MODE AND ANCHORS ------------------------ //
 
         /* 
          * The debug method can be used to see where 
@@ -646,10 +652,10 @@
         });
 
         // Note: it is best to change the anchor point while debug mode is on
-        JavaScript
-        JavaScript
         
-        //CONTROL STRUCTURES
+
+        
+        // -------------------------------- CONTROL STRUCTURES --------------------------------- //
         Booleans
         // A boolean is either true or false
         var myBoolean = true;
@@ -671,7 +677,7 @@
         var boolExp = x && (y || z);
         JavaScript
         
-        // IF, ELSE IF, AND ELSE STATEMENTS
+        // ---------------------------- IF, ELSE IF, AND ELSE STATEMENTS --------------------------- //
         if (BOOLEAN_EXPRESSION) {
             // code to execute if true
         }
@@ -718,7 +724,7 @@
         }
         
         
-        // FOR LOOPS
+        // --------------------------------------- FOR LOOPS --------------------------- //
         var COUNT = 5;
 
         for (var i = 0; i < COUNT; i++) {
@@ -752,7 +758,7 @@
             }
         }
         
-        // ANIMATION | TIMERS
+        // ------------------------------------- ANIMATION | TIMERS ----------------------------- //
         setTimer(fn, delay); // Create a timer
         stopTimer(fn); // Stop a timer
 
@@ -766,7 +772,7 @@
         }
 
         
-        // MOUSE EVENTS
+        // ---------------------------------------- MOUSE EVENTS ----------------------------- //
         // Mouse events are used to create programs
         // that respond to users' mouse clicks, drags,
         // and movements.
@@ -824,8 +830,8 @@
             }
         }
 
-        JavaScript
-        // KEYBOARD EVENTS
+        
+        // ------------------------------------- KEYBOARD EVENTS ------------------------------ //
 
         function start() {
             // Set up keyboard callbacks
@@ -866,8 +872,9 @@
         // then set .loop to true:
         mySong.play()
         mySong.loop = true;
-        JavaScript
-        Sound
+      
+
+        // ------------------------------------------- SOUND ------------------------------------ //
         /*
          * Create your own sound waves!
          */
@@ -936,8 +943,8 @@
         // Stop playing the sound immediately
         sound.stop();
 
-        JavaScript
-        Misc
+
+        // -------------------------------------------- MISC -------------------------------- //
 
         function start() {
             mouseClickMethod(turnRed);
@@ -950,8 +957,8 @@
                 elem.setColor(Color.red);
             }
         }
-        JavaScript
-        // DATA STRUCTURES
+        
+        // -------------------------------------- DATA STRUCTURES --------------------------------- //
         Arrays
         // Create an empty array
         var arr = [];
@@ -990,8 +997,8 @@
 
         // Remove an element from a list at index i
         arr.remove(i)
-        JavaScript
-        Maps / Objects
+       
+        // --------------------------------------- MAPS | OBJECTS ----------------------------------- // 
         // Object literal
         var obj = {
             name: "Jeremy",
@@ -1011,8 +1018,8 @@
             var val = obj[key];
             // process key and val
         }
-        JavaScript
-        Sets
+        
+        // -------------------------------------------- Sets ------------------------------------- //
         // Make a new set named "newSet"
         var newSet = new Set();
 
@@ -1039,8 +1046,8 @@
         // Call the intersect function on "setA" and pass in "setB", store the resulting
         // set in a new variable named "mutualSet"
         var mutualSet = setA.intersect(setB);
-        JavaScript
-        Grids
+        
+        // -------------------------------------------------- GRIDS ------------------------------------- //
         // Create a grid named "newGrid"
         var newGrid = new Grid(rows, cols);
 

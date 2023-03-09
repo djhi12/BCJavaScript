@@ -1,0 +1,9 @@
+The "show" block in Scratch is a graphical block that is used to make a sprite visible on the stage. It is typically used in combination with the "hide" block to control the visibility of a sprite.
+
+When the "show" block is executed, the sprite will appear on the stage if it was previously hidden. This can be useful for controlling the appearance of sprites during a Scratch project.
+
+To use the "show" block in Scratch, simply drag it from the block palette and place it in your project where you want the sprite to appear. You can then connect it to other blocks to control when the sprite should be shown.
+
+It is important to note that the "show" block only controls the visibility of the sprite. It does not affect any other properties of the sprite, such as its position or size. To control these properties, you will need to use other blocks in combination with the "show" block.
+
+From <https://chat.openai.com/chat/b61fded1-2a55-435b-a2b3-a332021d3773> 

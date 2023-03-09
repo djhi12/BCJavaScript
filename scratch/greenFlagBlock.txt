@@ -1,0 +1,12 @@
+The "when 'green flag' clicked" block is used in Scratch to start a program or a script when the user clicks on the green flag icon. To remove this block from your program, follow these steps:
+
+	1. Open your Scratch project in the Scratch editor.
+	2. Click on the "Scripts" tab to view the programming area.
+	3. Locate the "when 'green flag' clicked" block at the top of your scripts.
+	4. Click on the block to select it.
+	5. Press the delete key on your keyboard to remove the block.
+	6. Save your project to apply the changes.
+
+Once you've removed the "when 'green flag' clicked" block, your program will no longer start automatically when the green flag is clicked. You may need to add a different block to start your program, depending on the functionality you want to achieve.
+
+From <https://chat.openai.com/chat/37229348-96ef-4cdc-833a-09b1b958d2a5> 

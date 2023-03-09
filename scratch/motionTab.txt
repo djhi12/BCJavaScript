@@ -1,0 +1,13 @@
+The Scratch Motion tab is a section of the Scratch programming environment that allows users to create animations and interactive projects using graphical programming blocks. In the Motion tab, users can control the movement and position of sprites (the visual objects on the screen) by using blocks that adjust the x and y coordinates of the sprite, change its size, and set its direction or rotation.
+
+Some of the key blocks available in the Motion tab include:
+
+	• "Move" blocks, which allow users to move a sprite a certain number of steps or to a specific location on the screen.
+	• "Turn" blocks, which allow users to change the direction or rotation of a sprite.
+	• "Glide" blocks, which allow users to smoothly move a sprite to a specific location on the screen.
+	• "Size" blocks, which allow users to adjust the size of a sprite.
+	• "Set Costume" blocks, which allow users to change the appearance of a sprite by selecting a different costume.
+
+By combining these and other blocks, users can create complex animations and interactive projects in Scratch. The Motion tab is one of several tabs in the Scratch programming environment, along with tabs for controlling sound, sensing user input, and more.
+
+From <https://chat.openai.com/chat> 

@@ -1,0 +1,15 @@
+The "set size to" block in Scratch is used to change the size of a sprite on the stage. It allows you to adjust the size of a sprite either by a percentage or by a specific value.
+
+To use the "set size to" block, you can drag it from the "Looks" category in the Scratch block palette and drop it into your script. You can then select the sprite you want to resize and specify the desired size in the block.
+
+For example, if you want to resize a sprite named "cat" to 50% of its original size, you can use the following code:
+
+set size to (50)%
+
+Alternatively, if you want to resize the sprite to a specific value, such as 100 pixels, you can use the following code:
+
+set size to (100)
+
+When you run the program, the sprite will change its size according to the value you set in the block.
+
+From <https://chat.openai.com/chat/1ef22685-0b82-434d-a064-b42129770697> 

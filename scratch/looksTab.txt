@@ -1,0 +1,15 @@
+The Scratch Looks tab is a feature in the Scratch programming language that allows users to customize the appearance of their project. The Looks tab includes blocks for controlling the size, color, and graphic effects of a sprite, as well as blocks for displaying text and images.
+
+Some common blocks in the Looks tab include:
+
+	• "Say" block: displays a speech bubble with text above the sprite
+	• "Think" block: displays a thought bubble with text above the sprite
+	• "Switch Costume" block: changes the sprite's appearance to a different costume or image
+	• "Next Costume" block: cycles through the sprite's costumes
+	• "Change Size" block: increases or decreases the size of the sprite
+	• "Change Color" block: changes the color of the sprite
+	• "Set Graphic Effect" block: applies a visual effect to the sprite, such as brightness or fisheye distortion
+
+By using the blocks in the Looks tab, users can create dynamic and engaging animations and interactive projects.
+
+From <https://chat.openai.com/chat> 
