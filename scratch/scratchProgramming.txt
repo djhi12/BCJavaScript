@@ -1,0 +1,14 @@
+Scratch is a visual programming language designed to introduce children to the basics of coding. Developed by the Lifelong Kindergarten Group at the MIT Media Lab, Scratch allows users to create interactive stories, games, and animations by dragging and dropping blocks of code.
+
+Here are some key features and concepts in Scratch programming:
+
+	1. Blocks: Scratch programming consists of snapping together pre-designed blocks of code to create a program. Blocks are color-coded based on their function (e.g., blue for motion, purple for events, yellow for control, etc.), and they can be stacked vertically or horizontally to form a script.
+	2. Sprites: Sprites are the characters or objects in a Scratch project. They can be imported from the Scratch library or created from scratch (no pun intended) by the user. Each sprite has its own set of properties (e.g., size, position, costumes, etc.) and can be controlled independently of other sprites.
+	3. Events: Events are triggers that start a sequence of actions in a Scratch program. Examples of events include clicking on a sprite, pressing a key, or starting the program.
+	4. Control structures: Scratch provides various control structures to control the flow of a program. These include loops (repeating a set of actions), conditional statements (performing actions based on a condition), and custom blocks (defining a set of actions as a reusable block).
+	5. Broadcasts: Broadcasts allow sprites to communicate with each other. By sending and receiving broadcasts, sprites can coordinate their actions and create more complex interactions.
+	6. Variables: Scratch supports variables, which are containers for storing and manipulating data. Variables can be used to keep track of scores, countdown timers, and other game mechanics.
+
+Scratch is a great tool for learning the basics of programming in a fun and engaging way. It has a large and active community of users who share their projects, offer feedback, and collaborate on new ideas. Scratch is available for free on the Scratch website, and there are also versions for mobile devices and Chromebooks.
+
+From <https://chat.openai.com/chat/3ecdd3f6-eba0-4c16-88c3-7f049dae1a34> 

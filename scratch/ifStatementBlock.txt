@@ -1,0 +1,12 @@
+The "if statement" block is a programming construct that allows a program to make a decision based on a condition. In Scratch, the "if statement" block can be found in the Control category and looks like a hexagonal block with the word "if" on it.
+
+The "if statement" block is used to create conditional logic in Scratch programs. It is typically used to test a condition and perform an action based on the result of that test. The block works by evaluating a Boolean expression, which can be true or false. If the expression is true, the program executes the code inside the "if statement" block. If the expression is false, the program skips over the code inside the block.
+
+Here is an example of using the "if statement" block in a Scratch program:
+
+
+
+In this program, the cat sprite will move to the right if the space key is pressed, and move to the left if the left arrow key is pressed. The "if statement" block is used to check which key is pressed and execute the appropriate code.
+Note that in Scratch, the "if statement" block must be connected to a boolean expression block, such as a comparison block, to function properly.
+
+From <https://chat.openai.com/chat/3d60e5e4-380f-4999-b019-cc1f2c94be3c> 

@@ -1,0 +1,12 @@
+Scratch is a programming language and an online community that allows users to create interactive stories, games, and animations. In Scratch, a backdrop is the background image or color that appears behind the sprites (characters) in a project.
+
+To add a backdrop in Scratch:
+
+	1. Click on the "Stage" icon located in the upper-right corner of the screen.
+	2. Click on the "Choose a Backdrop" button.
+	3. Select a backdrop from the library or upload your own image.
+	4. Optionally, you can also edit the backdrop by using the paint editor, adding shapes, text, or even creating animations.
+
+Once you have added a backdrop, you can then add sprites to the stage and program them to interact with the backdrop and with each other. Backdrops can be changed or switched during a project, allowing for more complex animations and storytelling.
+
+From <https://chat.openai.com/chat/09be0591-823f-4a80-9824-b3daef054f40> 

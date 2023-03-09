@@ -1,0 +1,11 @@
+The "glide" block is a motion block in Scratch that allows an object to smoothly move to a specific location over a set period of time.
+
+To use the "glide" block, you will first need to select the object you want to move. Then, go to the "Motion" category in the Scratch block palette, and drag the "glide" block onto your script.
+
+The "glide" block has two input slots: "time" and "x,y". The "time" input determines how long the glide animation will take, in seconds. The "x,y" input specifies the location you want the object to glide to, using the x and y coordinates of the stage.
+
+Once you have entered the desired values for "time" and "x,y", you can run your script to see the object glide smoothly to the specified location.
+
+Note that while the object is gliding, it will continue to execute any other blocks in the script, so you can have the object perform other actions while it moves.
+
+From <https://chat.openai.com/chat> 

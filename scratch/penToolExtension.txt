@@ -1,0 +1,20 @@
+The Scratch Pen Tool Extension is a custom feature that can be added to the Scratch programming environment to enable users to draw and create graphics within their projects. The Pen Tool Extension allows users to control the movement of a virtual pen and change its color, size, and shape as it draws on the Scratch stage.
+
+To use the Pen Tool Extension in Scratch, follow these steps:
+
+	1. Open the Scratch programming environment and create a new project.
+	2. Click on the "See Inside" button to open the project editor.
+	3. Click on the "Extensions" button in the bottom left corner of the editor.
+	4. Scroll down the list of available extensions until you find the "Pen" extension and click on it to enable it.
+	5. The Pen Tool Extension blocks will appear in the editor, and you can start using them to control the virtual pen.
+
+Some of the key blocks included in the Pen Tool Extension include:
+
+	• Pen down/up: These blocks control when the pen is touching the stage and when it is not.
+	• Set pen color/size: These blocks allow you to change the color and size of the pen stroke. 
+	• Pen stamp: This block creates a stamp of the pen's current position on the stage.
+	• Clear: This block erases all of the pen drawings from the stage.
+
+With the Pen Tool Extension, users can create all sorts of artwork and designs, from simple shapes to more complex graphics. It can also be used to create animations, interactive games, and other fun projects.
+
+From <https://chat.openai.com/chat/90b11bd7-8a03-4660-8e25-9f31453d6c4a> 

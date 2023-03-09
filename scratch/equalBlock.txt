@@ -1,0 +1,17 @@
+In Scratch, the "equal" block is used to compare two values and determine if they are equal. To remove this block from a Scratch project, you can follow these steps:
+
+	1. Open the Scratch project where the "equal" block is located.
+	2. Find the block in the script that contains the "equal" block.
+	3. Click on the "equal" block to select it.
+	4. Press the "Delete" key on your keyboard to remove the block.
+	5. Save your Scratch project.
+
+Alternatively, if you want to remove all instances of the "equal" block from your project, you can use the "Find" feature in the Scratch editor to locate and remove all instances of the block. To do this:
+
+	1. Press the "Ctrl" and "F" keys on your keyboard to open the "Find" dialog box.
+	2. Type "equal" in the search bar and press "Enter" to search for all instances of the "equal" block in your project.
+	3. Click on each instance of the "equal" block to select it.
+	4. Press the "Delete" key on your keyboard to remove the block.
+	5. Save your Scratch project.
+
+From <https://chat.openai.com/chat/3e48b0fb-fea6-44a1-9311-4cedb7348e3a> 

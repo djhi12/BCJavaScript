@@ -1,0 +1,10 @@
+The "go to" block in Scratch is used to move the sprite to a specific location on the stage. To remove this block from your Scratch project, you can follow these steps:
+
+	1. Open your Scratch project and locate the "go to" block in your code.
+	2. Click on the "go to" block to select it.
+	3. Press the "Delete" key on your keyboard, or right-click on the block and select "Delete" from the context menu.
+	4. Any other blocks that reference the deleted "go to" block will need to be updated or removed as well, to ensure that your code still functions properly.
+
+Note that removing the "go to" block may impact the behavior of your code and you may need to make changes to compensate for its absence.
+
+From <https://chat.openai.com/chat/a21620bf-400b-4f48-9162-6c9e1e7292ca> 

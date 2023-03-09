@@ -1,0 +1,11 @@
+The "Costumes" tab in Scratch is a feature that allows users to create and edit different looks, or costumes, for their sprites. A sprite is a graphical object in Scratch that can be moved, animated, and interacted with by the user.
+
+When you click on the "Costumes" tab in the Scratch interface, you will see a panel that displays all of the costumes associated with the currently selected sprite. You can add new costumes by clicking the "New Costume" button, and then use the built-in editor to draw or import new graphics.
+
+The "Costumes" tab also allows you to switch between different costumes for your sprite. This can be useful if you want to create animations or have your sprite change its appearance in response to user input.
+
+In addition to the basic editing tools, Scratch also provides a variety of advanced features for working with costumes, such as the ability to create animations using multiple frames, apply special effects like color filters or distortion, and import graphics from external sources.
+
+Overall, the "Costumes" tab is a powerful tool that allows users to customize the appearance of their Scratch sprites and create engaging, interactive projects.
+
+From <https://chat.openai.com/chat> 

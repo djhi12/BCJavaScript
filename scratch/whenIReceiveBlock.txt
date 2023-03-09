@@ -1,0 +1,7 @@
+The "when I receive" block is a commonly used block in Scratch programming that allows a sprite to listen for a broadcast message from another sprite or the Stage.
+
+To remove the "when I receive" block in Scratch, simply select the block and then press the delete key on your keyboard or right-click the block and select "delete" from the context menu.
+
+Note that if you have other blocks in your code that rely on the "when I receive" block, you may need to make adjustments to those blocks or delete them as well.
+
+From <https://chat.openai.com/chat/c0b34209-3c52-45ee-9465-d16b3e579361> 
