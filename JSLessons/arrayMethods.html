@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Methods</title>
+</head>
+
+<body>
+    <h1>Array Methods</h1>
+    <h2>Check the console.</h2>
+
+    <script>
+        // push(): Adds one or more elements to the end of an array and returns the new length of the array.
+        const myArray = [1, 2, 3];
+        myArray.push(4);
+        console.log(myArray); // Output: [1, 2, 3, 4]
+
+
+        // pop(): Removes the last element from an array and returns that element.
+        const myArray2 = [1, 2, 3];
+        myArray2.pop();
+        console.log(myArray2); // Output: [1, 2]
+
+
+        // shift(): Removes the first element from an array and returns that element.
+        const myArray3 = [1, 2, 3];
+        myArray3.shift();
+        console.log(myArray3); // Output: [2, 3]
+
+
+        // unshift(): Adds one or more elements to the beginning of an array and returns the new length of the array.
+        const myArray4 = [1, 2, 3];
+        myArray4.unshift(0);
+        console.log(myArray4); // Output: [0, 1, 2, 3]
+
+
+        // slice(): Returns a new array that contains a portion of the original array.
+        const myArray5 = [1, 2, 3, 4, 5];
+        const newArray = myArray5.slice(2, 4);
+        console.log(newArray); // Output: [3, 4]
+
+
+        // splice(): Adds or removes elements from an array at a specified index.
+        const myArray6 = [1, 2, 3, 4, 5];
+        myArray6.splice(2, 1, 6);
+        console.log(myArray); // Output: [1, 2, 6, 4, 5]
+
+
+        // forEach(): Calls a function for each element in an array.
+        const myArray7 = [1, 2, 3];
+        myArray7.forEach((element) => console.log(element)); // Output: 1, 2, 3
+
+
+        // map(): Returns a new array with the results of calling a provided function on every element in the array.
+        const myArray8 = [1, 2, 3];
+        const newArray2 = myArray8.map((element) => element * 2);
+        console.log(newArray2); // Output: [2, 4, 6]
+
+
+        // filter(): Returns a new array with all the elements that pass a test implemented by a provided function.
+        const myArray9 = [1, 2, 3, 4, 5];
+        const newArray3 = myArray9.filter((element) => element % 2 === 0);
+        console.log(newArray); // Output: [2, 4]
+
+
+        // reduce(): Executes a provided function for each value of an array and returns a single value.
+        const myArray10 = [1, 2, 3, 4, 5];
+        const sum = myArray10.reduce((accumulator, currentValue) => accumulator + currentValue);
+        console.log(sum); // Output: 15
+    </script>
+</body>
+
+</html>

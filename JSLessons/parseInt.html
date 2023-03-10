@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>parseInt</title>
+</head>
+
+<body>
+    <h1>parseInt</h1>
+    <h2>Check the console.</h2>
+
+    <script>
+        /*
+            JavaScript's parseInt function is used to parse a string and convert it into an integer. The function takes two arguments: the string to be parsed and an optional radix, which specifies the base of the number system to be used for parsing. If the radix is not specified, parseInt assumes a base of 10.
+        */
+
+        // Here's an example of using parseInt with a radix of 10 to convert a string to an integer:
+        const numString = "42";
+        const num = parseInt(numString, 10);
+        console.log(num); // Output: 42
+
+        // In this example, the string "42" is passed to parseInt, along with a radix of 10. The function returns the integer value 42, which is stored in the num variable and then logged to the console.
+
+
+        // Note that if the string cannot be parsed as an integer, parseInt will return NaN (Not a Number). For example:
+        const numString2 = "foo";
+        const num2 = parseInt(numString2, 10);
+        console.log(num); // Output: NaN
+
+        // In this example, the string "foo" cannot be parsed as an integer, so parseInt returns NaN.
+    </script>
+</body>
+
+</html>

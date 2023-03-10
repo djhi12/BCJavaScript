@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>parseFloat</title>
+</head>
+
+<body>
+    <h1>parseFloat</h1>
+    <h2>Check the console.</h2>
+
+    <script>
+        /*
+            parseFloat is a built-in function in JavaScript that converts a string into a floating-point number. It parses a string argument and returns a floating-point number.
+        */
+
+        // Here's an example of how parseFloat can be used:
+        const str1 = "3.14";
+        const str2 = "5.5";
+        const str3 = "2.8";
+        const num1 = parseFloat(str1);
+        const num2 = parseFloat(str2);
+        const num3 = parseFloat(str3);
+        console.log(num1); // Output: 3.14
+        console.log(num2); // Output: 5.5
+        console.log(num3); // Output: 2.8
+
+        // In this example, parseFloat is used to convert three strings that represent floating-point numbers into actual numbers that can be used in calculations. The resulting numbers are stored in the num1, num2, and num3 variables.
+
+
+        /*
+            Note that parseFloat will stop parsing the string as soon as it encounters a character that cannot be part of a floating-point number, such as a letter or a symbol. This means that parseFloat may not return the expected result if the input string is not formatted correctly. For example:
+        */
+
+        const str4 = "2.8.6";
+        const num4 = parseFloat(str4);
+        console.log(num4); // Output: 2.8
+
+        // In this example, parseFloat returns 2.8 instead of NaN because it stops parsing the string at the second dot character and ignores the rest of the string. However, this behavior may not be desirable in all cases, so it's important to be aware of it when using parseFloat.
+
+    </script>
+</body>
+
+</html>
