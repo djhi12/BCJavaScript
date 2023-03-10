@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function Problem #2</title>
+</head>
+
+<body>
+    <script>
+        /*
+            Write a function in JavaScript called sumArray that takes an array of numbers as an argument and returns the sum of all the numbers in the array.
+
+            For example, if the input array is [1, 2, 3, 4, 5], the function should return 15, which is the sum of all the numbers in the array.
+
+            Your function should satisfy the following requirements:
+
+                The function should be named sumArray.
+                The function should take one parameter, which is an array of numbers.
+                The function should return a single number, which is the sum of all the numbers in the array.
+                If the input array is empty, the function should return 0.
+                If the input array contains any non-numeric values (e.g. strings), the function should return NaN.
+        */
+
+        function sumArray(arr) {
+            if (arr.length === 0) {
+                return 0;
+            }
+
+            let sum = 0;
+            for (let i = 0; i < arr.length; i++) {
+                if (typeof arr[i] !== "number") {
+                    return NaN;
+                }
+                sum += arr[i];
+            }
+
+            return sum;
+        }
+
+        // This implementation first checks if the input array is empty, in which case it returns 0. Then, it iterates over the array and checks if each element is a number. If any non-numeric values are encountered, it returns NaN. Otherwise, it adds up all the numbers in the array and returns the sum.
+
+
+        //   Here is an example of how the function should behave:
+        sumArray([1, 2, 3, 4, 5]); // should return 15
+        sumArray([10, -5, 3, 7]); // should return 15
+        sumArray([]); // should return 0
+        sumArray([1, 2, "three", 4]); // should return NaN
+
+    </script>
+</body>
+
+</html>
