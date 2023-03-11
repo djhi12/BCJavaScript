@@ -1,5 +1,6 @@
 
 game.Players.PlayerAdded:connect(function(player) -- This line sets up a connection to the PlayerAdded event, which fires when a new player joins the game. The code inside the function will run every time a new player joins.
+    
 	player.CharacterAdded:connect(function(character) -- This line sets up a connection to the CharacterAdded event for the new player's character. The code inside the function will run every time the player's character is added to the game.
 
 		if character:FindFirstChild("UpperTorso") then -- This line checks if the player's character has an UpperTorso object. If it does, the code inside the if block will run.
