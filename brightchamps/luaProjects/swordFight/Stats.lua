@@ -31,14 +31,16 @@ game.Players.PlayerAdded:Connect(function(player) -- game.Players refers to a ta
 
 	bucks.Parent = leaderstats -- This sets the parent of the bucks object to leaderstats, which is presumably another object in the script.
 	
-	player.CharacterAdded:Connect(function(character)
-		character.Humanoid.WalkSpeed = 16
+	player.CharacterAdded:Connect(function(character) -- In Roblox, Player objects represent the players in a game. Each Player object has a Character object that represents the player's in-game avatar. The CharacterAdded event is fired when a player's character is added to the game.
+
+		character.Humanoid.WalkSpeed = 16 --this code is setting the walk speed of the specified character to 16 units per second.
+
 		character.Humanoid.Died:Connect(function()
 			--whenever somebody dies, this event will run
 			
 			if character.Humanoid and character.Humanoid:FindFirstChild("creator") then
 				game.ReplicatedStorage.Status.Value = tostring(character.Humanoid.creator.Value).." KILLED "..player.Name
-			end
+			end -- This Lua code checks if the variable "character" has a child object named "Humanoid" and if that object also has a child object named "creator". If both conditions are met, then it sets the value of a "Status" value in the "ReplicatedStorage" object to a string that includes the value of the "creator" object concatenated with "KILLED" and the name of a player.
 			
 			
 			if character:FindFirstChild("GameTag") then
