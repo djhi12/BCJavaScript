@@ -18,4 +18,3 @@ There are many VPN tools available, both free and paid, that offer a range of fe
 
 These are just a few examples of the many VPN tools available. When choosing a VPN tool, it's important to consider factors such as price, server network, encryption strength, logging policy, and user-friendliness.
 
-From <https://chat.openai.com/chat/972337f1-183e-46da-b3f3-6fbc6c6d0266> 
