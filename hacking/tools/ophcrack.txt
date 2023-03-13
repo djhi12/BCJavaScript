@@ -1,0 +1,9 @@
+-- Free --
+
+Ophcrack is a free and open-source password cracker that is used to crack Windows user passwords. It is designed to work on Windows operating systems, including Windows XP, Vista, 7, and 8. Ophcrack uses rainbow tables to crack passwords, which are precomputed tables of encrypted password hashes.
+
+Rainbow tables contain a large number of precomputed hashes for common passwords and character combinations. When Ophcrack encounters a password hash, it looks up the corresponding password in the rainbow table and returns it if it is found. This process is much faster than attempting to guess the password using a brute-force method.
+
+Ophcrack is relatively easy to use, and it can be run from a bootable CD or USB drive. It is a popular tool for system administrators and security professionals who need to recover lost or forgotten passwords. However, it is important to note that Ophcrack can only crack passwords that are up to 14 characters long and that do not use special characters. Additionally, it may not work on newer versions of Windows that use more advanced encryption techniques.
+
+From <https://chat.openai.com/chat> 
