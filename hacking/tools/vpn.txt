@@ -6,7 +6,6 @@ When you connect to a VPN, your device creates an encrypted tunnel between your 
 
 This means that when you use a VPN, your internet activity is encrypted and secure, and your online privacy is protected from prying eyes. Additionally, a VPN can be used to access geo-restricted content, bypass internet censorship, and protect your online identity from hackers and cybercriminals.
 
-
 There are many VPN tools available, both free and paid, that offer a range of features and functionalities. Here are some of the most popular VPN tools:
 
 	1. NordVPN - A paid VPN service that offers strong encryption, no-logging policy, and a large server network.
