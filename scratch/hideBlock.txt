@@ -4,4 +4,3 @@ To use the "hide" block, simply drag and drop it into your Scratch project and a
 
 It's worth noting that the "hide" block only makes the sprite or backdrop invisible, but it doesn't remove it from the stage. If you want to completely remove a sprite or backdrop from your project, you can use the "delete" block instead, which is also found in the "Looks" category.
 
-From <https://chat.openai.com/chat/019674fc-425b-426c-8dc2-f0b925dad23c> 

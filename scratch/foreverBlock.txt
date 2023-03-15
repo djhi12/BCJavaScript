@@ -4,4 +4,4 @@ To use the "Forever" block in Scratch, simply drag and drop it from the "Control
 
 It is important to use the "Forever" block sparingly and with caution, as running an infinite loop can cause a program to become unresponsive or crash. To avoid this, it is a good practice to include an exit condition or an escape mechanism within the loop that allows the program to exit the loop when necessary.
 
-From <https://chat.openai.com/chat/74b6014e-fd94-46ed-8283-3e9150fe891c> 
+
