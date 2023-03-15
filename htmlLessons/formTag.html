@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Tag</title>
+</head>
+
+<body>
+    <!--
+        The <form> tag is an HTML element used to create an interactive form that can be filled out by a user and submitted to a server for processing.
+    -->
+
+    <!-- Here is an example of a basic form: -->
+    <form action="process-form.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message"></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <!-- In this example, the action attribute specifies the URL of the server-side script that will process the form data when the user submits it. The method attribute specifies whether the data should be submitted using the HTTP GET or POST method. -->
+
+
+    <!--
+        Inside the form, we have three form controls: a text input, an email input, and a textarea. Each control has a unique id attribute and a corresponding name attribute. When the user submits the form, the data from these controls will be sent to the server as key-value pairs in the HTTP request.
+
+        Finally, the form includes a submit button, which the user can click to submit the form data to the server.
+    -->
+</body>
+
+</html>
