@@ -1,0 +1,9 @@
+-- Paid --
+
+Elcomsoft System Recovery (ESR) is a software tool developed by Elcomsoft, a Russian software company, that is used to reset or recover login passwords for Windows operating systems.
+
+While ESR may have legitimate uses, it can also be used for malicious purposes, such as gaining unauthorized access to a computer or stealing personal data. As such, it is important to use ESR responsibly and only for legitimate purposes, such as in situations where a user has forgotten their login password and needs to regain access to their own computer.
+
+Additionally, it's important to note that ESR may not work in all situations, such as when a user has enabled full disk encryption or has set a BIOS or UEFI password. In some cases, attempting to use ESR may also trigger security measures or alert the user of unauthorized access attempts, which could lead to legal consequences.
+
+Overall, when it comes to cyber security, it is important to use tools like ESR responsibly and to follow best practices for password management and computer security to minimize the risk of unauthorized access or data breaches.

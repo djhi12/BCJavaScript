@@ -1,0 +1,13 @@
+-- Paid and Free --
+
+Metasploit is a penetration testing framework developed by Rapid7 that helps security professionals and ethical hackers in identifying and exploiting vulnerabilities in computer systems and networks. It provides a comprehensive set of tools for testing and assessing the security of a network, including:
+
+    Exploit modules: These modules are used to exploit vulnerabilities in various software and operating systems, including web applications, databases, and network devices.
+
+    Payload modules: These modules are used to deliver malicious code to a target system once a vulnerability has been exploited. Payloads can include remote access tools, backdoors, and rootkits.
+
+    Auxiliary modules: These modules are used for tasks such as information gathering, scanning, and brute-forcing passwords.
+
+    Post-exploitation modules: These modules are used after an attacker has gained access to a system to maintain access, gather data, and escalate privileges.
+
+Metasploit has a large community of contributors and users who continuously develop and update its modules. However, it is important to note that Metasploit should only be used for legitimate security testing and not for malicious purposes. It is also important to obtain proper authorization and consent before conducting any testing on a network or system.

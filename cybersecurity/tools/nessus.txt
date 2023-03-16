@@ -1,0 +1,11 @@
+-- Paid and Free --
+
+Video:
+
+Nessus is a popular vulnerability scanner tool used in cybersecurity. It is used to identify and assess vulnerabilities in computer systems, networks, and applications. Nessus works by scanning a network or system for known vulnerabilities, misconfigurations, and other security issues. It then generates a report detailing the vulnerabilities found, along with recommendations on how to remediate them.
+
+Nessus can be used to scan a wide range of targets, including servers, workstations, network devices, and even mobile devices. It can also be used to scan web applications, databases, and cloud services. Nessus is designed to be easy to use and can be configured to run on a regular basis to ensure that systems are regularly checked for vulnerabilities.
+
+One of the key features of Nessus is its extensive database of vulnerability checks. Nessus includes thousands of checks for known vulnerabilities in a wide range of software and systems, including operating systems, databases, web servers, and more. It also has the ability to create custom checks for specific vulnerabilities or configurations.
+
+Overall, Nessus is a powerful tool that can help organizations identify and remediate vulnerabilities in their systems, helping to improve their overall cybersecurity posture. However, it is important to note that vulnerability scanning is just one component of a comprehensive cybersecurity strategy, and organizations should also implement other security measures, such as network segmentation, access controls, and intrusion detection systems.
