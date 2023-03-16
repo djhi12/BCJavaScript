@@ -1,0 +1,11 @@
+The "Pen Up" block is a command in Scratch that instructs the sprite to stop drawing when it moves. It is useful when you want to move the sprite to a new location without leaving a trail behind.
+
+To use the "Pen Up" block in Scratch, follow these steps:
+
+    Add a sprite to your Scratch project by clicking on the "Choose a Sprite" button.
+    Click on the "Scripts" tab to access the programming interface.
+    Select the "Pen" category from the block menu on the left-hand side of the screen.
+    Drag the "Pen Up" block from the menu and drop it into the programming area.
+    You can now connect other blocks to the "Pen Up" block to create a sequence of actions.
+    
+When the sprite moves after the "Pen Up" block is executed, it will not leave a trail. If you want the sprite to start drawing again, you can use the "Pen Down" block.

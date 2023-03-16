@@ -1,0 +1,9 @@
+The "pen down" block in Scratch is used to start drawing lines or shapes on the stage. To remove this block from your Scratch project, you can follow these steps:
+
+    Open the Scratch project where you want to remove the "pen down" block.
+    Locate the block in your script that contains the "pen down" block. It may look like a blue block with the words "pen down" on it.
+    Click on the "pen down" block to select it.
+    Press the "delete" key on your keyboard to remove the block from your script.
+    Alternatively, you can also right-click on the block and select "delete" from the menu.
+    
+Once you have deleted the "pen down" block, any subsequent blocks that were connected to it will also be removed from your script. If you want to keep those blocks, you can reconnect them to the rest of your code by dragging and dropping them to a new location in your script.
