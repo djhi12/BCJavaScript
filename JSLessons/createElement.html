@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>createElement</title>
+</head>
+
+<body>
+    <script>
+        /*
+            JavaScript createElement is a method that allows you to create a new HTML element dynamically using JavaScript. It is a part of the Document Object Model (DOM) API that enables you to manipulate HTML and XML documents programmatically.
+        */
+
+        // Here's an example of how to create a new div element using createElement:
+        const div = document.createElement('div');
+
+        // This creates a new div element, which you can then add to the HTML document using other DOM methods, such as appendChild, insertBefore, or replaceChild. For example, to add the new div element to the document's body element:
+
+        document.body.appendChild(div);
+
+        // You can also set the attributes and properties of the new element using JavaScript. For example, to set the id attribute and the innerHTML property of the div element:
+        div.id = 'myDiv';
+        div.innerHTML = 'Hello, World!';
+
+        // Note that the createElement method only creates a new element in memory. To add it to the document, you need to use one of the DOM methods to insert it into the document tree.
+
+    </script>
+</body>
+
+</html>
