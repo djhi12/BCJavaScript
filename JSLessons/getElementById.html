@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>getElementById()</title>
+</head>
+
+<body>
+    <!-- HTML code: -->
+    <p id="example-paragraph">Hello, world!</p>
+
+    <script>
+        /*
+            The document.getElementById(id) method is a DOM method in JavaScript that returns a reference to an element with a specified ID. This method is commonly used to access and manipulate HTML elements on a webpage.
+        */
+
+        var paragraph = document.getElementById("example-paragraph");
+        paragraph.innerHTML = "Hello, JavaScript!";
+
+        /*
+            In this example, the document.getElementById("example-paragraph") method is used to retrieve the paragraph element with the ID "example-paragraph". The retrieved element is then stored in the paragraph variable.
+
+            The innerHTML property of the paragraph variable is then updated to "Hello, JavaScript!", which changes the text content of the paragraph element on the webpage from "Hello, world!" to "Hello, JavaScript!".
+        */
+        
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>appendChild()</title>
+</head>
+
+<body>
+    <ul id="myList">
+        <li>Item 1</li>
+        <li>Item 2</li>
+    </ul>
+
+    <!-- The resulting HTML code would be: -->
+    <ul id="myList">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+
+    <script>
+        /*
+            The appendChild() method is used to add a new child node to the end of the specified element as its last child. The new child node can be a text node, an element node, or any other type of node.
+        */
+
+        // Here is an example of how to use appendChild() to add a new element node to an existing list:
+        // create a new list item element
+        var newItem = document.createElement("li");
+        newItem.textContent = "Item 3";
+
+        // select the list element and append the new item
+        var myList = document.getElementById("myList");
+        myList.appendChild(newItem);
+
+        // In the example above, we first create a new li element node and set its text content to "Item 3". Then, we select the existing ul element with the ID of "myList" using document.getElementById(). Finally, we use the appendChild() method to add the new li element node to the end of the ul element as its last child. The resulting HTML code would be:
+
+
+    </script>
+</body>
+
+</html>
