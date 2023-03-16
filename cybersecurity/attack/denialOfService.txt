@@ -1,0 +1,13 @@
+Cybersecurity Denial of Service (DoS) is a type of cyber attack that aims to make a website or online service unavailable to its users. In a DoS attack, the attacker floods the targeted website or service with a huge amount of traffic or requests, overwhelming its servers and causing it to crash or become extremely slow.
+
+There are several types of DoS attacks, including:
+
+    Distributed Denial of Service (DDoS): This is a type of DoS attack where the attacker uses multiple computers or devices (often called a botnet) to flood the target website or service with traffic or requests from multiple sources, making it difficult to trace the attack back to the attacker.
+
+    Application Layer DoS: This type of attack targets the application layer of a website or service, attempting to overwhelm it with requests that require significant processing power and resources. This type of attack is particularly effective against web applications.
+
+    Network Layer DoS: This type of attack targets the network layer of a website or service, flooding it with traffic in an attempt to overload its capacity.
+
+DoS attacks can cause significant harm to businesses, particularly those that rely heavily on their online presence to generate revenue or communicate with customers. They can also be used as a smokescreen for more sophisticated attacks, such as data theft or malware deployment.
+
+To prevent DoS attacks, businesses can implement a variety of measures, including using firewalls and intrusion prevention systems, deploying content distribution networks (CDNs) to absorb traffic, and implementing rate limiting to control the amount of traffic that can access the website or service at any given time. Additionally, businesses can work with their hosting provider to ensure that their infrastructure is configured to withstand DoS attacks.
