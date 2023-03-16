@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>removeChild()</title>
+</head>
+
+<body>
+    <ul id="myList">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+    <script>
+        /*
+            The element.removeChild(childElement) method is used to remove a child element from its parent element. It takes a single parameter, childElement, which is the element to be removed from the parent element.
+        */
+
+        // get the parent element
+        var myList = document.getElementById("myList");
+
+        // get the element to remove
+        var itemToRemove = myList.children[1];
+
+        // remove the element
+        myList.removeChild(itemToRemove);
+
+        /*
+            In this example, we first use the getElementById method to get the myList element. Then, we use the children property to access the second li element in the list (since the array is zero-indexed). Finally, we pass this element to the removeChild method to remove it from the parent ul element.
+
+            After running this code, the second item ("Item 2") will be removed from the list, and the remaining items will be shifted up in the list.
+        */
+    </script>
+</body>
+
+</html>

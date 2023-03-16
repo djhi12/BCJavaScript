@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>innerHTML</title>
+</head>
+
+<body>
+    <script>
+        /*
+            The element.innerHTML property is a property of DOM elements in JavaScript, which represents the HTML content inside an element. It can be used to get or set the HTML content of an element.
+        */
+
+        // To get the HTML content of an element:
+        const element = document.querySelector('#my-element');
+        const htmlContent = element.innerHTML;
+        console.log(htmlContent);
+
+
+        // To set the HTML content of an element:
+        const element2 = document.querySelector('#my-element');
+        element2.innerHTML = '<h1>New content</h1><p>This is a paragraph.</p>';
+
+        // It's important to note that setting the innerHTML property can potentially introduce security vulnerabilities, especially if the content being set is user-generated or comes from an untrusted source. It's recommended to use other methods to manipulate the DOM, such as creating new elements with document.createElement() and adding them to the DOM with element.appendChild().
+
+    </script>
+</body>
+
+</html>
