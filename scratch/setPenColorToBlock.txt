@@ -1,0 +1,11 @@
+In Scratch, the "set pen color to" block is used to change the color of the pen that is used when drawing with the pen tool. To remove this block from your Scratch project, you can follow these steps:
+
+    Open your Scratch project and locate the "set pen color to" block in your code.
+
+    Click on the block to select it.
+
+    Press the delete key on your keyboard or right-click on the block and select "delete" from the context menu.
+
+    The block will be removed from your project, and you can continue working on your code without it.
+
+Alternatively, you can also drag the block out of your code area and drop it into the block palette to remove it.
