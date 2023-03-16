@@ -1,0 +1,11 @@
+The Transmission Control Protocol (TCP) is one of the primary protocols used in computer networks to ensure reliable data transmission. It works by breaking data into small packets, sending them over the network, and then verifying that they have been received correctly by the recipient.
+
+In terms of cybersecurity, TCP is vulnerable to a number of attacks that can compromise the confidentiality, integrity, and availability of data. Some common TCP-based attacks include:
+
+    SYN Flood: This attack floods a server with a large number of TCP SYN packets, overwhelming the server and causing it to crash or become unresponsive.
+
+    TCP Reset: An attacker can send a TCP Reset packet to terminate a TCP connection, effectively cutting off communication between the two parties.
+
+    TCP Hijacking: This attack involves an attacker intercepting a TCP connection and taking control of it, allowing them to eavesdrop on communication, modify data, or inject their own malicious packets.
+
+To prevent these types of attacks, it is important to implement secure TCP/IP configurations, including firewalls, intrusion detection and prevention systems, and encryption technologies like SSL/TLS. Additionally, regular security audits and vulnerability assessments can help identify potential weaknesses in TCP/IP configurations and prevent cyberattacks before they occur.
