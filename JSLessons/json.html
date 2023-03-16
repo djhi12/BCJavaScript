@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON</title>
+</head>
+
+<body>
+    <script>
+        /*
+            JavaScript Object Notation (JSON) is a lightweight data format that is used for data exchange between the client and the server. It is easy to read and write and is also easy for machines to parse and generate. In JavaScript, you can parse and generate JSON data using built-in functions.
+        */
+
+        // To create a JSON object in JavaScript, you can use object literal notation. Here is an example of creating a JSON object:
+        let person = {
+            "name": "John",
+            "age": 30,
+            "city": "New York"
+        };
+
+        // In the above example, we have created a JSON object with three properties: name, age, and city. The values for these properties are John, 30, and New York, respectively. Note that the property names are enclosed in double quotes, which is required for JSON.
+
+
+        // To convert a JavaScript object to a JSON string, you can use the JSON.stringify() method. Here is an example:
+        let person2 = {
+            "name": "John",
+            "age": 30,
+            "city": "New York"
+        };
+
+        let jsonStr = JSON.stringify(person2);
+
+        console.log(jsonStr);
+
+        // The output of the above code will be a JSON string:
+        // { "name": "John", "age": 30, "city": "New York" }
+
+
+        // To convert a JSON string to a JavaScript object, you can use the JSON.parse() method. Here is an example:
+        let jsonStr2 = '{"name":"John","age":30,"city":"New York"}';
+
+        let person3 = JSON.parse(jsonStr2);
+
+        console.log(person3);
+
+        // The output of the above code will be a JavaScript object:
+        // {
+        //     name: "John",
+        //         age: 30,
+        //             city: "New York"
+        // }
+
+
+
+    </script>
+</body>
+
+</html>
