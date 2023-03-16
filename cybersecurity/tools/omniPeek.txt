@@ -1,0 +1,11 @@
+-- Paid --
+
+Video:
+
+OmniPeek is a network protocol analyzer tool developed by Savvius, which is now owned by LiveAction. It is used for network performance management and troubleshooting, as well as for network security analysis.
+
+In terms of cybersecurity, OmniPeek can be used to monitor network traffic in order to identify potential security threats such as malware, viruses, and suspicious network activity. It can capture and analyze packets of data transmitted over a network, allowing security professionals to identify and investigate any anomalies or suspicious activity.
+
+OmniPeek can also be used to detect and analyze network attacks such as denial-of-service (DoS) and distributed denial-of-service (DDoS) attacks. It can help security professionals to quickly identify the source of an attack, the type of attack being launched, and the target of the attack.
+
+In addition to these security-related features, OmniPeek can also be used for network troubleshooting, performance monitoring, and capacity planning. It provides detailed insights into network traffic, allowing network administrators to identify and resolve issues that can impact network performance and reliability.

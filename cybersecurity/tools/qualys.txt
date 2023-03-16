@@ -1,0 +1,13 @@
+-- Paid --
+
+Video:
+
+Qualys is a cloud-based cybersecurity and compliance solutions provider that helps businesses to identify, assess, and prioritize vulnerabilities in their IT infrastructure. Qualys offers a wide range of products and services, including vulnerability management, network security, web application security, compliance management, and cloud security.
+
+Qualys Vulnerability Management (VM) is a core product that helps organizations identify and prioritize vulnerabilities across their entire IT environment, including on-premises, cloud, and mobile environments. The solution uses advanced scanning techniques to identify vulnerabilities and provides detailed reports to help organizations prioritize and remediate them.
+
+Qualys also offers Web Application Scanning (WAS) to help organizations discover and secure vulnerabilities in their web applications. The solution uses both automated and manual testing techniques to identify vulnerabilities in web applications, including cross-site scripting (XSS), SQL injection, and other common vulnerabilities.
+
+In addition to these solutions, Qualys also offers a range of compliance management solutions to help organizations meet regulatory and industry standards such as PCI DSS, HIPAA, and GDPR. The company's cloud-based platform makes it easy for organizations to manage compliance across their entire IT infrastructure.
+
+Overall, Qualys is a well-respected cybersecurity solutions provider that offers a wide range of products and services to help organizations identify and manage vulnerabilities across their IT environment.

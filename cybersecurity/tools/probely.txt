@@ -1,0 +1,11 @@
+-- Paid -- 
+
+Video: 
+
+Probely is a cybersecurity platform that helps businesses to identify vulnerabilities in their web applications and networks. It offers a range of security testing tools, including automated vulnerability scanning, manual penetration testing, and security reporting.
+
+Probely's vulnerability scanning tool can identify security weaknesses in web applications and APIs, including SQL injection, cross-site scripting (XSS), and other vulnerabilities. The platform also allows for manual penetration testing by security experts to further identify potential vulnerabilities.
+
+In addition to scanning and testing, Probely also provides detailed security reports that highlight potential risks and recommendations for remediation. The platform is designed to be easy to use and integrates with many popular development tools, making it easy for businesses to incorporate security testing into their development workflows.
+
+Overall, Probely is a comprehensive cybersecurity platform that can help businesses improve their web application security and protect against potential cyber attacks.

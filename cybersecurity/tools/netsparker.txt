@@ -1,0 +1,13 @@
+-- Paid --
+
+Video:
+
+Netsparker is a web application security scanner that helps organizations identify vulnerabilities in their web applications. It uses advanced scanning techniques to identify security flaws such as SQL injection, cross-site scripting (XSS), and other vulnerabilities that can be exploited by attackers.
+
+Netsparker is designed to be easy to use and provides a user-friendly interface that allows users to scan their web applications quickly and efficiently. It supports various programming languages and platforms, including .NET, PHP, Java, and Ruby on Rails.
+
+Some of the key features of Netsparker include automated vulnerability scanning, the ability to detect vulnerabilities in both the client and server-side of web applications, and reporting tools that provide detailed information about identified vulnerabilities and recommended remediation steps.
+
+In addition to automated scanning, Netsparker also provides manual testing capabilities, which allow security professionals to test web applications for vulnerabilities that may not be identified by automated tools.
+
+Overall, Netsparker is a powerful tool that can help organizations ensure the security of their web applications by identifying and remedying vulnerabilities before they can be exploited by attackers.

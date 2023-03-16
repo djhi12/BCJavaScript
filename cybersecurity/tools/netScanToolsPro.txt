@@ -1,0 +1,21 @@
+-- Paid --
+
+Video: 
+
+NetScanTools Pro is a powerful network and security tool that is commonly used in the field of cybersecurity. It provides a variety of features that can help identify potential vulnerabilities in a network and ensure that the network is secure.
+
+Some of the key features of NetScanTools Pro include:
+
+    Port scanning: This feature allows users to scan a network to identify open ports and determine which services are running on each port.
+
+    Ping sweep: This feature allows users to quickly scan a range of IP addresses to determine which hosts are alive and responding to pings.
+
+    Trace route: This feature allows users to trace the path that packets take from their computer to a specified destination, helping to identify any issues or delays along the way.
+
+    DNS tools: NetScanTools Pro includes a range of DNS tools that allow users to perform DNS queries, look up hostnames, and perform reverse DNS lookups.
+
+    Whois: This feature allows users to look up information about a domain name or IP address, including the organization that owns it, contact information, and more.
+
+    Network discovery: NetScanTools Pro includes a variety of tools that can help users discover devices on a network, including IP address ranges, MAC addresses, and more.
+
+Overall, NetScanTools Pro is a versatile tool that can be used in a variety of cybersecurity contexts, from network reconnaissance to vulnerability scanning and more. However, as with any security tool, it is important to use NetScanTools Pro ethically and responsibly, and to ensure that you have the appropriate permissions before scanning or probing any network.
