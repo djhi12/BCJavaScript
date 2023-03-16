@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parameters</title>
+</head>
+
+<body>
+    <script>
+        /*
+            In JavaScript, parameters are variables that are used to pass values to a function. When a function is called, the values passed as parameters are used by the function to perform its task.
+
+            There are two types of parameters in JavaScript:
+        */
+
+        // Formal parameters: These are the variables listed as part of the function definition. They act as placeholders for the values that will be passed as arguments when the function is called.
+        function addNumbers(a, b) {
+            return a + b;
+        }
+
+        // In this function, a and b are formal parameters.
+
+
+        // Actual parameters or arguments: These are the values that are passed to the function when it is called. They are used to replace the formal parameters in the function body.
+        addNumbers(5, 10);
+
+        // In this example, 5 and 10 are actual parameters or arguments.
+
+
+        // JavaScript also allows for default parameter values to be set in the function definition. These default values will be used if an argument is not provided for that parameter when the function is called. Here is an example:
+        function greet(name = 'World') {
+            console.log(`Hello, ${name}!`);
+        }
+
+        greet(); // Output: Hello, World!
+        greet('John'); // Output: Hello, John!
+
+        // In this example, the name parameter has a default value of 'World'. If no argument is passed to the function, the default value will be used. If an argument is passed, that value will be used instead.
+    </script>
+</body>
+
+</html>
