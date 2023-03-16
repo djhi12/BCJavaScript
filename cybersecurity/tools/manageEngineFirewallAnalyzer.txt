@@ -1,0 +1,21 @@
+-- Paid -- 
+
+Video: 
+
+ManageEngine Firewall Analyzer is a cybersecurity tool that is used to monitor and analyze network traffic to improve network security. It provides in-depth insights into firewall logs, traffic patterns, bandwidth usage, and other network activity, allowing IT teams to identify potential threats and take proactive measures to mitigate them.
+
+Here are some of the key features of ManageEngine Firewall Analyzer:
+
+    Firewall logs analysis: Firewall Analyzer collects logs from multiple firewall vendors and analyzes them to provide detailed reports on network activity.
+
+    Real-time monitoring: Firewall Analyzer provides real-time monitoring of network activity, allowing IT teams to quickly detect and respond to potential threats.
+
+    Bandwidth monitoring: Firewall Analyzer monitors bandwidth usage and provides detailed reports on bandwidth consumption, helping IT teams optimize network performance.
+
+    Compliance reporting: Firewall Analyzer provides compliance reports for major regulatory standards such as PCI DSS, HIPAA, and ISO 27001.
+
+    Threat intelligence: Firewall Analyzer provides threat intelligence feeds that can be used to detect and respond to emerging threats.
+
+    Policy management: Firewall Analyzer allows IT teams to define and enforce security policies for their network, ensuring that all traffic is secure and compliant.
+
+Overall, ManageEngine Firewall Analyzer is a powerful tool for network security and management, and is widely used by IT teams across a range of industries.
