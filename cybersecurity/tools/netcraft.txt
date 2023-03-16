@@ -1,0 +1,13 @@
+Netcraft is a British internet security services company that provides internet infrastructure security, anti-phishing, and anti-malware services. It was founded in 1995 and is based in Bath, United Kingdom.
+
+One of Netcraft's primary services is its "Phishing Site Takedown" service, which helps to identify and remove phishing websites from the internet. This service involves monitoring the internet for phishing websites, identifying the owners of these sites, and working with hosting providers and domain registrars to have the sites taken down.
+
+Netcraft also provides a range of other security services, including:
+
+    Website security testing: Netcraft can perform vulnerability scans and penetration testing on websites to identify security weaknesses and help website owners to secure their sites.
+
+    Malware detection: Netcraft can scan websites for malware and alert website owners if any malicious code is found.
+
+    SSL certificate monitoring: Netcraft can monitor SSL certificates for websites and alert website owners if any certificates are due to expire or if there are any other issues with the certificates.
+
+Overall, Netcraft is a leading provider of internet security services, and its services are used by many businesses and organizations around the world to help protect their websites and online assets from cyber threats.
