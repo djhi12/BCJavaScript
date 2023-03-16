@@ -1,0 +1,11 @@
+-- Free --
+
+Video:
+
+Kali Linux is a popular operating system designed for cybersecurity professionals and enthusiasts. It is a Debian-based Linux distribution that comes with pre-installed tools that are useful for penetration testing, vulnerability assessment, and digital forensics.
+
+The Kali Linux operating system provides a platform for ethical hacking, network analysis, and security testing. The tools included in Kali Linux cover a wide range of cybersecurity functions, such as information gathering, vulnerability scanning, password cracking, and exploiting known vulnerabilities.
+
+Kali Linux is particularly useful for cybersecurity professionals who need to test their own systems or those of their clients for potential weaknesses. The platform allows security experts to identify vulnerabilities before malicious hackers can exploit them.
+
+However, it's important to note that Kali Linux should not be used for illegal or malicious purposes. Ethical hacking should always be conducted with the appropriate permissions and in accordance with applicable laws and regulations.

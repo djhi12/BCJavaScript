@@ -1,0 +1,17 @@
+-- Free -- 
+
+Video: 
+
+Nmap is a powerful and popular tool used in cybersecurity for network exploration, management, and security auditing. Nmap is often used by security professionals to scan networks for open ports, identify potential vulnerabilities, and discover network hosts and services. Here are some key features of Nmap in cybersecurity:
+
+    Port scanning: Nmap can scan networks for open ports, which can help security professionals identify potential vulnerabilities or security risks.
+
+    Operating system detection: Nmap can detect the operating system used by a host, which can be helpful in identifying vulnerabilities or attack vectors specific to that operating system.
+
+    Service detection: Nmap can also detect the services running on a host, which can help identify vulnerabilities in those services.
+
+    Scripting: Nmap includes a scripting engine that allows security professionals to write custom scripts to automate tasks or perform more advanced scans.
+
+    Output formats: Nmap can generate output in a variety of formats, including text, XML, and HTML, which can be used for further analysis or reporting.
+
+Overall, Nmap is a powerful tool that can help security professionals identify potential security risks in networks and systems, and is a valuable part of any cybersecurity toolkit.
