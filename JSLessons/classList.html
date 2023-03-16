@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>classList</title>
+    <style>
+        .highlight {
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <p id="myPara">This is a paragraph.</p>
+    <button onclick="highlight()">Highlight</button>
+    <button onclick="removeHighlight()">Remove Highlight</button>
+    <script>
+        /*
+            In JavaScript, the classList property provides an easy way to manipulate the classes of an HTML element. It is a read-only property that returns a DOMTokenList object representing the class attribute of the element, which is a space-separated list of classes.
+
+            The classList object has several methods that allow you to add, remove, toggle, and check the existence of classes on an element. Here are some of the commonly used methods:
+
+                add(className) : Adds the specified class to the element's class attribute.
+                remove(className) : Removes the specified class from the element's class attribute.
+                toggle(className) : Toggles the specified class on or off, depending on whether it is currently present or not.
+                contains(className) : Returns a Boolean value indicating whether the element's class attribute contains the specified class.
+        */
+
+        // Here's an example that demonstrates the usage of the classList property:
+        function highlight() {
+            document.getElementById("myPara").classList.add("highlight");
+        }
+        function removeHighlight() {
+            document.getElementById("myPara").classList.remove("highlight");
+        }
+
+        // In the above example, clicking the "Highlight" button adds the highlight class to the myPara paragraph element, which causes it to have a yellow background. Clicking the "Remove Highlight" button removes the class, and the background color reverts back to the default.
+    </script>
+</body>
+
+</html>

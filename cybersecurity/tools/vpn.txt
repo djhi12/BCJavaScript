@@ -9,10 +9,15 @@ This means that when you use a VPN, your internet activity is encrypted and secu
 There are many VPN tools available, both free and paid, that offer a range of features and functionalities. Here are some of the most popular VPN tools:
 
 	1. NordVPN - A paid VPN service that offers strong encryption, no-logging policy, and a large server network.
+
 	2. ExpressVPN - A paid VPN service that offers high-speed connections, strong encryption, and a wide range of server locations.
+
 	3. CyberGhost VPN - A paid VPN service that offers strong encryption, no-logging policy, and a user-friendly interface.
+
 	4. Hotspot Shield - A free VPN service that offers fast connection speeds, ad-blocking, and a range of server locations.
+
 	5. TunnelBear - A free VPN service that offers a user-friendly interface, strong encryption, and a limited amount of data usage.
+	
 	6. ProtonVPN - A paid VPN service that offers strong encryption, no-logging policy, and a range of server locations.
 
 These are just a few examples of the many VPN tools available. When choosing a VPN tool, it's important to consider factors such as price, server network, encryption strength, logging policy, and user-friendliness.
