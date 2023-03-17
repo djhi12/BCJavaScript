@@ -1,0 +1,5 @@
+Scratch Translate Extension is a tool that can be used to translate the text within a Scratch project into different languages. It is an extension for the Scratch programming language, which allows users to create and share interactive stories, games, and animations. The Translate Extension makes it possible to create projects in multiple languages, making it easier to reach a global audience.
+
+To use the Translate Extension, you must first add it to your Scratch project. Once added, you can use the extension blocks to add translations for each text string in your project. The extension will generate separate files for each language, which can be accessed by selecting the desired language from a dropdown menu.
+
+The Translate Extension is particularly useful for educators and students who want to create Scratch projects in multiple languages. It can also be useful for developers who want to create multilingual games or applications. By using the Translate Extension, you can create projects that are accessible to a wider audience and promote inclusivity and diversity.
