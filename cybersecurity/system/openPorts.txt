@@ -1,0 +1,15 @@
+In the context of cybersecurity, open ports refer to network communication channels that are available and actively listening for incoming traffic. Open ports can provide an entry point for attackers to exploit vulnerabilities in a system or network.
+
+Some common open ports that are often targeted by attackers include:
+
+    Port 22 (SSH): Used for secure remote access, but also a common target for brute-force attacks.
+
+    Port 23 (Telnet): A legacy protocol that provides unencrypted remote access to a system, often targeted for password sniffing attacks.
+
+    Port 80 (HTTP): Used for web traffic, and can be vulnerable to attacks such as SQL injection or cross-site scripting.
+
+    Port 443 (HTTPS): Used for secure web traffic, but can still be targeted by attacks such as man-in-the-middle attacks.
+
+    Port 3389 (RDP): Used for remote desktop access, and can be targeted by brute-force attacks.
+
+It is important to regularly monitor and secure open ports to prevent unauthorized access and protect against cyber threats. This can be done through techniques such as network segmentation, firewalls, and intrusion detection and prevention systems.

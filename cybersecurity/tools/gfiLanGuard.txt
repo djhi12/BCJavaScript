@@ -1,0 +1,23 @@
+-- Paid --
+
+Video: 
+
+GFI LanGuard is a network security scanner and patch management tool used by organizations to protect their systems against security vulnerabilities and attacks. It is designed to identify and remediate security vulnerabilities in operating systems, installed applications, and network devices.
+
+Here are some key features of GFI LanGuard:
+
+    Vulnerability scanning: It scans the entire network for security vulnerabilities, including missing patches, misconfigured systems, and default passwords.
+
+    Patch management: It provides patch management for Microsoft, Linux, and third-party applications.
+
+    Network discovery: It discovers all devices on the network, including desktops, servers, routers, switches, and mobile devices.
+
+    Compliance reporting: It provides detailed compliance reports for various regulations such as PCI DSS, HIPAA, and SOX.
+
+    Web security: It checks for web application vulnerabilities and identifies potential security risks.
+
+    Mobile device management: It offers mobile device management features for Android and iOS devices.
+
+    Centralized management: It provides a centralized console to manage all security-related tasks, including vulnerability scanning, patch management, compliance reporting, and device discovery.
+
+Overall, GFI LanGuard is a comprehensive solution for organizations looking to enhance their cybersecurity posture and protect their network against potential security threats.
