@@ -1,0 +1,19 @@
+In Scratch, the "play drum" block is used to add drum sounds to a project. To use the block, follow these steps:
+
+    Open Scratch and start a new project or open an existing one.
+    Select the "Sound" tab from the top of the Scratch interface.
+    Click on the "Drums" option in the Sounds section.
+    Drag the "play drum" block from the "Sound" section and drop it into the script area.
+    Choose the drum sound you want to play by clicking on the dropdown menu in the block.
+    You can change the tempo of the drum sound by changing the number in the block.
+
+Here's an example script using the "play drum" block:
+
+when flag clicked
+play drum (1 v) for (0.1) beats
+wait (0.1) seconds
+play drum (1 v) for (0.1) beats
+wait (0.1) seconds
+play drum (1 v) for (0.1) beats
+
+This script plays a drum sound three times with a short pause in between each sound.
