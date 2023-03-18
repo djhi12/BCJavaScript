@@ -26,25 +26,30 @@ while true do
 	
 	local plrs = {} -- This line creates a new empty table named plrs. Tables are Lua's primary data structure, and can be used to store arrays, key-value pairs, and other types of data.
 	
-	for i,player in pairs(game.Players:GetPlayers()) do
-		if player then
-			table.insert(plrs,player) --add each player into plrs table
-		end
-	end
+	for i,player in pairs(game.Players:GetPlayers()) do -- This is a for loop that iterates through all of the players in the game. game.Players refers to a built-in object in the Roblox game engine that represents all of the players currently in the game. GetPlayers() is a method on this object that returns a list of all the players. The pairs() function is called on this list to get an iterator that iterates through all the players in the list. The for loop variable player is assigned to the current player in each iteration.
+
+		if player then -- This line checks if the player variable is not nil. In other words, it checks if there is a player assigned to player in the current iteration of the loop.
+
+			table.insert(plrs,player) -- If player is not nil, this line inserts the player object into a table called plrs. table.insert() is a built-in Lua function that adds an element to the end of a table. The plrs table is presumably defined elsewhere in the code.
+
+		end -- This marks the end of the if statement.
+	end -- This marks the end of the for loop.
 	
 	wait(2)
 	
-	local AvailableMaps = MapsFolder:GetChildren()
+	local AvailableMaps = MapsFolder:GetChildren() -- This line declares a local variable AvailableMaps and assigns it the value returned by calling the GetChildren() method on the MapsFolder object. This method returns a table containing all of the immediate children of the MapsFolder object.
 	
-	local ChosenMap = AvailableMaps[math.random(1,#AvailableMaps)]
+	local ChosenMap = AvailableMaps[math.random(1,#AvailableMaps)] -- This line declares a local variable ChosenMap and assigns it a randomly chosen element from the AvailableMaps table. The math.random() function is used to generate a random index between 1 and the length of the AvailableMaps table.
 	
-	Status.Value = ChosenMap.Name.."Chosen"
-	local ClonedMap = ChosenMap:Clone()
-	ClonedMap.Parent = workspace
+	Status.Value = ChosenMap.Name.."Chosen" -- This line sets the value of the Value property of the Status object to a string that includes the name of the ChosenMap object concatenated with the string "Chosen".
+
+	local ClonedMap = ChosenMap:Clone() -- This line declares a local variable ClonedMap and assigns it a new instance of the ChosenMap object created by calling the Clone() method.
+
+	ClonedMap.Parent = workspace -- This line sets the Parent property of the ClonedMap object to the workspace object, effectively moving the object into the game world.
 	
 	--Teleport players to the map
 	
-	local SpawnPoints = ClonedMap:FindFirstChild("SpawnPoints")
+	local SpawnPoints = ClonedMap:FindFirstChild("SpawnPoints") -- This line declares a local variable SpawnPoints and assigns it the value returned by calling the FindFirstChild() method on the ClonedMap object. This method searches for a child object of the ClonedMap object with the name "SpawnPoints" and returns it if found, or nil if not found.
 	
 	if not SpawnPoints then
 		print("SpawnPoints not found!")
