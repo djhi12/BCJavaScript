@@ -51,20 +51,23 @@ while true do
 	
 	local SpawnPoints = ClonedMap:FindFirstChild("SpawnPoints") -- This line declares a local variable SpawnPoints and assigns it the value returned by calling the FindFirstChild() method on the ClonedMap object. This method searches for a child object of the ClonedMap object with the name "SpawnPoints" and returns it if found, or nil if not found.
 	
-	if not SpawnPoints then
+	if not SpawnPoints then -- this code checks if a variable called SpawnPoints exists and if it doesn't, it prints an error message to the console.
 		print("SpawnPoints not found!")
 	end
 	
-	local AvailableSpawnPoints = SpawnPoints:GetChildren()
+	local AvailableSpawnPoints = SpawnPoints:GetChildren() -- declares a local variable named AvailableSpawnPoints and assigns to it a list of all the children of the SpawnPoints object using the GetChildren() method. This code would typically be used in a Roblox game to get a list of available spawn points for players or objects.
 	
-	for i, player in pairs(plrs) do
-		if player  then
-			character = player.Character
+	for i, player in pairs(plrs) do -- This line starts a loop that iterates through all elements of the plrs table using the pairs function. The i variable will hold the index of the current element, and player will hold the value of the current element.
+
+		if player  then -- This line checks if the current element is not nil. If the current element is nil, the loop will skip to the next iteration.
+
+			character = player.Character -- This line retrieves the Character object of the current player and assigns it to the character variable.
 			
-			if character then
-				--Teleport them
-				character:FindFirstChild("HumanoidRootPart").CFrame = AvailableSpawnPoints[1].CFrame + Vector3.new(0,10,0)
-				table.remove(AvailableSpawnPoints,1)
+			if character then -- This line checks if the character variable is not nil. If the character variable is nil, the code in the else block will execute.
+
+				character:FindFirstChild("HumanoidRootPart").CFrame = AvailableSpawnPoints[1].CFrame + Vector3.new(0,10,0) -- This line teleports the player's character to the first spawn point in the AvailableSpawnPoints table, adding a vertical offset of 10 units to avoid spawning inside the ground. The FindFirstChild function is used to retrieve the HumanoidRootPart object of the character, which is then used to set its CFrame property to the CFrame of the spawn point.
+
+				table.remove(AvailableSpawnPoints,1) -- This line removes the first element of the AvailableSpawnPoints table, as it has just been used to teleport a player.
 				
 				--Give player a sword
 				local Sword = ServerStorage.Sword:Clone()
