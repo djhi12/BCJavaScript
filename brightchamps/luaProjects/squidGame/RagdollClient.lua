@@ -1,17 +1,20 @@
-local character = script.Parent
+local character = script.Parent -- In Lua, "script" is a predefined variable that refers to the script that is currently running. "Parent" is a property of a script object that returns the object that the script is attached to.
 
-function recurse(root,callback,i)
-	i= i or 0
-	for _,v in pairs(root:GetChildren()) do
-		i = i + 1
+function recurse(root,callback,i) -- This line defines the function "recurse" and takes three parameters: "root" is the root object of the hierarchy to traverse, "callback" is the function to call for each object encountered, and "i" is an optional integer used to keep track of the current object's index in the hierarchy.
+
+	i= i or 0 -- If "i" is not passed in as an argument, it is set to 0 as a default value.
+
+	for _,v in pairs(root:GetChildren()) do -- This line loops through each child object of the current "root" object using the "pairs" iterator function. The iterator returns two values: the key (which we don't use, represented by the "_" placeholder) and the value (which we assign to "v").
+
+		i = i + 1 -- These two lines increment "i" by 1 and call the "callback" function, passing in "i" and "v" as arguments. The purpose of the "callback" function is to perform some action on each object encountered, such as modifying its properties or performing some calculation.
 		callback(i,v)
 		
-		if #v:GetChildren() > 0 then
+		if #v:GetChildren() > 0 then -- If the current object "v" has children, the function calls itself recursively with "v" as the new "root" object and the current value of "i" as an argument. This allows the function to traverse the entire hierarchy of objects.
 			i = recurse(v,callback,i)
 		end
 	end
 	
-	return i
+	return i -- Finally, the function returns the value of "i", which represents the total number of objects processed during the traversal.
 end
 
 function ragdollJoint(part0, part1, attachmentName, className, properties)
