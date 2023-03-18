@@ -1,0 +1,11 @@
+The "play note" block is a block in Scratch that allows you to play a musical note. To use it, follow these steps:
+
+    Open Scratch and start a new project.
+    Click on the "Sounds" tab in the lower-left corner of the screen.
+    Click on the "Note" category to reveal the "play note" block.
+    Click and drag the "play note" block to the script area.
+    Choose the note you want to play by selecting a value for the "note" input. You can select the note by clicking on the drop-down menu and choosing a note or by typing in a value between 1 and 12.
+    Choose the length of time you want the note to play by selecting a value for the "beats" input. You can select the length of time by clicking on the drop-down menu and choosing a value or by typing in a value between 1 and 4.
+    Click on the green flag to run your program and hear the note.
+    
+You can also use the "play note until done" block if you want the note to play for the full length of time without any other actions in the script.

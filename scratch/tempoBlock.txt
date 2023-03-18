@@ -1,0 +1,9 @@
+Scratch is a programming language and online community developed by the Lifelong Kindergarten Group at the MIT Media Lab. One of the things that makes Scratch unique is that it has a drag-and-drop interface that allows users to create animations, games, and interactive stories without having to write any code.
+
+Scratch also has a number of extensions that can be added to the programming environment to add new functionality. One of these extensions is the Scratch Music Extension, which allows users to create music and sound effects within their Scratch projects.
+
+The Scratch Music Extension provides users with a variety of tools and blocks for creating and manipulating sounds. These blocks can be used to play notes, create melodies, add effects like reverb and distortion, and even generate random sounds.
+
+To use the Scratch Music Extension, users can simply drag and drop the music blocks into their Scratch project and connect them together like any other Scratch block. They can then use the extension to create custom soundtracks for their games or animations, or add sound effects to make their projects more immersive.
+
+Overall, the Scratch Music Extension is a great tool for anyone looking to add music or sound effects to their Scratch projects. It is easy to use and provides a lot of flexibility, making it a great addition to the Scratch programming environment.
