@@ -1,0 +1,17 @@
+/*
+Pseudocode is a method of representing computer programs using informal, high-level descriptions of the steps that a program must take to solve a problem or perform a task. It is not a formal programming language, but rather a way of expressing algorithms in a language-agnostic way. 
+*/
+
+
+// Here is an example of pseudocode:
+Algorithm: Calculate Average Grade
+Input: List of grades
+Output: Average grade
+
+1. Initialize sum variable to 0
+2. For each grade in the list:
+      a. Add the grade to the sum variable
+3. Calculate the average by dividing the sum by the number of grades in the list
+4. Return the average
+
+// In this pseudocode, the algorithm is described as a series of steps that take an input (a list of grades) and produce an output (the average grade). The steps are expressed in a way that is independent of any particular programming language, allowing the algorithm to be translated into code in a variety of programming languages.
