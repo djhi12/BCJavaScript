@@ -1,7 +1,8 @@
 --[[
     In Lua, the colon symbol (":") is used as a syntactic sugar to simplify method calls that involve passing the object instance as the first parameter.    
---]] -- When you define a method in Lua, you typically write it using the dot notation, like this:
+--]] 
 
+-- When you define a method in Lua, you typically write it using the dot notation, like this:
 function obj:method(param1, param2, ...)
     -- method implementation
 end
