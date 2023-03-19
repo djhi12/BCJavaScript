@@ -8,4 +8,4 @@ In addition to the basic editing tools, Scratch also provides a variety of advan
 
 Overall, the "Costumes" tab is a powerful tool that allows users to customize the appearance of their Scratch sprites and create engaging, interactive projects.
 
-From <https://chat.openai.com/chat> 
+
