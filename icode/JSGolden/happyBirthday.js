@@ -1,3 +1,5 @@
+// ------ Happy Birthday ------
+
 var CAKE_WIDTH = 300;
 var CAKE_HEIGHT = 200;
 

@@ -1,4 +1,4 @@
-// ----- The Two Towers + 
+// ----- The Two Towers + Super Karel -----
 
 // This has karel build two towers, with three balls in each tower.
 // Should be the same program with turnRight and turnAround removed.
