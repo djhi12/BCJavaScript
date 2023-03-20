@@ -1,0 +1,15 @@
+Hunter.io is an online tool that allows users to search for email addresses and domains related to specific companies or individuals. While it is a useful tool for business and marketing purposes, it can also be used for malicious activities such as email phishing and spamming.
+
+To protect against potential cybersecurity threats related to Hunter.io, it is important to follow best practices such as:
+
+    Use a strong and unique password for your Hunter.io account, and enable two-factor authentication if possible.
+
+    Be cautious when opening emails from unknown senders or suspicious emails that ask for personal or financial information.
+
+    Keep your software and operating system up to date with the latest security patches and updates.
+
+    Use anti-virus and anti-malware software to protect your computer from potential threats.
+
+    Educate yourself and your team on cybersecurity best practices, including how to identify and report suspicious emails or activity.
+
+Overall, while Hunter.io can be a useful tool, it is important to use it responsibly and with caution to avoid potential cybersecurity threats.
