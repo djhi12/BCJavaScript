@@ -15,5 +15,3 @@ When you open Roblox Studio, you will be presented with a default workspace that
 	6. The Game View: This tab displays a preview of your game, allowing you to see how it will look and behave when played.
 
 You can also add or remove panels and tabs, and customize their layout to better suit your needs. Overall, the Roblox Studio Workspace provides developers with a powerful and flexible environment to create their own Roblox games and experiences.
-
-From <https://chat.openai.com/chat/78b079c9-cab9-405d-8abb-8ce9b0f21128> 
