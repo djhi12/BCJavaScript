@@ -1,0 +1,9 @@
+In the Philippines, the use of voice recorders as evidence in court proceedings is generally admissible, subject to certain conditions and limitations.
+
+Under the law, evidence obtained through electronic means such as voice recorders is admissible if it complies with the rules on admissibility of electronic evidence set forth in the Electronic Evidence Rule (EER) under the Rules on Electronic Evidence (REE) issued by the Supreme Court of the Philippines.
+
+According to the EER, electronic evidence obtained through voice recorders is admissible if the recording was made by a person authorized by law or by the parties involved in the communication, and if the recording is identified and authenticated by the person who made it, or by some other person competent to testify on the accuracy of the recording.
+
+Furthermore, the recording must also be relevant to the case, and its probative value must outweigh any prejudicial effect it may have on the parties involved. Additionally, the person seeking to introduce the recording as evidence must comply with the rules on the presentation of electronic evidence in court, including the requirements on the form and manner of presentation.
+
+Overall, the use of a voice recorder as evidence in the Philippine law is generally allowed, subject to the conditions and limitations set forth in the Electronic Evidence Rule. It is important to note, however, that the admissibility of any evidence is ultimately subject to the discretion of the court.
