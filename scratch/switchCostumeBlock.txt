@@ -8,4 +8,4 @@ To use the "switch costume to" block in Scratch, follow these steps:
 
 Note that the "switch costume to" block can be used in combination with other programming blocks to create animations and other visual effects in Scratch.
 
-From <https://chat.openai.com/chat/5eea9ff8-7ea9-4114-9934-987230eeec78> 
+ 

@@ -6,4 +6,4 @@ The "when this sprite clicked" block in Scratch is used to trigger an action or 
 
 After removing the "when this sprite clicked" block, you may need to adjust the rest of your code to ensure that your program still functions correctly.
 
-From <https://chat.openai.com/chat/b8ba87af-ea3c-4dec-865c-306f697110d2> 
+ 

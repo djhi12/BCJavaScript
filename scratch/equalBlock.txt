@@ -14,4 +14,3 @@ Alternatively, if you want to remove all instances of the "equal" block from you
 	4. Press the "Delete" key on your keyboard to remove the block.
 	5. Save your Scratch project.
 
-From <https://chat.openai.com/chat/3e48b0fb-fea6-44a1-9311-4cedb7348e3a> 

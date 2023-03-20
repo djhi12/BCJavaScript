@@ -18,4 +18,4 @@ repeat(5)
  
 When you run this code, the sprite will move 10 steps to the right 5 times.
 
-From <https://chat.openai.com/chat/de53336e-94e2-4db7-abef-08881a8e48a4> 
+ 

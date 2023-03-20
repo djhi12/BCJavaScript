@@ -12,4 +12,4 @@ Some common blocks in the Looks tab include:
 
 By using the blocks in the Looks tab, users can create dynamic and engaging animations and interactive projects.
 
-From <https://chat.openai.com/chat> 
+

@@ -6,4 +6,4 @@ In Scratch, the "say" block is used to make a sprite speak a message. To remove 
 
 Alternatively, you can drag the "say" block out of your code area and drop it into the block palette to remove it.
 
-From <https://chat.openai.com/chat> 
+ 

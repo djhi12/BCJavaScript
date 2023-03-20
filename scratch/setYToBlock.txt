@@ -8,4 +8,4 @@ In Scratch, the "set y to" block is used to set the value of the variable "y" to
 
 Note that removing the "set y to" block may cause errors in your code if there are other blocks that rely on the variable "y". Make sure to review your code after removing the block to ensure that it still functions correctly.
 
-From <https://chat.openai.com/chat/bf67dd6d-83f9-4da0-9b35-e18411f1cd13> 
+ 

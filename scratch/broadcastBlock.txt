@@ -8,4 +8,3 @@ To receive a broadcast, you can use the "when I receive" block, which is found i
 
 Overall, the Broadcast block is a powerful tool for creating dynamic and interactive projects in Scratch, allowing sprites to communicate and work together to create complex behaviors and interactions.
 
-From <https://chat.openai.com/chat/dcd106be-9d23-4ec6-b409-de2e71448358> 

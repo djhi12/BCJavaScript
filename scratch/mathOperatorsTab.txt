@@ -20,4 +20,4 @@ Scratch is a block-based programming language that provides various math operato
 	
 	10. Square root: The square root operator is represented by the "sqrt" block. It is used to find the square root of a number.
 
-From <https://chat.openai.com/chat/e44e4ed9-7825-46c0-91ca-b1557b9bb635> 
+

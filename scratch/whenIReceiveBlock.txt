@@ -4,4 +4,4 @@ To remove the "when I receive" block in Scratch, simply select the block and the
 
 Note that if you have other blocks in your code that rely on the "when I receive" block, you may need to make adjustments to those blocks or delete them as well.
 
-From <https://chat.openai.com/chat/c0b34209-3c52-45ee-9465-d16b3e579361> 
+ 

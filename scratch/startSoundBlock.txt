@@ -11,4 +11,4 @@ To use the "start sound" block, you can follow these steps:
 
 Once you have added the "start sound" block to your script, the selected sound will play when the script or program is started. You can add additional sound blocks to create a sequence of sounds, or use other control blocks to create more complex programs.
 
-From <https://chat.openai.com/chat/aa57d438-69d2-4ed1-a620-77ae8306197f> 
+ 

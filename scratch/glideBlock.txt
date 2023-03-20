@@ -8,4 +8,3 @@ Once you have entered the desired values for "time" and "x,y", you can run your 
 
 Note that while the object is gliding, it will continue to execute any other blocks in the script, so you can have the object perform other actions while it moves.
 
-From <https://chat.openai.com/chat> 

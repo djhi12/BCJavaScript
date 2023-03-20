@@ -10,4 +10,4 @@ To use the "set to" block in Scratch, follow these steps:
 
 Once you have completed these steps, the "set to" block will update the value of the variable to the new value you specified. You can use this block in conjunction with other blocks to create more complex programs in Scratch.
 
-From <https://chat.openai.com/chat/0d0e4a94-8489-4296-b8f2-c03ddc0d8547> 
+ 

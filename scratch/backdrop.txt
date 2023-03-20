@@ -9,4 +9,3 @@ To add a backdrop in Scratch:
 
 Once you have added a backdrop, you can then add sprites to the stage and program them to interact with the backdrop and with each other. Backdrops can be changed or switched during a project, allowing for more complex animations and storytelling.
 
-From <https://chat.openai.com/chat/09be0591-823f-4a80-9824-b3daef054f40> 

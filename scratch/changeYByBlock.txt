@@ -8,4 +8,3 @@ The "change y by" block in Scratch is a motion block that is used to change the 
 
 Alternatively, you can also replace the "change y by" block with another block that achieves the same result. For example, you can use the "set y to" block to set the sprite's y-position to a specific value, or you can use the "move" block to move the sprite a certain number of steps in a specific direction.
 
-From <https://chat.openai.com/chat/fd016a64-6d1d-4fb7-a7d3-cb5f992ccbdb> 

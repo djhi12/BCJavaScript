@@ -7,4 +7,3 @@ The "go to" block in Scratch is used to move the sprite to a specific location o
 
 Note that removing the "go to" block may impact the behavior of your code and you may need to make changes to compensate for its absence.
 
-From <https://chat.openai.com/chat/a21620bf-400b-4f48-9162-6c9e1e7292ca> 

@@ -6,4 +6,4 @@ Once you've created a "My Block," you can use it like any other block in Scratch
 
 Overall, the "My Blocks" feature in Scratch can help you streamline your coding by allowing you to create custom blocks that encapsulate frequently used sets of actions.
 
-From <https://chat.openai.com/chat/a2b5644f-90c0-4cd6-b38b-8406abf5b87e> 
+ 

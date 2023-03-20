@@ -12,4 +12,4 @@ set size to (100)
 
 When you run the program, the sprite will change its size according to the value you set in the block.
 
-From <https://chat.openai.com/chat/1ef22685-0b82-434d-a064-b42129770697> 
+ 

@@ -6,4 +6,4 @@ To use the "show" block in Scratch, simply drag it from the block palette and pl
 
 It is important to note that the "show" block only controls the visibility of the sprite. It does not affect any other properties of the sprite, such as its position or size. To control these properties, you will need to use other blocks in combination with the "show" block.
 
-From <https://chat.openai.com/chat/b61fded1-2a55-435b-a2b3-a332021d3773> 
+ 

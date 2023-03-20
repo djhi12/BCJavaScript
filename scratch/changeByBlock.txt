@@ -12,4 +12,4 @@ change score by -3
 
 After executing this block, the value of the "score" variable would be 12.
 
-From <https://chat.openai.com/chat/5510b607-8a9f-4a98-a269-617fffef7627> 
+

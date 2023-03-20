@@ -6,4 +6,4 @@ If the condition is more complex, you may need to use a combination of different
 
 Overall, there are many ways to achieve program flow control in Scratch, and removing the "wait until" block should not significantly impact the functionality of your program as long as you use other blocks to control program flow.
 
-From <https://chat.openai.com/chat> 
+ 

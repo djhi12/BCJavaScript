@@ -24,4 +24,3 @@ create clone of [myself v] at (x position) (y position)
 
 You can then use the "clone sprite" block whenever you want to create a new sprite that is a clone of the original sprite, passing in the x and y position as parameters if necessary.
 
-From <https://chat.openai.com/chat/7446f61f-5eab-4027-b56f-994ca9a81d0c> 
