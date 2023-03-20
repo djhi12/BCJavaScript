@@ -6,5 +6,4 @@ In addition to parts, Roblox models can also include various other components su
 
 Roblox models can be used in various ways, including as in-game objects, decorations, and even as assets for sale on the Roblox Marketplace. Creating and sharing models is an essential part of the Roblox community, allowing developers and players to collaborate and build immersive experiences within the platform.
 
-From <https://chat.openai.com/chat> 
 

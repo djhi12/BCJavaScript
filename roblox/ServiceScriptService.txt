@@ -7,4 +7,3 @@ Server scripts are an essential part of any Roblox game that involves multiplaye
 
 In addition to the ServiceScriptService, Roblox Studio provides a range of other services and tools to help developers create high-quality games on the platform. These include a variety of APIs, tools for building and testing games, and a thriving developer community that provides support and resources to help other developers succeed.
 
-From <https://chat.openai.com/chat/74f925e5-d7e7-45e8-bd1a-c3db94bb314f> 

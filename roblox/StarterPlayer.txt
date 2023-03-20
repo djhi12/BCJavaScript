@@ -11,5 +11,3 @@ The StarterPlayer object has several properties that can be customized to change
 	• ForceField: This property determines whether the player is protected by a force field when the game starts. If set to true, the player will be unable to take damage until the force field is removed.
 
 By customizing the properties of the StarterPlayer object, developers can create a unique and personalized experience for their players.
-
-From <https://chat.openai.com/chat> 

@@ -11,5 +11,3 @@ Some of the common items that might be included in a Roblox Studio Starter Pack 
 	4. Tutorials - These are step-by-step guides that help users learn how to use Roblox Studio and create their own games. Tutorials might cover topics such as scripting, level design, and game mechanics.
 
 Overall, the Roblox Studio Starter Pack is a great resource for new users who want to learn how to create their own games in the Roblox platform. By providing a variety of pre-made assets and tutorials, the Starter Pack can help users get started quickly and easily, and can help them develop the skills they need to create more complex games and experiences over time.
-
-From <https://chat.openai.com/chat> 

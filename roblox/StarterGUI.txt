@@ -18,5 +18,3 @@ When a player joins your game, the StarterGUI will be loaded and displayed on th
 
 Overall, the StarterGUI is a powerful tool that allows you to create a custom user interface for your Roblox game. With some creativity and scripting know-how, you can create a polished and professional-looking UI that enhances the player experience.
 
-From <https://chat.openai.com/chat/f55f979d-9428-43b5-bc54-b86646387f46> 
-

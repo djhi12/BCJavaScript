@@ -25,5 +25,3 @@ There are several different types of materials in Roblox Studio, including:
 
 To apply a material to a part in Roblox Studio, you can select the part, open the Properties panel, and choose the desired material from the Material dropdown menu. You can also use scripting to change a part's material during gameplay.
 
-From <https://chat.openai.com/chat/f9157fbb-d4a6-4ede-94ba-823660d1840b> 
-

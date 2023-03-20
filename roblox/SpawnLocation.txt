@@ -14,5 +14,5 @@ In Roblox, a SpawnLocation is a type of object that determines where players wil
 
 Once you have added a SpawnLocation to your game, it will automatically be used as the default spawn point for players. If you want to change the default spawn point to a different SpawnLocation object, you can do so by selecting the object in the Explorer window and changing the value of the SpawnLocation property in the Properties window.
 
-From <https://chat.openai.com/chat> 
+
 

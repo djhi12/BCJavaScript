@@ -3,6 +3,5 @@ Roblox Explorer is a tool that allows players to navigate and manipulate the var
 
 The Roblox Explorer is an essential tool for game developers on the Roblox platform, as it allows them to quickly and easily manage the many elements that make up their games. It can also be useful for players who want to experiment with the properties of various objects, or for those who are interested in learning how games are made on Roblox.
 
-From <https://chat.openai.com/chat> 
     
 

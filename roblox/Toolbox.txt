@@ -11,5 +11,3 @@ Some of the key features of the Roblox Toolbox include:
 	4. Collaboration: The Toolbox also provides tools for collaboration, allowing developers to work together on projects and share assets and code.
 
 Overall, the Roblox Toolbox is a powerful set of tools that enables developers to create engaging and immersive games on the Roblox platform.
-
-From <https://chat.openai.com/chat> 
