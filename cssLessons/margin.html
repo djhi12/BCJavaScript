@@ -7,49 +7,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS | Margin</title>
     <style>
-        .box {
-            width: 200px;
-            height: 200px;
-            background-color: yellow;
-            border: 1px solid black;
-            margin: 20px;
+        /*
+            In CSS, the margin property is used to add space between an element's content and its surrounding elements. It sets the amount of space on all four sides of an element (top, right, bottom, and left) and can be specified using different units of measurement such as pixels, ems, or percentages.
+
+            There are several ways to set the margin property:
+       */
+
+
+        /* Setting margin for all four sides at once: 
+            This will add a margin of 10 pixels to all four sides of the element.
+        */
+        .sample {
+            margin: 10px;
         }
 
-        .box2 {
-            width: 150px;
-            height: 150px;
-            background-color: green;
-            border: 1px solid black;
-            margin: 30px 20px;
+
+        /* Setting margin for specific sides: 
+            This will add a margin of 10 pixels to the top, 20 pixels to the right, 30 pixels to the bottom, and 40 pixels to the left of the element.
+        */
+        .sample {
+            margin-top: 10px;
+            margin-right: 20px;
+            margin-bottom: 30px;
+            margin-left: 40px;
+
         }
 
-        .box3 {
-            width: 100px;
-            height: 100px;
-            background-color: blue;
-            border: 1px solid black;
+
+        /* Setting margin using shorthand notation: 
+            This will add a margin of 10 pixels to the top, 20 pixels to the right, 30 pixels to the bottom, and 40 pixels to the left of the element.
+        */
+        .sample {
             margin: 10px 20px 30px 40px;
         }
+
+
+        /* Setting margin to auto: 
+            This will center the element horizontally within its container by setting the left and right margins to auto.
+        */
+        .sample {
+            margin: auto;
+        }
+
+        /*
+            It's worth noting that margins can collapse with other adjacent margins, which means that the margin between two elements may be the larger of the two margins rather than the sum of the two margins. Additionally, the margin property does not affect the size of the element itself, only the space around it.
+        */
+
+
+        /* Example Code */
+        .box {
+			background-color: #f2f2f2;
+			border: 1px solid #ccc;
+			padding: 10px;
+			margin: 20px;
+		}
     </style>
 </head>
 
 <body>
+    <div class="box">
+		<p>This is some content inside a box with a margin of 20 pixels on all sides.</p>
+	</div>
+
     <!--
-        In CSS, margin is a property that controls the space between an element's border and the adjacent elements or the containing element's edge.
+        In this example, we've defined a class called "box" which has a gray background color, a border, and 10 pixels of padding. We've also set the margin to 20 pixels on all sides, which creates some space between the box and other elements on the page.
 
-        You can set margin for an element using the margin property, which can take up to four values:
-
-            margin-top: sets the margin on the top side of the element.
-            margin-right: sets the margin on the right side of the element.
-            margin-bottom: sets the margin on the bottom side of the element.
-            margin-left: sets the margin on the left side of the element.
-
-        Each value can be set individually, or all four can be set at once using the shorthand margin property.
+        Inside the box, we've added a paragraph tag with some sample content to demonstrate the effect of the margin property. You can experiment with different values for the margin property to see how it affects the spacing around the box.
     -->
-
-    <div class="box"></div>
-    <div class="box2"></div>
-    <div class="box3"></div>
 </body>
 
 </html>
