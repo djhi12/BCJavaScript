@@ -7,3 +7,4 @@ set [name v] to (answer)
 
 In this code, the "ask" block is used to display the prompt "What is your name?" to the user, and the "wait" block is used to pause the script until the user enters a response. The user's response is then stored in the variable "name" using the "set" block.
 
+
