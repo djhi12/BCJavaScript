@@ -1,73 +1,62 @@
 -- Define variables
 
-local ReplicatedStorage = game:GetService("ReplicatedStorage") -- This line of code is retrieving the ReplicatedStorage service from the game and assigning it to the variable ReplicatedStorage. ReplicatedStorage is used to synchronize data between the server and the client in a Roblox game.
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
-local ServerStorage = game:GetService("ServerStorage") -- This line of code is retrieving the ServerStorage service from the game and assigning it to the variable ServerStorage. ServerStorage is used to store game assets that are not needed by the client, such as server scripts and server-only game objects.
+local ServerStorage = game:GetService("ServerStorage")
 
-local MapsFolder = ServerStorage:WaitForChild("Maps") -- This line of code is retrieving a child object of the ServerStorage object called "Maps". It uses the WaitForChild method to ensure that the "Maps" object exists before assigning it to the variable MapsFolder. This object likely contains game assets related to the maps used in the game.
+local MapsFolder = ServerStorage:WaitForChild("Maps")
 
-local Status = ReplicatedStorage:WaitForChild("Status") -- This line of code is retrieving a child object of the ReplicatedStorage object called "Status". It uses the WaitForChild method to ensure that the "Status" object exists before assigning it to the variable Status. This object likely contains data related to the game status that needs to be shared between the server and client.
+local Status = ReplicatedStorage:WaitForChild("Status")
 
-local GameLength = 50 -- This line of code is assigning the value of 50 to the variable GameLength. This variable likely contains the length of the game in seconds.
-
-local reward = 25 -- This line of code is assigning the value of 25 to the variable reward. This variable likely contains the amount of in-game currency or points a player will receive as a reward for completing a task or achieving a goal.
+local GameLength = 50
+local reward = 25
 
 --Game Loop
 
 while true do
 	
-	Status.Value = "Waiting for enough players" -- This line sets the Value property of a variable named Status to the string "Waiting for enough players".
-
-	repeat wait(1) until game.Players.NumPlayers >= 2 -- This line starts a loop that waits 1 second (wait(1)) on each iteration until the number of players in the game (game.Players.NumPlayers) is greater than or equal to 2. In other words, the code will keep waiting until there are at least 2 players in the game. This is a common way to pause code execution until a certain condition is met.
+	Status.Value = "Waiting for enough players"
+	repeat wait(1) until game.Players.NumPlayers >= 2
 	
-	Status.Value = "Intermission" -- Once the loop in line 2 completes (because there are now at least 2 players), this line sets Status.Value to the string "Intermission".
-    
-	wait(10) -- This line pauses code execution for 10 seconds (wait(10)).Presumably, this is meant to simulate an intermission period between the waiting period and the start of the game.
+	Status.Value = "Intermission"
+	wait(10)
 	
-	local plrs = {} -- This line creates a new empty table named plrs. Tables are Lua's primary data structure, and can be used to store arrays, key-value pairs, and other types of data.
+	local plrs = {}
 	
-	for i,player in pairs(game.Players:GetPlayers()) do -- This is a for loop that iterates through all of the players in the game. game.Players refers to a built-in object in the Roblox game engine that represents all of the players currently in the game. GetPlayers() is a method on this object that returns a list of all the players. The pairs() function is called on this list to get an iterator that iterates through all the players in the list. The for loop variable player is assigned to the current player in each iteration.
-
-		if player then -- This line checks if the player variable is not nil. In other words, it checks if there is a player assigned to player in the current iteration of the loop.
-
-			table.insert(plrs,player) -- If player is not nil, this line inserts the player object into a table called plrs. table.insert() is a built-in Lua function that adds an element to the end of a table. The plrs table is presumably defined elsewhere in the code.
-
-		end -- This marks the end of the if statement.
-	end -- This marks the end of the for loop.
+	for i,player in pairs(game.Players:GetPlayers()) do
+		if player then
+			table.insert(plrs,player) --add each player into plrs table
+		end
+	end
 	
 	wait(2)
 	
-	local AvailableMaps = MapsFolder:GetChildren() -- This line declares a local variable AvailableMaps and assigns it the value returned by calling the GetChildren() method on the MapsFolder object. This method returns a table containing all of the immediate children of the MapsFolder object.
+	local AvailableMaps = MapsFolder:GetChildren()
 	
-	local ChosenMap = AvailableMaps[math.random(1,#AvailableMaps)] -- This line declares a local variable ChosenMap and assigns it a randomly chosen element from the AvailableMaps table. The math.random() function is used to generate a random index between 1 and the length of the AvailableMaps table.
+	local ChosenMap = AvailableMaps[math.random(1,#AvailableMaps)]
 	
-	Status.Value = ChosenMap.Name.."Chosen" -- This line sets the value of the Value property of the Status object to a string that includes the name of the ChosenMap object concatenated with the string "Chosen".
-
-	local ClonedMap = ChosenMap:Clone() -- This line declares a local variable ClonedMap and assigns it a new instance of the ChosenMap object created by calling the Clone() method.
-
-	ClonedMap.Parent = workspace -- This line sets the Parent property of the ClonedMap object to the workspace object, effectively moving the object into the game world.
+	Status.Value = ChosenMap.Name.."Chosen"
+	local ClonedMap = ChosenMap:Clone()
+	ClonedMap.Parent = workspace
 	
 	--Teleport players to the map
 	
-	local SpawnPoints = ClonedMap:FindFirstChild("SpawnPoints") -- This line declares a local variable SpawnPoints and assigns it the value returned by calling the FindFirstChild() method on the ClonedMap object. This method searches for a child object of the ClonedMap object with the name "SpawnPoints" and returns it if found, or nil if not found.
+	local SpawnPoints = ClonedMap:FindFirstChild("SpawnPoints")
 	
-	if not SpawnPoints then -- this code checks if a variable called SpawnPoints exists and if it doesn't, it prints an error message to the console.
+	if not SpawnPoints then
 		print("SpawnPoints not found!")
 	end
 	
-	local AvailableSpawnPoints = SpawnPoints:GetChildren() -- declares a local variable named AvailableSpawnPoints and assigns to it a list of all the children of the SpawnPoints object using the GetChildren() method. This code would typically be used in a Roblox game to get a list of available spawn points for players or objects.
+	local AvailableSpawnPoints = SpawnPoints:GetChildren()
 	
-	for i, player in pairs(plrs) do -- This line starts a loop that iterates through all elements of the plrs table using the pairs function. The i variable will hold the index of the current element, and player will hold the value of the current element.
-
-		if player  then -- This line checks if the current element is not nil. If the current element is nil, the loop will skip to the next iteration.
-
-			character = player.Character -- This line retrieves the Character object of the current player and assigns it to the character variable.
+	for i, player in pairs(plrs) do
+		if player  then
+			character = player.Character
 			
-			if character then -- This line checks if the character variable is not nil. If the character variable is nil, the code in the else block will execute.
-
-				character:FindFirstChild("HumanoidRootPart").CFrame = AvailableSpawnPoints[1].CFrame + Vector3.new(0,10,0) -- This line teleports the player's character to the first spawn point in the AvailableSpawnPoints table, adding a vertical offset of 10 units to avoid spawning inside the ground. The FindFirstChild function is used to retrieve the HumanoidRootPart object of the character, which is then used to set its CFrame property to the CFrame of the spawn point.
-
-				table.remove(AvailableSpawnPoints,1) -- This line removes the first element of the AvailableSpawnPoints table, as it has just been used to teleport a player.
+			if character then
+				--Teleport them
+				character:FindFirstChild("HumanoidRootPart").CFrame = AvailableSpawnPoints[1].CFrame + Vector3.new(0,10,0)
+				table.remove(AvailableSpawnPoints,1)
 				
 				--Give player a sword
 				local Sword = ServerStorage.Sword:Clone()
