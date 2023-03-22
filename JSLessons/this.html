@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS | this</title>
+</head>
+
+<body>
+    <script>
+        /*
+            In JavaScript, the this keyword is used to refer to the current context or the current object.
+
+            The value of this is determined at runtime and depends on how a function is called. It can be set explicitly with the call, apply, or bind methods or can be implicitly set depending on how a function is invoked.
+
+            Here are some common scenarios that determine the value of this:
+
+                Global Context: When this is used outside of any function, it refers to the global object (window in the browser, or global in Node.js).
+
+                Object Method: When this is used inside a method of an object, it refers to the object itself.
+
+                Function: When this is used inside a regular function, it depends on how the function is called. If the function is called with a context object using call, apply or bind, this refers to that object. Otherwise, in strict mode, this is undefined, and in non-strict mode, this refers to the global object.
+
+                Constructor: When this is used inside a constructor function, it refers to the newly created object.
+
+            Understanding the value of this is important for writing correct and maintainable JavaScript code.
+        */
+
+        // Example Code
+        // Global context
+        console.log(this); // Window object in the browser
+
+        // Object method
+        const myObj = {
+            name: "John",
+            age: 30,
+            greet() {
+                console.log(`Hello, my name is ${this.name}.`);
+            },
+        };
+        myObj.greet(); // "Hello, my name is John."
+
+        // Regular function
+        function sayHello() {
+            console.log(`Hello, my name is ${this.name}.`);
+        }
+        sayHello(); // "Hello, my name is undefined." in non-strict mode
+
+        const person = {
+            name: "Jane",
+        };
+        sayHello.call(person); // "Hello, my name is Jane."
+
+        // Constructor
+        function Person(name, age) {
+            this.name = name;
+            this.age = age;
+        }
+        const john = new Person("John", 30);
+        console.log(john.name); // "John"
+
+        /*
+            In the above example, the this keyword is used in different contexts:
+
+                In the global context, this refers to the Window object in the browser.
+                In the greet method of the myObj object, this refers to the myObj object itself.
+                In the sayHello regular function, this depends on how the function is called. In the example, it's called without any context, so it refers to the global object in non-strict mode. But when it's called with the call method and passed a person object as the context, this refers to the person object.
+                In the Person constructor function, this refers to the newly created object, which is returned by the new operator.
+        */
+    </script>
+</body>
+
+</html>
