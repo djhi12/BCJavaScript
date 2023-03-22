@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<title>Survey Form</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+  	<h1 id="title">Survey Form</h1>
+
+   	  <p id="description">Please fill this form with all the necessary fields marked with <sup>*</sup> <br> to let us know the courses you are interested in.<sub> You may choose multiple courses.</sub></p>  
+
+      <form  id="survey-form">
+        
+          <div>
+            <label for="name" id="name-label">Name:</label><br>
+            <input class="input-elm" type="text" name="name" id="name" required placeholder="Your Full Name">
+          </div>
+          
+          <div>
+            <label for="email" id="email-label">Email:</label><br>
+            <input class="input-elm" type="email" name="email" id="email" required placeholder="Your Email ID">
+          </div>
+
+          <div>
+            <label for="number" id="number-label">Age:</label><br>
+            <input class="input-elm" type="number" name="age" id="number" max="40" min="18" placeholder="Your Age">
+          </div>
+        
+          <div>
+            <label for="dropdown">Which one of these best describes your occupation?</label><br>
+            <select class="select-elm" name="occupation" id="dropdown">
+              <option value="full_time_job">Full-time Job</option>
+              <option value="part_time_job">Part-time Job</option>
+              <option value="freelancer">Freelancer</option>
+              <option value="teacher">Teacher</option>
+              <option value="student">Student</option>
+              <option value="no_say">Prefer not to say</option>
+            </select>
+          </div>
+
+
+          
+            <div>
+            <div>How likely are you to enroll with us ?</div>
+              <ul>
+                  <li class="list-items"><input class="input-elm input-radio" type="radio" name="likely" value="1" id="radio-1"> <label for="radio-1">Extremely likely</label></li>
+                
+                  <li class="list-items"><input class="input-elm input-radio" type="radio" name="likely" value="2" id="radio-2"> <label for="radio-2">Very likely</label></li>
+                
+                  <li class="list-items"><input class="input-elm input-radio" type="radio" name="likely" value="3" id="radio-3"> <label for="radio-3">Likely</label></li>
+                
+                  <li class="list-items"><input class="input-elm input-radio" type="radio" name="likely" value="4" id="radio-4"> <label for="radio-4">Unlikely</label></li>
+            </ul>
+          </div>
+
+
+
+        <div>
+            <div>What courses would you like to enroll in ?</div>
+            <ul>
+              <li class="list-items"><input class="input-elm input-checkbox" type="checkbox" value="html5" id="checkbox-1">
+              <label for="checkbox-1">Android App Developement</label></li>
+              
+              <li class="list-items"><input class="input-elm input-checkbox" type="checkbox"  value="css3" id="checkbox-2"> 
+              <label for="checkbox-2">Web Designing & Development</label></li>
+              
+              <li class="list-items"><input class="input-elm input-checkbox" type="checkbox"  value="js" id="checkbox-3"> 
+              <label for="checkbox-1">JavaScript</label></li>
+              
+              <li class="list-items"><input class="input-elm input-checkbox" type="checkbox" value="js" id="checkbox-3"> 
+              <label for="checkbox-1">Advance Python</label></li>
+              
+              <li class="list-items"><input class="input-elm input-checkbox" type="checkbox"  value="js" id="checkbox-3"> 
+              <label for="checkbox-1">Machine Learning</label></li>
+              
+              <li class="list-items"><input class="input-elm input-checkbox" type="checkbox"  value="js" id="checkbox-3"> 
+              <label for="checkbox-1">Artificial Intelligence</label></li>
+              
+              <li class="list-items"><input class="input-elm input-checkbox" type="checkbox"  value="js" id="checkbox-3"> 
+              <label for="checkbox-1">Data Visualization</label></li>
+            </ul>
+          </div>
+
+          <div>
+            <label for="more-specification">Any other specification you would like to mention :</label> <br>
+            <textarea class="textarea-elm"  id="more-specification"></textarea>
+          </div>
+
+            <button class="button-elm" type="submit" id="submit">Submit Form</button>
+            
+          </form> 
+        </body>
+      </html>
