@@ -1,0 +1,7 @@
+The Lovebug, also known as ILOVEYOU or Love Letter, was a computer worm that caused widespread damage in May 2000. It was created by two Filipino computer programmers, Onel de Guzman and Reonel Ramones, who were both students at the time.
+
+The Lovebug was spread through email, and its payload was a malicious script that would overwrite files on the infected computer and spread itself to the victim's contacts. The worm was particularly effective because it appeared to come from a trusted source (someone the victim knew), and its subject line and message were designed to be enticing and attention-grabbing.
+
+The Lovebug caused an estimated $10 billion in damages worldwide, and it prompted many organizations to reassess their cybersecurity measures. The incident highlighted the need for strong email filters, firewalls, and antivirus software to protect against cyber threats.
+
+Since the Lovebug, cyberattacks have become more sophisticated and complex, and the importance of cybersecurity has only increased. Today, individuals and organizations must take proactive steps to protect their data and systems, including implementing multi-factor authentication, encrypting sensitive information, and regularly updating software and security protocols.
