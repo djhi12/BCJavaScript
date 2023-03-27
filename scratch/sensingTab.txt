@@ -1,0 +1,21 @@
+Scratch is a visual programming language and online community developed by the MIT Media Lab. One of the tabs available in Scratch is the "Sensing" tab, which contains blocks that allow users to interact with and respond to different inputs or events.
+
+Here are some of the blocks available in the Sensing tab:
+
+    "Touching [Sprite]" - This block checks if the sprite is touching another sprite or a specific color.
+
+    "Color [Color] is touching [Sprite]" - This block checks if a specific color is touching the sprite.
+
+    "Mouse X" and "Mouse Y" - These blocks report the current X and Y position of the mouse.
+
+    "Key [key] pressed?" - This block checks if a specific key on the keyboard is pressed.
+
+    "Ask [question] and wait" - This block prompts the user with a question and waits for them to input a response.
+
+    "Answer" - This block reports the answer given by the user in response to an "Ask and wait" block.
+
+    "Timer" - This block measures the elapsed time since the program started running.
+
+    "Loudness" - This block measures the loudness of sound detected by the computer's microphone.
+
+These blocks can be used to create interactive programs that respond to user input or events in the environment.

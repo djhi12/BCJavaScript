@@ -1,0 +1,19 @@
+In Scratch, the Control tab contains blocks that allow you to control the flow of your program. These blocks are used to make decisions, repeat actions, and create custom procedures.
+
+Some of the blocks that can be found in the Control tab include:
+
+    "If" block: This block is used to make a decision based on a condition. If the condition is true, the blocks inside the "If" block will be executed.
+
+    "Repeat" block: This block is used to repeat a set of blocks a certain number of times.
+
+    "Forever" block: This block is used to repeat a set of blocks indefinitely.
+
+    "Wait" block: This block is used to pause the program for a specified amount of time.
+
+    "Broadcast" block: This block is used to send a message to other parts of the program.
+
+    "When I receive" block: This block is used to wait for a specific message and then execute a set of blocks.
+
+    "Define" block: This block is used to create custom procedures that can be reused throughout your program.
+
+By using the blocks in the Control tab, you can create complex programs that can make decisions, repeat actions, and respond to user input.
