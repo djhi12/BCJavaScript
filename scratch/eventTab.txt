@@ -1,0 +1,17 @@
+In Scratch, the Event tab is one of the several tabs that can be found in the code editor. The Event tab is used to specify the trigger or event that will activate a script or a set of scripts in the program.
+
+Here are some of the commonly used event blocks in Scratch:
+
+    When flag clicked: This block starts the script when the green flag in the top-right corner of the stage is clicked.
+
+    When this sprite clicked: This block starts the script when the sprite is clicked.
+
+    When key pressed: This block starts the script when a specific key on the keyboard is pressed.
+
+    When backdrop switches: This block starts the script when the backdrop is changed.
+
+    When timer reaches: This block starts the script when the timer reaches a certain value.
+
+    When [sensor] > [value]: This block starts the script when a specific sensor value, such as sound or video motion, reaches a certain value.
+
+These event blocks can be found under the "Events" category in the Scratch block palette. By using these blocks, you can create interactive programs that respond to user actions and other events.
