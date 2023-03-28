@@ -1,0 +1,13 @@
+There are several video editing software options available for vlogging. Some of the popular ones are:
+
+    Adobe Premiere Pro: This is a professional video editing software that allows for advanced editing features such as multi-camera editing, color correction, and audio editing. It is a paid software, but it offers a free trial.
+
+    Final Cut Pro X: This is a popular video editing software for Mac users. It offers features such as 360-degree video editing, advanced color grading, and multi-cam editing.
+
+    iMovie: This is a free video editing software available for Mac users. It offers basic editing features such as trimming, splitting, and merging videos. It also has built-in themes, music, and transitions.
+
+    Filmora: This is a popular video editing software for Windows and Mac users. It offers basic editing features such as trimming, splitting, and merging videos. It also has built-in effects, filters, and transitions.
+
+    Davinci Resolve: This is a free video editing software available for Windows and Mac users. It offers advanced editing features such as color correction, audio editing, and visual effects.
+
+These are just a few options available for vlogging. Ultimately, the choice of video editing software depends on your personal preference and the features you require for your vlogs.
