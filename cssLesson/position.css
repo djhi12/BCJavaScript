@@ -1,0 +1,16 @@
+/*
+    In CSS, the "position" property is used to define the positioning of an element on a web page. There are four possible values for this property:
+
+        Static: This is the default value, and it means that the element is positioned according to the normal flow of the document. Elements with a static position are not affected by the top, bottom, left, or right properties.
+
+        Relative: This value positions the element relative to its normal position in the document flow. When an element has a relative position, you can use the top, bottom, left, and right properties to move it from its original position.
+
+        Absolute: This value positions the element relative to its nearest positioned ancestor element. If there is no positioned ancestor, the element is positioned relative to the initial containing block. An element with an absolute position is completely removed from the normal document flow.
+
+        Fixed: This value positions the element relative to the viewport, which means it stays in the same position even when the user scrolls the page. Fixed positioning is often used for creating fixed headers or footers.
+
+    By using the "position" property and its values, you can create complex layouts and designs on web pages.
+
+
+    https://www.w3schools.com/css/css_positioning.asp
+*/
