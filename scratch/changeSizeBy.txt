@@ -1,0 +1,7 @@
+The "change size by" block in Scratch is a programming block that allows you to change the size of a sprite or object by a specified amount. When you use this block in your Scratch project, you can specify the amount by which you want to change the size of your sprite or object.
+
+To use the "change size by" block, you first need to select the sprite or object you want to resize in your Scratch project. Then, you can find the "change size by" block in the "Motion" category of the Scratch programming blocks.
+
+When you drag the "change size by" block into your project, you will see a space to input a number. This number represents the amount by which you want to change the size of your sprite or object. If you input a positive number, your sprite or object will get bigger. If you input a negative number, your sprite or object will get smaller.
+
+For example, if you want your sprite to get 10% bigger every time you press a certain key, you could use the "change size by" block with a value of 10. If you wanted it to get 20% smaller every time you press another key, you could use the "change size by" block with a value of -20.

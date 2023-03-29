@@ -1,0 +1,11 @@
+The "when green flag clicked" block is one of the fundamental blocks in Scratch, a block-based visual programming language designed for children. This block is used to start a Scratch project or reset the project to its initial state.
+
+When the green flag in the top-right corner of the Scratch editor is clicked, any blocks connected to the "when green flag clicked" block will be executed. This block is usually placed at the beginning of the program, and it can be used to set initial variable values, reset the position of sprites, or perform any other initialization tasks.
+
+Here's an example of how to use the "when green flag clicked" block in Scratch:
+
+    Drag the "when green flag clicked" block from the Events category to the Scripts area.
+    Add any additional blocks you want to execute when the green flag is clicked, such as setting the backdrop, hiding or showing sprites, or playing a sound.
+    Click the green flag in the top-right corner of the editor to run your program.
+
+Once you click the green flag, the program will run and execute all the blocks connected to the "when green flag clicked" block. This block is essential for starting any Scratch project and initializing it to its default state.

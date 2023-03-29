@@ -1,0 +1,13 @@
+In the Scratch programming language, the "touching" block is a Boolean block that is used to check if a sprite or a specific color is touching another sprite or the stage.
+
+To use the "touching" block, you first need to select the sprite or color that you want to check. You can do this by clicking on the drop-down menu next to the block and selecting the sprite or color from the list.
+
+Once you have selected the sprite or color, you can use the "touching" block in a conditional statement to check if it is touching another sprite or the stage. For example, you could use the following code to make a sprite say "ouch" when it touches another sprite:
+
+
+when [touching v] 
+say [ouch!]
+
+In this example, the "touching" block is used to check if the selected sprite is touching another sprite or the stage. If the sprite is touching something, the code inside the conditional statement (i.e., the "say" block) will be executed.
+
+The "touching" block can be a useful tool for creating games and interactive projects in Scratch. It allows you to detect collisions between sprites and the stage, which can be used to trigger actions or events in your program.
