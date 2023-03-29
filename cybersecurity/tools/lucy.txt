@@ -1,0 +1,11 @@
+LUCY is a cybersecurity platform that provides organizations with tools and solutions to assess and improve their cybersecurity posture. The platform offers a range of services, including simulated phishing attacks, awareness training, vulnerability assessments, and incident response planning.
+
+Simulated phishing attacks are an important part of LUCY's offerings. These attacks are designed to simulate real-world phishing attacks, which are one of the most common methods used by cybercriminals to gain unauthorized access to sensitive information. By running simulated phishing attacks, organizations can identify vulnerabilities in their security systems and educate employees on how to recognize and avoid phishing attacks.
+
+LUCY also provides awareness training for employees, which is designed to educate them on cybersecurity best practices and how to identify potential threats. This training is designed to help employees become more aware of the risks associated with cyber attacks and how to protect themselves and their organizations.
+
+In addition to simulated phishing attacks and awareness training, LUCY offers vulnerability assessments, which are designed to identify weaknesses in an organization's security systems. By identifying vulnerabilities, organizations can take steps to address them and reduce their risk of a cyber attack.
+
+Finally, LUCY provides incident response planning services. These services are designed to help organizations develop and implement plans for responding to cyber attacks. By having a plan in place, organizations can minimize the impact of an attack and reduce the risk of data loss or other negative consequences.
+
+Overall, LUCY is a comprehensive cybersecurity platform that provides organizations with the tools and solutions they need to assess and improve their cybersecurity posture.
