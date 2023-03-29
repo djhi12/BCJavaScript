@@ -1,9 +1,0 @@
-The "My Blocks" block in Scratch is a feature that allows you to create custom blocks by grouping together a set of Scratch blocks into a single block. This can be useful if you find yourself repeating a set of actions frequently in your project.
-
-To create a "My Block," you can first select the blocks that you want to group together. Then, right-click on the blocks and select "Make a Block" from the context menu. This will bring up the "New Block" dialog box, where you can give your new block a name and choose whether to include any input parameters.
-
-Once you've created a "My Block," you can use it like any other block in Scratch. To add it to your project, simply drag it from the "My Blocks" section of the blocks palette onto the stage. You can also modify or delete your "My Blocks" by right-clicking on them in the "My Blocks" section of the blocks palette and selecting the appropriate option from the context menu.
-
-Overall, the "My Blocks" feature in Scratch can help you streamline your coding by allowing you to create custom blocks that encapsulate frequently used sets of actions.
-
- 
