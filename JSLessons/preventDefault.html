@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>preventDefault</title>
+</head>
+
+<body>
+
+    <script>
+        // Video: 
+
+        /*
+            In JavaScript, the preventDefault() method is used to stop the default behavior of an element's event. When an event is triggered, such as a form submission or a hyperlink click, the browser executes its default behavior, which can sometimes cause the page to reload or navigate to a different page. The preventDefault() method can be used to stop this default behavior and allow you to handle the event yourself.
+        */
+
+        // Here's an example of how to use preventDefault() to prevent a form submission from refreshing the page:
+        const form = document.querySelector('#my-form');
+
+        form.addEventListener('submit', function (event) {
+            event.preventDefault(); // prevent the form from submitting
+
+            // do something with the form data
+        });
+
+        /*
+            In this example, we're using the addEventListener() method to attach a "submit" event to a form element. When the form is submitted, the callback function is called, and we use preventDefault() to stop the default form submission behavior. We can then handle the form data ourselves in the callback function.
+
+            Note that preventDefault() only stops the default behavior of the event; it doesn't stop the event from propagating (i.e., bubbling up) through the DOM tree. If you want to stop event propagation as well, you can use the stopPropagation() method.
+        */
+    </script>
+</body>
+
+</html>

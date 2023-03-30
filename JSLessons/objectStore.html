@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>objectStore</title>
+</head>
+
+<body>
+
+    <script>
+        // Video: 
+
+        /*
+            In JavaScript, an "objectStore" is a term commonly used in the context of the IndexedDB API. IndexedDB is a client-side database technology that allows web applications to store data in the user's browser.
+
+            An objectStore in IndexedDB is a container for storing data, similar to a table in a traditional relational database. It allows you to store and retrieve data in the form of key-value pairs, where each value is associated with a unique key.
+
+            To work with an objectStore, you need to first create a database using the indexedDB.open() method, and then create an objectStore within that database using the createObjectStore() method. Once an objectStore is created, you can use methods like put() to add data to the store, and get() to retrieve data from the store.
+        */
+
+        // Here's an example of creating an objectStore in IndexedDB:
+        const dbName = "myDatabase";
+        const objectStoreName = "myObjectStore";
+
+        // Open a new database
+        const request = indexedDB.open(dbName, 1);
+
+        // Create an objectStore
+        request.onupgradeneeded = function (event) {
+            const db = event.target.result;
+            const objectStore = db.createObjectStore(objectStoreName, { keyPath: "id" });
+        };
+
+        // In this example, we're creating a new database called "myDatabase" and an objectStore called "myObjectStore". The createObjectStore() method is called inside the onupgradeneeded event handler, which is triggered when the database is first created or when its version is changed. The keyPath option specifies which property in the stored objects should be used as the key.
+    </script>
+</body>
+
+</html>

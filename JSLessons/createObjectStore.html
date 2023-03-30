@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>createObjectStore</title>
+</head>
+
+<body>
+
+    <script>
+        // Video: 
+
+        /*
+            createObjectStore() is a method in the IndexedDB API for creating a new object store in a database.
+
+            In IndexedDB, an object store is similar to a table in a traditional relational database, but it stores JavaScript objects instead of rows of data. An object store can contain multiple indexes, which are used to quickly look up objects based on certain properties.
+
+            The createObjectStore() method takes two arguments: the name of the object store and an optional configuration object that specifies properties of the store, such as whether it allows duplicates or whether it is a key path.
+        */
+
+        // Here's an example usage of createObjectStore():
+        // Open a database
+        const request = indexedDB.open('myDatabase', 1);
+
+        request.onerror = (event) => {
+            console.log('Database error: ', event.target.errorCode);
+        };
+
+        // Create an object store
+        request.onupgradeneeded = (event) => {
+            const db = event.target.result;
+            const objectStore = db.createObjectStore('myObjectStore', { keyPath: 'id' });
+            objectStore.createIndex('name', 'name', { unique: false });
+        };
+
+        // In this example, createObjectStore() is called in the onupgradeneeded event handler, which is triggered when the database is first created or when the version number is incremented. The method creates a new object store named 'myObjectStore' with an auto-incrementing primary key path of 'id'. It also creates an index on the 'name' property of the objects stored in the object store.
+    </script>
+</body>
+
+</html>
