@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>textContent</title>
+</head>
+
+<body>
+
+    <div id="myDiv">
+        <p>This is some <strong>bold</strong> text.</p>
+        <p>And this is some <em>italic</em> text.</p>
+    </div>
+
+    <script>
+        // Video: https://www.youtube.com/watch?v=1UsllDMhvN4
+
+        /*
+            In JavaScript, textContent is a property of DOM elements that represents the text content of the element and all its descendants. It is a string value that includes all the text within the element, but does not include any HTML markup.
+        */
+
+        // Here's an example of how to use textContent to get the text content of an element with an ID of "myElement":
+        // const myElement = document.getElementById("myElement");
+        // const text = myElement.textContent;
+        // console.log(text);
+
+        // This will log the text content of the element to the console.
+
+
+        // You can also use textContent to set the text content of an element:
+        // const myElement2 = document.getElementById("myElement");
+        // myElement2.textContent = "New text content";
+
+        // This will replace the existing text content of the element with the new text "New text content". Note that this will remove any child elements within the element and replace them with the new text.
+
+
+        // Example Code
+        // Get the element with ID "myDiv"
+        const myDiv = document.getElementById("myDiv");
+
+        // Get the text content of the element
+        const textContent = myDiv.textContent;
+
+        // Log the text content to the console
+        console.log(textContent);
+
+        // Set the text content of the element
+        myDiv.textContent = "This is some new text.";
+
+        // Log the new text content to the console
+        console.log(myDiv.textContent);
+    </script>
+</body>
+
+</html>
