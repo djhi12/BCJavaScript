@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Add to Array</title>
+</head>
+<body>
+	<label>Enter an item to add to the array:</label>
+	<input type="text" id="input">
+	<button onclick="addItem()">Add</button>
+	<button onclick="showItems()">Show List of All Inputs</button>
+
+	<ul id="itemList"></ul>
+
+	<script>
+		let items = [];
+
+		function addItem() {
+			let input = document.getElementById("input").value;
+			items.push(input);
+			document.getElementById("input").value = "";
+		}
+
+		function showItems() {
+			let list = document.getElementById("itemList");
+			list.innerHTML = "";
+			for (let i = 0; i < items.length; i++) {
+				let item = items[i];
+				let li = document.createElement("li");
+				li.appendChild(document.createTextNode(item));
+				list.appendChild(li);
+			}
+		}
+	</script>
+</body>
+</html>
