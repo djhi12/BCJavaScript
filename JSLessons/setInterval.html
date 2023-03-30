@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>setInterval</title>
+</head>
+
+<body>
+
+    <script>
+        /*
+            setInterval is a built-in function in JavaScript that allows you to repeatedly execute a piece of code at a set time interval. The basic syntax of setInterval function is:
+
+
+            setInterval(function, milliseconds);
+        */
+
+        // The first parameter is the function that you want to execute, and the second parameter is the time interval in milliseconds. For example, if you want to execute a function named myFunction every 5 seconds, you would use the following code:
+        setInterval(myFunction, 5000);
+
+        // Note that the interval time is specified in milliseconds, so 5000 represents 5 seconds.
+
+
+        // The setInterval function returns an ID that can be used to stop the execution of the function using the clearInterval function. Here is an example:
+        var intervalID = setInterval(myFunction, 5000);
+
+        function myFunction() {
+            console.log("Hello");
+        }
+
+        // Stop the execution of myFunction after 30 seconds
+        setTimeout(function () {
+            clearInterval(intervalID);
+        }, 30000);
+
+        // In this example, myFunction will be executed every 5 seconds, and it will log "Hello" to the console. After 30 seconds, the clearInterval function is used to stop the execution of myFunction.
+
+    </script>
+</body>
+
+</html>
