@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Window</title>
+</head>
+
+<body>
+
+    <script>
+        // Video: 
+
+        /*
+            In JavaScript, the "window" object represents the browser window that contains the document being displayed. It is a global object and is available to all scripts running in a browser environment.
+
+            The "window" object provides access to various properties and methods that allow you to interact with the browser window, such as:
+
+                Document Object Model (DOM) properties and methods, which allow you to manipulate the contents of the document displayed in the window.
+
+                Location properties and methods, which allow you to get or set the current URL of the window.
+
+                History properties and methods, which allow you to navigate through the user's browsing history.
+
+                Screen properties, which allow you to get information about the user's screen size and resolution.
+
+                Timers, which allow you to schedule code to run at specified intervals or after a certain amount of time has passed.
+        */
+
+        
+        // Here is an example of how you can access the "window" object and its properties:
+        // get the current URL of the window
+        var currentUrl = window.location.href;
+
+        // open a new window
+        var newWindow = window.open("https://www.example.com", "example", "width=500,height=500");
+
+        // create a timer that runs a function every 5 seconds
+        var intervalId = window.setInterval(function () {
+            console.log("Hello, world!");
+        }, 5000);
+
+        // Note that in most cases, you can omit the "window" prefix when accessing its properties and methods, as they are automatically available in the global scope.
+
+    </script>
+</body>
+
+</html>
