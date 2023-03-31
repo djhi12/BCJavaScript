@@ -1,0 +1,5 @@
+In Linux, "root" refers to the superuser account with the highest level of privileges. The root user has complete access to all files, directories, and system resources on a Linux system, and can perform any action, including making critical changes to the system configuration, installing and removing software, and modifying user accounts.
+
+It is generally recommended to avoid logging in as the root user for everyday use, as this can pose a security risk. Instead, it is recommended to create a regular user account with limited privileges and only use the root account when necessary, such as when performing system maintenance or making system-wide changes.
+
+To perform actions as the root user, you can use the "sudo" command, which allows a user to execute a command with root privileges without actually logging in as the root user.

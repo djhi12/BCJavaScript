@@ -1,0 +1,7 @@
+"sudo apt-get update" is a command used in Linux-based operating systems, specifically those that use the Advanced Packaging Tool (APT) for package management.
+
+When you run this command, it updates the local package index, which is a list of available packages and their versions that are stored on your system. This list is used by the package manager to determine which packages need to be upgraded, installed or removed.
+
+The "sudo" part of the command is used to run the command with administrative privileges, which allows you to make system-level changes that regular users cannot make.
+
+Overall, running "sudo apt-get update" is an important step in maintaining the health and security of your Linux system, as it ensures that you have the latest information about available packages and security updates.
