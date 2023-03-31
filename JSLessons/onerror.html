@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>onerror()</title>
+</head>
+
+<body>
+
+    <script>
+        // Video: 
+
+        /*
+            The onerror() method in JavaScript is an event handler that is triggered when an error occurs during the execution of code in a web page or web application. The onerror() method is often used to catch and handle errors that occur in JavaScript code, such as syntax errors, runtime errors, or network errors.
+
+            The onerror() method is typically used in conjunction with the window object, which represents the current browser window or tab. When an error occurs, the onerror() method is called, and it is passed several parameters that provide information about the error, including the error message, the URL of the page where the error occurred, and the line number where the error occurred.
+        */
+
+        // Here's an example of how to use the onerror() method in JavaScript:
+        window.onerror = function (msg, url, line, col, error) {
+            console.error("Error occurred: " + msg + "\nURL: " + url + "\nLine: " + line + "\nColumn: " + col + "\nError object: " + error);
+        }
+
+        // In this example, we are setting the onerror() method of the window object to an anonymous function that logs the error message, URL, line number, column number, and error object to the console. This can be useful for debugging purposes, as it provides detailed information about the error that occurred.
+    </script>
+</body>
+
+</html>

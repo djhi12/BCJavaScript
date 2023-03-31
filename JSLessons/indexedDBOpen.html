@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>indexedDB.open()</title>
+</head>
+
+<body>
+
+    <script>
+        // Video: 
+
+        /*
+            indexedDB.open(name, version) is a method in JavaScript that is used to open a connection to a database in the client's browser. The method takes two parameters, the name of the database and the version of the database.
+
+            Here is a brief explanation of the two parameters:
+
+            name: This parameter is a string that represents the name of the database. If the database doesn't already exist, it will be created when the method is called. If the database already exists, the method will simply open a connection to it.
+
+            version: This parameter is a number that represents the version of the database. If the version number is higher than the existing version, the onupgradeneeded event will be triggered, allowing you to perform any necessary updates to the database schema or data. If the version number is lower than the existing version, an error will be thrown.
+        */
+
+        // Here's an example usage of indexedDB.open():
+        const dbName = "myDatabase";
+        const dbVersion = 1;
+
+        const request = indexedDB.open(dbName, dbVersion);
+
+        request.onerror = function (event) {
+            console.log("Error opening database");
+        };
+
+        request.onsuccess = function (event) {
+            const db = event.target.result;
+            console.log("Database opened successfully");
+        };
+
+        request.onupgradeneeded = function (event) {
+            const db = event.target.result;
+            const objectStore = db.createObjectStore("customers", { keyPath: "id" });
+            console.log("Database schema updated");
+        };
+
+        // In this example, we're opening a connection to a database called "myDatabase" with version number 1. If the database doesn't exist, it will be created with an object store called "customers" that has a keyPath of "id". If the database already exists, the onsuccess event will be triggered, and we can access the database using event.target.result.
+    </script>
+</body>
+
+</html>
