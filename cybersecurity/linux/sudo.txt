@@ -1,0 +1,11 @@
+In Linux, "sudo" is a command that allows a user with administrative privileges to execute a command as a superuser or another user. The term "sudo" stands for "superuser do," which means that the command following "sudo" will be executed as a superuser.
+
+When a user logs in to a Linux system, they are typically assigned a standard user account, which has limited access to the system resources. However, some tasks require elevated permissions, such as installing software, modifying system settings, or accessing sensitive data.
+
+To execute such tasks, the user needs to authenticate themselves as a superuser, and "sudo" is one way to do it. By typing "sudo" before a command, the user is prompted to enter their password, and if the password is correct, the command is executed with elevated privileges.
+
+For example, if a user wants to install a package using the "apt-get" command, they can use "sudo" to run it as a superuser, like this:
+
+// sudo apt-get install package-name
+
+Without "sudo," the command would fail, as the user does not have the required permissions to install packages on the system.

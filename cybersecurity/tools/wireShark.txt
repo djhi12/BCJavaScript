@@ -1,0 +1,9 @@
+-- Free --
+
+Wireshark.org is a website dedicated to the Wireshark network protocol analyzer, which is an open-source tool used for network troubleshooting, analysis, software development, and education. Wireshark allows users to capture and view network traffic in real-time, as well as analyze captured traffic to identify potential security issues or other problems.
+
+From a cybersecurity perspective, Wireshark can be a valuable tool for detecting and analyzing network attacks, such as malware infections, hacking attempts, and unauthorized access attempts. By capturing and analyzing network traffic, security professionals can identify patterns and anomalies that could indicate a security breach or other malicious activity.
+
+However, it's important to note that Wireshark should be used ethically and legally, as the tool can potentially capture sensitive information that should not be accessed without proper authorization. Additionally, it's important to properly secure and protect the data captured by Wireshark to prevent it from falling into the wrong hands.
+
+Overall, Wireshark is a powerful tool that can be used to enhance cybersecurity efforts, but it should be used responsibly and in accordance with ethical and legal guidelines.
