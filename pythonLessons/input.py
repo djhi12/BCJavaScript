@@ -1,3 +1,5 @@
+# Video: https://www.youtube.com/watch?v=DB9Cq6TSTuQ
+
 """
 In Python, the input() function is used to receive input from the user. It reads a line of text from the standard input (usually the keyboard), and returns it as a string.
 
