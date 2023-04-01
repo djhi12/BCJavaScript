@@ -1,3 +1,5 @@
+# Video: https://www.youtube.com/watch?v=Zp5MuPOtsSY
+
 """
 In Python, the If, Elif, and Else statements are used for conditional branching. Conditional statements are used when you want to execute certain code only if a certain condition is met.
 
