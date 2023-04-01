@@ -1,0 +1,32 @@
+To install aircrack-ng in Linux, you can follow the steps below:
+
+Open a terminal window by pressing Ctrl + Alt + T.
+Update the package lists by running the following command:
+
+sudo apt update
+
+
+Install aircrack-ng by running the following command:
+
+sudo apt install aircrack-ng
+
+
+Enter your password when prompted and press Enter.
+Wait for the installation to complete.
+
+Once the installation is complete, you can run aircrack-ng by typing aircrack-ng in the terminal window.
+
+
+After the process what will I do?
+After installing aircrack-ng, you can use it to test the security of your wireless network or to audit the security of other wireless networks (with permission).
+
+To use aircrack-ng, you'll need a wireless network adapter that supports monitor mode and packet injection. You can check whether your adapter supports these features by running the following command in a terminal window:
+
+iw list | grep "Supported interface modes" -A 8
+
+
+If your adapter supports monitor mode and packet injection, you should see monitor and packet in the list of supported interface modes.
+
+To use aircrack-ng to test the security of a wireless network, you'll need to put your wireless adapter into monitor mode, capture packets from the network, and then use aircrack-ng to analyze the captured packets and crack the network's WPA/WPA2-PSK passphrase (if possible).
+
+Please note that using aircrack-ng to test the security of a wireless network without permission is illegal and can lead to serious consequences. Only use aircrack-ng on networks that you own or have permission to test.
