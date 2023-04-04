@@ -1,0 +1,7 @@
+Scratch is a programming language and online community developed by the MIT Media Lab that allows users to create interactive stories, games, and animations. While Scratch is not specifically designed as a paint program, it does include some basic paint tools that users can use to create artwork for their projects.
+
+To access the paint tools in Scratch, you can click on the "Paint Editor" button in the lower right-hand corner of the Scratch interface. This will open up a new window where you can create and edit graphics using various tools, such as the brush, eraser, line, rectangle, and fill bucket.
+
+Using the paint tools in Scratch, you can create simple graphics and backgrounds for your projects, or even design custom characters and game elements. Once you have created your artwork in the Paint Editor, you can then import it into your Scratch project using the "Import" button or by dragging and dropping the image file into the project.
+
+Overall, while Scratch's paint tools are not as sophisticated as those found in dedicated paint programs like Photoshop or GIMP, they are still a useful feature for creating basic artwork and adding visual elements to your Scratch projects.
