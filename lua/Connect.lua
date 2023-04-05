@@ -1,6 +1,6 @@
 --[[
 
-In Lua, :Connect is a method used in the Roblox Lua API for connecting events to functions.    
+    In Lua, :Connect is a method used in the Roblox Lua API for connecting events to functions.    
 
 --]]
 
