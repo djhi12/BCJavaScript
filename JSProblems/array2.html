@@ -11,39 +11,52 @@
 </head>
 
 <body>
-	<label for="item">Enter an item to add to the array:</label>
-	<input title="item" name="item" type="text" id="item">
-	<button onclick="addItem()">Add</button>
-	<button onclick="showItems()">Show List of All Inputs</button>
-
-	<ul id="itemList"></ul>
+	<h1>List Input</h1>
+	<label for="list-input">Enter a list of items:</label>
+	<input type="text" id="list-input" />
+	<br />
+	<br />
+	<button id="submit-button">Submit</button>
+	<br />
+	<br />
+	<ul id="list-display"></ul>
 
 	<script>
-		const items = [];
+		const inputElement = document.getElementById("list-input");
+		const submitButton = document.getElementById("submit-button");
+		const listDisplay = document.getElementById("list-display");
+		const itemList = [];
 
-		// Add an item to the list
-		function addItem() {
-			const input = document.getElementById("input").value.trim();
-			if (input) {
-				items.push(input);
-				document.getElementById("input").value = "";
+		submitButton.addEventListener("click", function () {
+			const inputText = inputElement.value.trim();
+
+			if (inputText === "") {
+				alert("Please enter a list of items.");
+				return;
 			}
+
+			const items = inputText.split(",").map(function (item) {
+				return item.trim();
+			});
+
+			items.forEach(function (item) {
+				itemList.push(item);
+			});
+
+			displayList();
+
+			inputElement.value = "";
+		});
+
+		function displayList() {
+			listDisplay.innerHTML = "";
+
+			itemList.forEach(function (item) {
+				const listItem = document.createElement("li");
+				listItem.innerText = item;
+				listDisplay.appendChild(listItem);
+			});
 		}
-
-		// Display all the items in the list
-		function showItems() {
-			const list = document.getElementById("itemList");
-			list.innerHTML = "";
-
-			// Loop through the items and create a list item for each one
-			for (let i = 0; i < items.length; i++) {
-				const item = items[i];
-				const li = document.createElement("li");
-				li.appendChild(document.createTextNode(item));
-				list.appendChild(li);
-			}
-		}
-
 	</script>
 </body>
 
