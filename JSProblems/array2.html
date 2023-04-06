@@ -1,35 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Free Web tutorials">
+	<meta name="keywords" content="HTML, CSS, JavaScript">
+	<meta name="author" content="Daniel John Idorot">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Add to Array</title>
 </head>
+
 <body>
-	<label>Enter an item to add to the array:</label>
-	<input type="text" id="input">
+	<label for="item">Enter an item to add to the array:</label>
+	<input title="item" name="item" type="text" id="item">
 	<button onclick="addItem()">Add</button>
 	<button onclick="showItems()">Show List of All Inputs</button>
 
 	<ul id="itemList"></ul>
 
 	<script>
-		let items = [];
+		const items = [];
 
+		// Add an item to the list
 		function addItem() {
-			let input = document.getElementById("input").value;
-			items.push(input);
-			document.getElementById("input").value = "";
+			const input = document.getElementById("input").value.trim();
+			if (input) {
+				items.push(input);
+				document.getElementById("input").value = "";
+			}
 		}
 
+		// Display all the items in the list
 		function showItems() {
-			let list = document.getElementById("itemList");
+			const list = document.getElementById("itemList");
 			list.innerHTML = "";
+
+			// Loop through the items and create a list item for each one
 			for (let i = 0; i < items.length; i++) {
-				let item = items[i];
-				let li = document.createElement("li");
+				const item = items[i];
+				const li = document.createElement("li");
 				li.appendChild(document.createTextNode(item));
 				list.appendChild(li);
 			}
 		}
+
 	</script>
 </body>
+
 </html>
