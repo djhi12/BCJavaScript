@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS - map()</title>
+</head>
+
+<body>
+
+    <script>
+        // Video: 
+
+        /*
+            In JavaScript, the map() method is used to create a new array by transforming every element of an existing array. The map() method applies a function to each element of the original array, and returns an array with the same length as the original, but with the transformed values.
+        */
+
+        // Here's the basic syntax for using the map() method:
+        const newArray = originalArray.map(function (currentValue, index, array) {
+            // transform currentValue here
+            return transformedValue;
+        });
+
+        /*
+            The map() method takes a single argument, which is a callback function that is executed for each element of the original array. The callback function can take up to three arguments:
+
+                currentValue: The current element being processed in the array.
+                index: The index of the current element being processed in the array.
+                array: The original array that map() was called upon.
+            
+                The callback function should return the transformed value for the current element. The map() method will then use these transformed values to create a new array, which will be returned by the map() method.
+        */
+
+        // Here's an example that uses map() to convert an array of Fahrenheit temperatures to an array of Celsius temperatures:
+        const fahrenheitTemps = [32, 68, 86, 104];
+        const celsiusTemps = fahrenheitTemps.map(function (temp) {
+            return (temp - 32) * (5 / 9);
+        });
+        console.log(celsiusTemps); // Output: [0, 20, 30, 40]
+
+        // In this example, the map() method is called on the fahrenheitTemps array, and the callback function takes each element of the array, subtracts 32, and multiplies the result by 5/9 to convert it to Celsius. The transformed values are then returned and stored in the celsiusTemps array, which is logged to the console.
+
+
+        // Example Code
+        const users = [
+            { name: "Alice", age: 25 },
+            { name: "Bob", age: 30 },
+            { name: "Charlie", age: 35 }
+        ];
+
+        const userNames = users.map(function (user) {
+            return user.name;
+        });
+
+        console.log(userNames); // Output: ["Alice", "Bob", "Charlie"]
+
+        // In this example, the users array contains three objects with name and age properties. The map() method is called on the users array, and the callback function takes each object and returns its name property. The transformed values are then stored in the userNames array, which is logged to the console.
+    </script>
+</body>
+
+</html>
