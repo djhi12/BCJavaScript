@@ -1,0 +1,32 @@
+# Driver License Program with Minor Check
+
+# Define the age validation function
+def is_eligible(age):
+    if age >= 16:
+        return True
+    else:
+        return False
+
+# Prompt the user to input their information
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))
+address = input("Enter your address: ")
+license_num = input("Enter your license number: ")
+expiry_date = input("Enter your expiry date (MM/DD/YYYY): ")
+is_minor = input("Are you a minor? (Y/N): ").lower()
+
+# Validate the age using the age validation function and minor check
+if is_minor == "y":
+    print("Sorry, you are not eligible to apply for a driver's license as you are a minor.")
+elif is_eligible(age):
+    print("You are eligible to apply for a driver's license.")
+else:
+    print("Sorry, you are not eligible to apply for a driver's license.")
+
+# Display the driver's license information
+print("\nDRIVER'S LICENSE")
+print("Name: " + name)
+print("Age: " + str(age))
+print("Address: " + address)
+print("License Number: " + license_num)
+print("Expiry Date: " + expiry_date)
