@@ -1,3 +1,5 @@
+-- Video: https://www.youtube.com/watch?v=mJwfVC8p4P4
+
 --[[
     In Lua, "function" is a keyword used to define a function. A function in Lua is a block of code that performs a specific task and can be called from different parts of the program.
 

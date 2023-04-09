@@ -1,3 +1,5 @@
+-- Video: https://www.youtube.com/watch?v=uOQrkW-AgZk
+
 --[[
     "WaitForChild" is a method in Lua that is commonly used in Roblox Lua programming. It is a function that waits for a specific child object of a parent object to exist before continuing with the code execution.
 
