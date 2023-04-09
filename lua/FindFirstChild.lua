@@ -1,3 +1,5 @@
+-- Video: https://www.youtube.com/watch?v=uOQrkW-AgZk
+
 --[[
     Lua's :FindFirstChild() method is used to search for a child instance of a parent instance in Roblox game development. This method is commonly used to locate specific objects within a game hierarchy so that developers can perform actions or manipulate those objects programmatically.
 

@@ -1,3 +1,5 @@
+-- Video: https://www.youtube.com/watch?v=WgBvVx5ihU4
+
 -- In Lua, you can use the if, elseif, and else keywords to create conditional statements. The basic syntax for an if statement is:
 
 if condition then

@@ -1,3 +1,5 @@
+-- Video: https://www.youtube.com/watch?v=-5Vma8aNCkA
+
 --[[
     In Lua, a "table" is a data structure that can hold multiple values of different types, including other tables. Tables in Lua are dynamically-sized and can be used to represent arrays, dictionaries, and objects.
 
