@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>typeof</title>
+</head>
+
+<body>
+
+    <script>
+        /*
+            "typeof" is a keyword in JavaScript that is used to determine the data type of a given value or variable. It returns a string that indicates the type of the operand.
+        */
+
+        // Here's an example of using typeof:
+        const num = 10;
+        const str = "Hello";
+        const bool = true;
+
+        console.log(typeof num); // Output: "number"
+        console.log(typeof str); // Output: "string"
+        console.log(typeof bool); // Output: "boolean"
+
+
+        // In addition to the primitive types, typeof can also be used to determine the type of non-primitive types such as arrays, functions, and objects. For example:
+        const arr = [1, 2, 3];
+        const func = function () { };
+        const obj = {};
+
+        console.log(typeof arr); // Output: "object"
+        console.log(typeof func); // Output: "function"
+        console.log(typeof obj); // Output: "object"
+
+        // It's important to note that typeof returns "object" for null values, which is considered a quirk of the language. Therefore, it's usually a good practice to also check for null values explicitly.
+    </script>
+</body>
+
+</html>
