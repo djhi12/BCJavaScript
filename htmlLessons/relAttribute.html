@@ -10,7 +10,16 @@
 
 <body>
 <!--
-    In HTML, the rel attribute is short for "relationship" and is used to specify the relationship between the current document and the linked document or resource. It is typically used in conjunction with the href attribute to create a hyperlink to another document or resource.
+    In HTML, the "rel" attribute is used to specify the relationship between the current document and the linked document or resource. It is typically used within the anchor element, but can also be used within other elements that link to external resources, such as the link and area elements.
+
+    The value of the "rel" attribute is a space-separated list of keywords that describe the relationship between the current document and the linked document or resource. Common values include:
+
+        "stylesheet" - specifies that the linked document is a stylesheet that should be applied to the current document
+        "nofollow" - specifies that search engines should not follow the link to the linked document
+        "noopener" - specifies that the linked document should not be able to access the window.opener object of the current document, which can help prevent certain types of security vulnerabilities
+        "noopener noreferrer" - a combination of the "noopener" and "noreferrer" values (see below)
+    
+    Other values include "alternate", "author", "canonical", "help", "license", "next", "prev", and "search", among others. The specific values and their meanings may vary depending on the context in which they are used.
 -->
 
     <a rel="nofollow" href="http://www.functravel.com/">Cheap Flights</a>
