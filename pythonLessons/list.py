@@ -1,3 +1,5 @@
+# Video: https://www.youtube.com/watch?v=9OeznAkyQz4
+
 """
 In Python, a list is a collection of items that are ordered and changeable. It is one of the built-in data types and is very versatile. Lists are denoted by square brackets [] and can contain any data type, including other lists. Each item in a list has an index, starting from 0 for the first item, and can be accessed using square brackets with the index number.
 
