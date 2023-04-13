@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>trim()</title>
+</head>
+
+<body>
+
+    <script>
+        /*
+            The trim() method is a built-in function in JavaScript that removes whitespace from both ends of a string. It returns a new string with the whitespace removed and does not modify the original string.
+        */
+
+        // Here's an example:
+        let str = "  Hello, World!  ";
+        let trimmedStr = str.trim();
+
+        console.log(trimmedStr); // "Hello, World!"
+
+        /*
+            In this example, the trim() method is called on the str variable, which contains whitespace at the beginning and end of the string. The trimmedStr variable is assigned the result of calling trim() on str, which returns a new string with the whitespace removed. Finally, the console.log() statement outputs the trimmed string.
+
+            Note that the trim() method only removes whitespace characters such as spaces, tabs, and newlines. If you want to remove other characters, you can use a regular expression or other string methods.
+        */
+
+
+        // Example Code
+        let str1 = "  Hello, World!  ";
+        let trimmedStr1 = str1.trim();
+
+        console.log(trimmedStr1); // "Hello, World!"
+
+        /*
+            In this example, we first declare a variable called str and assign it the value of " Hello, World! ", which contains whitespace characters at the beginning and end of the string.
+
+            Next, we call the trim() method on the str variable and assign the result to a new variable called trimmedStr.
+
+            Finally, we use the console.log() method to print the value of trimmedStr to the console, which should output "Hello, World!" without any leading or trailing whitespace.
+        */
+    </script>
+</body>
+
+</html>

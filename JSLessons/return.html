@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Return Value</title>
+</head>
+
+<body>
+
+    <script>
+        /*
+            In JavaScript, a function can return a value using the return statement. The return statement is used to return a value from a function back to the caller of the function.
+
+            Here is an example of a function that returns a value:
+        */
+        function square(x) {
+            return x * x;
+        }
+
+        let result = square(5);
+        console.log(result); // Output: 25
+
+        /*
+            In this example, the square function takes a parameter x and returns the square of that parameter using the return statement. The value returned by the square function is then stored in the result variable using the assignment operator (=), and finally printed to the console using console.log().
+
+            It is important to note that a function can only return a single value. If you need to return multiple values, you can use an object or an array to bundle them together and return them as a single value.
+        */
+
+        function getPerson() {
+            let name = "John";
+            let age = 30;
+            return { name: name, age: age };
+        }
+
+        let person = getPerson();
+        console.log(person.name); // Output: "John"
+        console.log(person.age); // Output: 30
+
+        // In this example, the getPerson function returns an object with two properties: name and age. The object is then assigned to the person variable and its properties can be accessed using dot notation.
+    </script>
+</body>
+
+</html>
