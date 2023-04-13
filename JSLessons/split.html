@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>split()</title>
+</head>
+
+<body>
+
+    <script>
+        /*
+            In JavaScript, the split() method is used to split a string into an array of substrings based on a specified separator.
+        */
+
+        // The syntax for using the split() method is as follows:
+        string.split(separator, limit)
+
+        // Here, string is the string that you want to split. separator is the character or string that you want to use as the separator for splitting the string. If you don't specify a separator, the string will be split at each individual character. The limit parameter is optional and specifies the maximum number of elements to include in the resulting array.
+
+
+        // For example, if you have a string "Hello, World!" and you want to split it into an array of substrings using the comma as the separator, you would use the following code:
+        var str = "Hello, World!";
+        var arr = str.split(",");
+
+        // The resulting arr array would contain two elements: "Hello" and " World!".
+
+
+        // You can also use regular expressions as the separator for the split() method. For example, to split a string at each whitespace character, you can use the following code:
+        var str = "Hello World";
+        var arr = str.split(/\s+/);
+
+        // In this case, the regular expression /\s+/ matches one or more whitespace characters, so the resulting arr array would contain two elements: "Hello" and "World".
+
+
+        // Example
+        // Split a string using a comma as the separator
+        var str1 = "apple,banana,orange";
+        var arr1 = str1.split(",");
+        console.log(arr1); // Output: ["apple", "banana", "orange"]
+
+        // Split a string using a whitespace as the separator
+        var str2 = "Hello World";
+        var arr2 = str2.split(/\s+/);
+        console.log(arr2); // Output: ["Hello", "World"]
+
+        // Split a string using a hyphen as the separator and limit the result to two elements
+        var str3 = "John-Doe-Jane";
+        var arr3 = str3.split("-", 2);
+        console.log(arr3); // Output: ["John", "Doe"]
+
+        /*
+            In the first example, the split() method is used to split the string "apple,banana,orange" into an array of substrings using the comma as the separator. The resulting array is ["apple", "banana", "orange"].
+
+            In the second example, the split() method is used to split the string "Hello World" into an array of substrings using a regular expression that matches one or more whitespace characters. The resulting array is ["Hello", "World"].
+
+            In the third example, the split() method is used to split the string "John-Doe-Jane" into an array of substrings using the hyphen as the separator, but the result is limited to a maximum of two elements. The resulting array is ["John", "Doe"].
+        */
+    </script>
+</body>
+
+</html>
