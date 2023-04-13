@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task List</title>
+    <style>
+        form {
+            margin-bottom: 20px;
+        }
+
+        .completed {
+            text-decoration: line-through;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Task List</h1>
+    <form>
+        <label for="task-input">Add Task:</label>
+        <input type="text" id="task-input">
+        <button type="submit">Add</button>
+    </form>
+    <ul id="task-list"></ul>
+
+    <script>
+        // Get the task list element
+        const taskList = document.getElementById("task-list");
+
+        // Get the task input and form elements
+        const taskInput = document.getElementById("task-input");
+        const taskForm = document.querySelector("form");
+
+        // Initialize the task array
+        let tasks = [];
+
+        // Function to render the task list
+        function renderTasks() {
+            // Clear the existing task list
+            taskList.innerHTML = "";
+
+            // Loop through the tasks and create an li element for each one
+            for (let i = 0; i < tasks.length; i++) {
+                const task = tasks[i];
+                const li = document.createElement("li");
+                li.textContent = task.text;
+
+                // Add the completed class to the li element if the task is completed
+                if (task.completed) {
+                    li.classList.add("completed");
+                }
+
+                // Add a button to mark the task as completed
+                const completeButton = document.createElement("button");
+                completeButton.textContent = "Complete";
+                completeButton.addEventListener("click", () => {
+                    task.completed = true;
+                    renderTasks();
+                });
+                li.appendChild(completeButton);
+
+                // Add a button to delete the task
+                const deleteButton = document.createElement("button");
+                deleteButton.textContent = "Delete";
+                deleteButton.addEventListener("click", () => {
+                    tasks.splice(i, 1);
+                    renderTasks();
+                });
+                li.appendChild(deleteButton);
+
+                // Add the li element to the task list
+                taskList.appendChild(li);
+            }
+        }
+
+        // Function to handle form submission
+        function handleFormSubmit(event) {
+            event.preventDefault();
+
+            // Create a new task object and add it to the task array
+            const newTask = {
+                text: taskInput.value,
+                completed: false,
+            };
+            tasks.push(newTask);
+
+            // Clear the task input
+            taskInput.value = "";
+
+            // Render the updated task list
+            renderTasks();
+        }
+
+        // Add an event listener to the form to handle submissions
+        taskForm.addEventListener("submit", handleFormSubmit);
+
+        // Render the initial task list
+        renderTasks();
+
+    </script>
+</body>
+
+</html>
