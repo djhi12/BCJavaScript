@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>concat()</title>
+</head>
+
+<body>
+
+    <script>
+        /*
+            The concat() method is a built-in function in JavaScript that is used to combine two or more arrays into a new array. The original arrays are not modified, and a new array is returned containing the elements of the original arrays.
+        */
+
+        // Here is the syntax for using the concat() method:
+        newArray = array1.concat(array2, array3, ..., arrayN)
+
+        /*
+            where array1 is the original array that you want to concatenate with array2, array3, and so on, up to arrayN.
+
+            For example, let's say we have two arrays, array1 and array2, and we want to concatenate them into a new array called newArray. Here is how we would use the concat() method:
+        */
+        var array1 = [1, 2, 3];
+        var array2 = [4, 5, 6];
+
+        var newArray = array1.concat(array2);
+
+        console.log(newArray); // Output: [1, 2, 3, 4, 5, 6]
+
+        /*
+            In this example, newArray will contain all the elements of array1 followed by all the elements of array2.
+
+            Note that the concat() method can also be used to concatenate other types of elements, such as strings or numbers, as well as arrays. When you pass a non-array argument to the concat() method, it is treated as a single-element array, and its value is added to the new array.
+        */
+
+
+        // Sample Program
+        var array1 = [1, 2, 3];
+        var array2 = [4, 5, 6];
+        var array3 = ["a", "b", "c"];
+
+        // Concatenate two arrays
+        var newArray1 = array1.concat(array2);
+        console.log(newArray1); // Output: [1, 2, 3, 4, 5, 6]
+
+        // Concatenate three arrays
+        var newArray2 = array1.concat(array2, array3);
+        console.log(newArray2); // Output: [1, 2, 3, 4, 5, 6, "a", "b", "c"]
+
+        // Concatenate array with a string
+        var newArray3 = array1.concat("hello");
+        console.log(newArray3); // Output: [
+
+        // In the first example, we concatenate array1 and array2 to create a new array called newArray1. In the second example, we concatenate array1, array2, and array3 to create a new array called newArray2. In the third example, we concatenate array1 with the string "hello" to create a new array called newArray3.
+    </script>
+</body>
+
+</html>

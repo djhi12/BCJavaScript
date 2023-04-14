@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>startsWith()</title>
+</head>
+
+<body>
+
+    <script>
+        /*
+            In JavaScript, the startsWith() method is used to determine whether a string begins with the characters of a specified string.
+
+            The syntax for using the startsWith() method is:
+        */
+        string.startsWith(searchString[, position])
+
+        /*
+            Here, string is the string to be searched, searchString is the string to search for, and position is an optional parameter that specifies the position within the string to start the search (the default is 0).
+
+            The startsWith() method returns a boolean value (true or false) depending on whether the string starts with the specified search string.
+        */
+
+
+        // For example:
+        let str = "Hello, world!";
+
+        console.log(str.startsWith("Hello")); // true
+        console.log(str.startsWith("world", 7)); // true (starts at index 7)
+        console.log(str.startsWith("world", 8)); // false (starts at index 8)
+
+        // In the above example, the startsWith() method is used to check whether the string str starts with the strings "Hello", "world" (starting at different positions).
+
+
+        // Example Program
+        let greeting = "Hello, World!";
+
+        if (greeting.startsWith("Hello")) {
+            console.log("The greeting starts with 'Hello'");
+        } else {
+            console.log("The greeting does not start with 'Hello'");
+        }
+
+        if (greeting.startsWith("World", 7)) {
+            console.log("The greeting ends with 'World'");
+        } else {
+            console.log("The greeting does not end with 'World'");
+        }
+
+        /*
+            In this program, we declare a variable greeting with the string value "Hello, World!". We then use the startsWith() method to check if the greeting starts with the substring "Hello" and if it ends with the substring "World" (starting from index 7). The program then logs the appropriate message to the console depending on the result of the checks.
+
+            When we run this program, we get the following output:
+
+            The greeting starts with 'Hello'
+            The greeting does not end with 'World'
+
+        */
+
+        // This is because the greeting string starts with the substring "Hello", but does not end with the substring "World" starting from index 7.
+    </script>
+</body>
+
+</html>

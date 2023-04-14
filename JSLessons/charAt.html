@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>charAt()</title>
+</head>
+
+<body>
+
+    <script>
+        /*
+            In JavaScript, the charAt() method is a built-in string method that is used to return the character at a specified index within a string.
+
+            The charAt() method takes one parameter, which is the index of the character to be returned. The index is a zero-based integer value, meaning that the first character in a string has an index of 0, the second character has an index of 1, and so on.
+        */
+
+        // Here's an example of using the charAt() method:
+        let str = "Hello, world!";
+        let char = str.charAt(4);
+        console.log(char); // Output: o
+
+        /*
+            In the example above, we declared a string variable str that contains the value "Hello, world!". We then used the charAt() method to retrieve the character at index 4, which is the letter "o". Finally, we printed the result to the console using the console.log() method.
+
+            If the index passed to charAt() is out of range (i.e., greater than or equal to the length of the string), an empty string is returned. For example:
+        */
+
+        let str1 = "Hello, world!";
+        let char1 = str1.charAt(100);
+        console.log(char1); // Output: ""
+
+        // In this case, the index value of 100 is out of range since the string only contains 13 characters, so the charAt() method returns an empty string.
+
+
+        // Sample Program
+        let str2 = "Hello, world!";
+
+        // Print the character at index 1
+        console.log(str2.charAt(1)); // Output: "e"
+
+        // Print the character at index 4
+        console.log(str2.charAt(4)); // Output: "o"
+
+        // Print the character at index 20 (out of range)
+        console.log(str2.charAt(20)); // Output: ""
+
+        /*
+            In this program, we first define a string variable str with the value "Hello, world!". We then use the charAt() method to access the character at various indices in the string.
+
+            The charAt() method takes a single argument, which is the index of the character to retrieve. The index starts at 0, so the first character in the string has an index of 0, the second character has an index of 1, and so on.
+
+            If the index provided to charAt() is out of range (i.e., greater than or equal to the length of the string), the method returns an empty string.
+        */
+
+    </script>
+</body>
+
+</html>

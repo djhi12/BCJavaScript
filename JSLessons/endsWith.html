@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>endsWith()</title>
+</head>
+
+<body>
+
+    <script>
+        /*
+            The endsWith() method is a built-in string method in JavaScript that is used to determine whether a string ends with the characters of a specified string. It returns a boolean value, true if the calling string ends with the characters of the specified string, otherwise, it returns false.
+        */
+
+        // Here's the basic syntax of the endsWith() method:
+        str.endsWith(searchString[, length])
+
+        /*
+            The parameters of the endsWith() method are:
+
+                searchString: A string that is searched to see if it is located at the end of the calling string.
+                length (optional): An integer representing the length of the string to be searched. If it's not specified, the endsWith() method searches the entire string.
+        */
+        const str = "Hello, World!";
+        console.log(str.endsWith("World!")); // true
+        console.log(str.endsWith("world!")); // false
+        console.log(str.endsWith("Hello", 5)); // true
+        console.log(str.endsWith("Hello", 6)); // false
+
+        // In this example, the endsWith() method is used to check whether the str string ends with the characters "World!" and "world!". The method returns true for the first check and false for the second one. Additionally, the endsWith() method is used with the optional length parameter to check whether the first five and six characters of the str string end with the "Hello" string.
+
+
+        // Sample Program
+        const myString = "Hello, World!";
+
+        // Check if myString ends with "World!"
+        if (myString.endsWith("World!")) {
+            console.log("myString ends with 'World!'");
+        } else {
+            console.log("myString does not end with 'World!'");
+        }
+
+        // Check if myString ends with "world!"
+        if (myString.endsWith("world!")) {
+            console.log("myString ends with 'world!'");
+        } else {
+            console.log("myString does not end with 'world!'");
+        }
+
+        // In this example, we create a string myString and use the endsWith() method to check if it ends with the strings "World!" and "world!". The first check returns true and logs the message "myString ends with 'World!'", while the second check returns false and logs the message "myString does not end with 'world!'".
+    </script>
+</body>
+
+</html>
