@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lastIndexOf()</title>
+</head>
+
+<body>
+
+    <script>
+        /*
+            In JavaScript, the lastIndexOf() method is a built-in function that returns the index of the last occurrence of a specified value in a string or array. If the specified value is not found, it returns -1.
+        */
+
+        // The syntax for using lastIndexOf() is as follows:
+        stringOrArray.lastIndexOf(searchValue, fromIndex)
+
+        // The searchValue parameter specifies the value to search for within the stringOrArray. The fromIndex parameter is optional and specifies the index to start the search from. If not specified, fromIndex defaults to the length of the stringOrArray.
+
+
+        // Here's an example of how to use lastIndexOf() with an array:
+        const myArray = [10, 20, 30, 20, 40];
+        const lastIndex = myArray.lastIndexOf(20);
+        console.log(lastIndex); // Output: 3
+
+        // In this example, lastIndexOf() is called on the myArray array to find the last occurrence of the value 20. Since 20 appears twice in the array, the method returns the index of the last occurrence, which is 3.
+
+
+        // Here's an example of how to use lastIndexOf() with a string:
+        const myString = "hello world";
+        const lastIndex1 = myString.lastIndexOf("o");
+        console.log(lastIndex1); // Output: 7
+
+        // In this example, lastIndexOf() is called on the myString string to find the last occurrence of the character "o". Since "o" appears twice in the string, the method returns the index of the last occurrence, which is 7.
+
+
+        // Example Program
+        const myArray1 = [10, 20, 30, 20, 40];
+        const searchValue = 20;
+        const lastIndex2 = myArray1.lastIndexOf(searchValue);
+
+        if (lastIndex2 === -1) {
+            console.log(`${searchValue} was not found in the array`);
+        } else {
+            console.log(`The last occurrence of ${searchValue} is at index ${lastIndex}`);
+        }
+
+        /*
+            In this program, we declare an array myArray and a variable searchValue set to the value we want to find in the array. We then call lastIndexOf() on myArray with searchValue as the argument, and store the result in the lastIndex variable.
+
+            We then check the value of lastIndex. If it is -1, that means the searchValue was not found in the array, so we log a message saying so. Otherwise, we log a message indicating the index of the last occurrence of searchValue in the array.
+
+            Output:
+
+            The last occurrence of 20 is at index 3
+        */
+    </script>
+</body>
+
+</html>

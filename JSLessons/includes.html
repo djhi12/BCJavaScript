@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>includes()</title>
+</head>
+
+<body>
+
+    <script>
+        /*
+            The includes() method is a built-in function in JavaScript that is used to determine whether a given string, array, or object includes a specific value. The method returns a boolean value, true if the value is found, and false if not.
+
+            For strings, includes() checks if a string contains another string and returns true or false. For example:
+        */
+
+        const str = "Hello, world!";
+        const isContained = str.includes("world"); // returns true
+
+        // For arrays, includes() checks if an array includes a specific value and returns true or false. For example:
+
+        const arr = [1, 2, 3, 4, 5];
+        const isContained1 = arr.includes(3); // returns true
+
+        // In addition, the includes() method can take a second parameter which specifies the index to start the search from. For example:
+
+        const arr1 = [1, 2, 3, 4, 5];
+        const isContained2 = arr1.includes(3, 2); // returns true, starting the search from index 2
+
+        // It's worth noting that includes() was introduced in ECMAScript 2016 (ES6) and is not supported in older browsers. If you need to support older browsers, you can use the indexOf() method instead.
+
+
+        // Example Program
+        const bannedWords = ["spam", "scam", "phishing", "malware"];
+        const message = "Hey, have you seen this email? It looks like a phishing attempt.";
+        let containsBannedWord = false;
+
+        for (const word of bannedWords) {
+            if (message.includes(word)) {
+                containsBannedWord = true;
+                break;
+            }
+        }
+
+        if (containsBannedWord) {
+            console.log("The message contains a banned word.");
+        } else {
+            console.log("The message does not contain any banned words.");
+        }
+
+        /*
+            In this program, we define an array of banned words and a string message. We then use a for...of loop to iterate over each banned word and use the includes() method to check if the message contains it.
+
+            If we find a banned word in the message, we set the containsBannedWord variable to true and break out of the loop. Finally, we use an if...else statement to output a message depending on whether the message contains any banned words or not.
+
+            This program could be useful for filtering out potentially harmful or unwanted messages from a chat or email application.
+        */
+    </script>
+</body>
+
+</html>
