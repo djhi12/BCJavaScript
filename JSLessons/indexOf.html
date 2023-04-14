@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>indexOf()</title>
+</head>
+
+<body>
+
+    <script>
+        /*
+            The indexOf() method is a built-in method in JavaScript that returns the index of the first occurrence of a specified value in a string or an array. If the value is not found, it returns -1.
+        */
+
+
+        // Here is the syntax for using indexOf():
+        string.indexOf(searchValue, startIndex)
+        array.indexOf(searchElement, startIndex)
+
+        /*
+            The indexOf() method takes two arguments:
+
+                searchValue or searchElement (required): The value or element to search for in the string or array.
+                startIndex (optional): The index at which to start the search. If omitted, the search starts at index 0.
+        */
+
+
+        // For example, let's say we have a string str:
+        const str = "Hello, world!";
+
+
+        // We can use indexOf() to find the index of the letter "o" in the string:
+        const index = str.indexOf("o");
+        console.log(index); // Output: 4
+
+        // In this case, the indexOf() method returns the index of the first occurrence of the letter "o" in the string, which is 4.
+
+
+        // If the search value is not found in the string or array, indexOf() returns -1. For example:
+        const arr = [1, 2, 3, 4];
+        const index1 = arr.indexOf(5);
+        console.log(index1); // Output: -1
+
+        // In this case, the indexOf() method returns -1 because the value 5 is not found in the array.
+
+
+        // Example Program
+        const words = ["apple", "banana", "orange", "pear", "peach"];
+
+        function searchWord(word) {
+            const index = words.indexOf(word);
+            if (index === -1) {
+                console.log(`Sorry, "${word}" is not found in the list.`);
+            } else {
+                console.log(`"${word}" is found at index ${index}.`);
+            }
+        }
+
+        searchWord("banana"); // Output: "banana" is found at index 1.
+        searchWord("grape"); // Output: Sorry, "grape" is not found in the list.
+
+        /*
+            In this program, we create an array of words and define a function searchWord() that takes a word as an argument. The function uses indexOf() to find the index of the word in the words array. If the word is not found, the function prints a message saying that the word is not found. If the word is found, the function prints a message saying that the word is found at a particular index.
+
+            In the example, we call the searchWord() function twice with different arguments. The first call searches for the word "banana" in the array and returns the index 1. The second call searches for the word "grape" which is not present in the array and returns a message saying that the word is not found.
+        */
+    </script>
+</body>
+
+</html>
