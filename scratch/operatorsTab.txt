@@ -1,21 +1,21 @@
 In Scratch, the "Operators" tab contains a collection of blocks that allow you to perform mathematical and logical operations. Here are some of the commonly used blocks from the "Operators" tab:
 
-    "Join" block: This block allows you to combine two strings together into one.
+"Join" block: This block allows you to combine two strings together into one.
 
-    "Arithmetic" blocks: These blocks allow you to perform basic arithmetic operations such as addition, subtraction, multiplication, and division.
+"Arithmetic" blocks: These blocks allow you to perform basic arithmetic operations such as addition, subtraction, multiplication, and division.
 
-    "Mod" block: This block calculates the remainder when one number is divided by another.
+"Mod" block: This block calculates the remainder when one number is divided by another.
 
-    "Random" block: This block generates a random number within a given range.
+"Random" block: This block generates a random number within a given range.
 
-    "Greater than/Less than" blocks: These blocks allow you to compare two numbers and check if one is greater than or less than the other.
+"Greater than/Less than" blocks: These blocks allow you to compare two numbers and check if one is greater than or less than the other.
 
-    "And/Or/Not" blocks: These blocks allow you to perform logical operations. "And" block returns true only if both conditions are true, "Or" block returns true if either of the conditions are true, and "Not" block returns the opposite of the condition.
+"And/Or/Not" blocks: These blocks allow you to perform logical operations. "And" block returns true only if both conditions are true, "Or" block returns true if either of the conditions are true, and "Not" block returns the opposite of the condition.
 
-    "Join" block: This block allows you to combine two strings together into one.
+"Join" block: This block allows you to combine two strings together into one.
 
-    "Round" block: This block rounds a number to the nearest whole number.
+"Round" block: This block rounds a number to the nearest whole number.
 
-    "Pick random" block: This block generates a random number within a given range.
+"Pick random" block: This block generates a random number within a given range.
 
 By using these blocks from the "Operators" tab, you can create more complex scripts that involve calculations, comparisons, and logical operations.
