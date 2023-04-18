@@ -1,12 +1,12 @@
 --[[
     In Lua, arithmetic operators are used to perform mathematical operations on numeric values. The arithmetic operators in Lua include:
 
-Addition (+) - adds two values together
-Subtraction (-) - subtracts one value from another
-Multiplication (*) - multiplies two values together
-Division (/) - divides one value by another
-Modulo (%) - returns the remainder of a division operation
-Exponentiation (^) - raises a value to a power    
+    Addition (+) - adds two values together
+    Subtraction (-) - subtracts one value from another
+    Multiplication (*) - multiplies two values together
+    Division (/) - divides one value by another
+    Modulo (%) - returns the remainder of a division operation
+    Exponentiation (^) - raises a value to a power    
 --]]
 
 
