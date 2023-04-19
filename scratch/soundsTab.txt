@@ -2,10 +2,13 @@ The Scratch Sounds tab is a feature in Scratch, a block-based programming langua
 
 Here are some features of the Scratch Sounds tab:
 
-	1. Sound Library: Scratch provides a library of sounds that users can use in their projects. These sounds include musical instruments, nature sounds, voices, and various sound effects.
-	2. Sound Recorder: Scratch also allows users to record their own sounds and add them to their projects. Users can record sounds using a microphone or by importing audio files.
-	3. Sound Editor: Scratch's sound editor allows users to edit their sounds by adjusting the volume, adding effects, and trimming the length of the sound.
-	4. Sound Blocks: Scratch provides a set of sound blocks that users can use to control the playback of sounds in their projects. These blocks include "play sound," "stop all sounds," and "change volume."
+1. Sound Library: Scratch provides a library of sounds that users can use in their projects. These sounds include musical instruments, nature sounds, voices, and various sound effects.
+
+2. Sound Recorder: Scratch also allows users to record their own sounds and add them to their projects. Users can record sounds using a microphone or by importing audio files.
+
+3. Sound Editor: Scratch's sound editor allows users to edit their sounds by adjusting the volume, adding effects, and trimming the length of the sound.
+
+4. Sound Blocks: Scratch provides a set of sound blocks that users can use to control the playback of sounds in their projects. These blocks include "play sound," "stop all sounds," and "change volume."
 
 Overall, the Scratch Sounds tab is a useful feature that allows users to add another layer of creativity to their Scratch projects.
 
