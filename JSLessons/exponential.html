@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exponential</title>
+</head>
+
+<body>
+
+    <script>
+        /*
+            In JavaScript, the exponential operator is represented by two asterisks (**). It is used to perform exponentiation, which is the mathematical operation of raising a number to a certain power.
+
+            For example, 2 ** 3 would evaluate to 8, which is 2 raised to the power of 3. Similarly, 4 ** 0.5 would evaluate to 2, which is the square root of 4.
+
+            Here are a few more examples:
+
+            3 ** 4 would evaluate to 81 (i.e., 3 raised to the power of 4).
+            2 ** -3 would evaluate to 0.125 (i.e., 2 raised to the power of -3, which is the same as 1/2 raised to the power of 3).
+            (-2) ** 2 would evaluate to 4 (i.e., -2 raised to the power of 2).
+            10 ** (1/2) would evaluate to 3.1622776601683795 (i.e., the square root of 10).
+            
+            Note that the exponential operator has higher precedence than most other arithmetic operators, such as addition (+) and multiplication (*), so it is evaluated before them. However, it has lower precedence than the grouping operator (()), so you can use parentheses to change the order of evaluation if necessary.
+        */
+
+
+        // Example Program
+        function calculateInterest(principal, rate, years) {
+            // Calculate the total amount with compound interest
+            let amount = principal * (1 + rate / 100) ** years;
+
+            // Round the amount to two decimal places
+            amount = Math.round(amount * 100) / 100;
+
+            // Return the total amount
+            return amount;
+        }
+
+        // Example usage
+        console.log(calculateInterest(1000, 5, 3)); // Output: 1157.63
+
+        // In this program, the calculateInterest function takes three parameters: principal (the initial amount), rate (the annual interest rate), and years (the number of years the interest is compounded). It calculates the total amount with compound interest using the formula:
+
+        amount = principal * (1 + rate / 100) ** years
+
+        /*
+            It then rounds the amount to two decimal places using the Math.round function, and returns the result.
+
+            The example usage at the bottom of the program calls the calculateInterest function with a principal of 1000, an interest rate of 5%, and a compounding period of 3 years. The output is 1157.63, which is the total amount with compound interest rounded to two decimal places.
+        */
+    </script>
+</body>
+
+</html>

@@ -1,7 +1,3 @@
-x = 'a'
-if x < 'c':
-    x += 'b'
-if x > 'z':
-    x += 'c'
-    
-print(x)
+letter = ["a", "b", "c", "a"]
+letter.remove("a")
+print(letters)

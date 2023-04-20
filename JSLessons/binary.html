@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binary</title>
+</head>
+
+<body>
+
+    <script>
+        /*
+            In JavaScript, "binary" typically refers to the binary numeral system, which is a number system that uses only two digits: 0 and 1. In programming, binary is often used to represent data in a compact and efficient manner.
+
+            JavaScript provides several ways to work with binary data. One common way is to use bitwise operators such as AND (&), OR (|), XOR (^), and NOT (~) to manipulate binary data. These operators perform bitwise operations on the individual bits of a binary number.
+        */
+
+
+        // For example, consider the following code:
+        var a = 5; // decimal representation
+        var b = a.toString(2); // binary representation
+        console.log(b); // outputs "101"
+
+        // In this code, the toString() method is used to convert the decimal value 5 to its binary representation. The resulting binary value is then stored in the variable b and printed to the console.
+
+
+        // JavaScript also provides a parseInt() function that can be used to convert a binary string to a decimal number. For example:
+        var b = "101"; // binary string
+        var a = parseInt(b, 2); // convert binary string to decimal
+        console.log(a); // outputs "5"
+
+        /*
+            In this code, the parseInt() function is used to convert the binary string "101" to its decimal representation. The resulting decimal value is then stored in the variable a and printed to the console.
+
+            Overall, working with binary data in JavaScript can be a powerful technique for optimizing performance and reducing memory usage in certain types of applications.
+        */
+    </script>
+</body>
+
+</html>

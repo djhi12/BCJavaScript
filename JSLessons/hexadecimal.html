@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hexadecimal</title>
+</head>
+
+<body>
+
+    <script>
+        /*
+            In JavaScript, hexadecimal (hex) refers to a base-16 numbering system used to represent numbers. Hexadecimal numbers use 16 digits, from 0 to 9 and A to F, where A to F represent decimal values of 10 to 15 respectively.
+
+            In JavaScript, you can represent a hexadecimal number by prefixing it with "0x". For example, the hexadecimal number 1F can be represented in JavaScript as 0x1F.
+
+            You can also convert a decimal number to a hexadecimal string using the toString() method and passing in the base (in this case, 16) as an argument. For example, the decimal number 31 can be converted to the hexadecimal string "1F" using the following code:
+        */
+
+        let decimalNumber = 31;
+        let hexadecimalString = decimalNumber.toString(16);
+        console.log(hexadecimalString); // outputs "1F"
+
+
+        // Similarly, you can convert a hexadecimal string to a decimal number using the parseInt() method and passing in the base (in this case, 16) as a second argument. For example, the hexadecimal string "1F" can be converted to the decimal number 31 using the following code:
+        let hexadecimalString1 = "1F";
+        let decimalNumber1 = parseInt(hexadecimalString1, 16);
+        console.log(decimalNumber1); // outputs 31
+
+    </script>
+</body>
+
+</html>
