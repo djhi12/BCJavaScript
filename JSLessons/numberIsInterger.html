@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number.isInteger()</title>
+</head>
+
+<body>
+
+    <script>
+        /*
+            "Number.isInteger()" is a built-in method in JavaScript that allows you to check whether a given value is an integer or not. This method returns a Boolean value that indicates whether the given value is an integer or not.
+        */
+
+
+        // Here's an example:
+        console.log(Number.isInteger(42)); // true
+        console.log(Number.isInteger(3.14)); // false
+        console.log(Number.isInteger("42")); // false
+        console.log(Number.isInteger(null)); // false
+
+        /*
+            In this example, we use the "Number.isInteger()" method to check whether various values are integers or not. The first call to "Number.isInteger()" returns "true" because 42 is an integer. The second call returns "false" because 3.14 is not an integer. The third call also returns "false" because "42" is a string, not a number. Finally, the fourth call returns "false" because "null" is not a number.
+
+            It's important to note that "Number.isInteger()" only works with numbers. If you pass in a non-number value, it will always return "false".
+        */
+    </script>
+</body>
+
+</html>

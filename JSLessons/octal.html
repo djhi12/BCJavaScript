@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Octal</title>
+</head>
+
+<body>
+
+    <script>
+        /*
+            In JavaScript, octal refers to a base-8 numbering system that uses the digits 0 through 7 to represent values.
+        */
+
+
+        // To write an octal number in JavaScript, you can prefix it with a leading zero (0) followed by the octal digits. For example:
+        const octalNumber = 0o71; // equals 57 in decimal
+
+
+        // You can also use the parseInt() function with a radix of 8 to convert an octal string to a decimal number. For example:
+        const octalString = '72';
+        const decimalNumber = parseInt(octalString, 8); // equals 58 in decimal
+
+        // It's worth noting that octal literals are not allowed in strict mode, which is a mode in JavaScript that enforces stricter rules for code syntax and behavior. In strict mode, attempting to use an octal literal will result in a syntax error.
+    </script>
+</body>
+
+</html>

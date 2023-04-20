@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number()</title>
+</head>
+
+<body>
+
+    <script>
+        /*
+            In JavaScript, the Number() function is used to convert a given value into a number. It can be used to convert a string that represents a number, a boolean value, or even an object into a number.
+        */
+
+
+        // Here's the syntax for the Number() function:
+        Number(value)
+
+        // The value parameter can be any value that you want to convert to a number. If the value parameter is a string, it will be parsed as a number. If the value parameter is a boolean value, true will be converted to 1 and false will be converted to 0. If the value parameter is an object, JavaScript will try to call the object's valueOf() method and convert the result to a number.
+
+
+        // Here are some examples of using the Number() function:
+        Number("123") // returns 123
+        Number("3.14") // returns 3.14
+        Number("10px") // returns NaN (Not a Number)
+        Number(true) // returns 1
+        Number(false) // returns 0
+        Number({ valueOf: function () { return 42; } }) // returns 42
+
+    </script>
+</body>
+
+</html>
