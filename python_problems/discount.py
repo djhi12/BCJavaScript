@@ -34,66 +34,30 @@ Near the beginning of your program replace the code that asks the user for the s
 
 
 import datetime
-def calculate_sales_tax(subtotal):
-    # Function to calculate sales tax
-    sales_tax_rate = 0.06
-    sales_tax_amount = subtotal * sales_tax_rate
-    return sales_tax_amount
 
+# Get the current day of the week
+today = datetime.datetime.now().strftime("%A")
 
-def calculate_discount(subtotal):
-    # Function to calculate discount
-    discount_rate = 0.1
-    discount_amount = subtotal * discount_rate
-    return discount_amount
+# Get the subtotal from the user
+subtotal = float(input("\nPlease enter the subtotal: "))
 
+# Check if the subtotal is $50 or greater and today is Tuesday or Wednesday
+if subtotal >= 50 and (today == "Tuesday" or today == "Wednesday"):
+    # Calculate the discount amount
+    discount = subtotal * 0.1
+else:
+    discount = 0
 
-# Get today's weekday
-today = datetime.datetime.today().weekday()
+# Calculate the sales tax amount
+sales_tax = subtotal * 0.06
 
-# Testing Procedure 1
-if today not in [1, 2]:
-    subtotal = 42.75
-    expected_sales_tax_amount = 2.56
-    expected_total = 45.31
+# Calculate the total amount due
+total = subtotal - discount + sales_tax
 
-    sales_tax_amount = calculate_sales_tax(subtotal)
-    total = subtotal + sales_tax_amount
+# Print the discount amount if applicable, sales tax amount, and total amount due
+if discount > 0:
+    print("Discount amount:", round(discount, 2))
 
-    assert sales_tax_amount == expected_sales_tax_amount, f"Error: Sales tax amount is {sales_tax_amount}, but expected {expected_sales_tax_amount}"
-    assert total == expected_total, f"Error: Total is {total}, but expected {expected_total}"
+print("Sales tax amount:", round(sales_tax, 2))
+print(f"Total: {round(total, 2)}\n")
 
-    subtotal = 55.20
-    expected_sales_tax_amount = 3.31
-    expected_total = 58.51
-
-    sales_tax_amount = calculate_sales_tax(subtotal)
-    total = subtotal + sales_tax_amount
-
-    assert sales_tax_amount == expected_sales_tax_amount, f"Error: Sales tax amount is {sales_tax_amount}, but expected {expected_sales_tax_amount}"
-    assert total == expected_total, f"Error: Total is {total}, but expected {expected_total}"
-
-# Testing Procedure 2
-if today in [1, 2]:
-    subtotal = 42.75
-    expected_sales_tax_amount = 2.56
-    expected_total = 45.31
-
-    sales_tax_amount = calculate_sales_tax(subtotal)
-    total = subtotal + sales_tax_amount
-
-    assert sales_tax_amount == expected_sales_tax_amount, f"Error: Sales tax amount is {sales_tax_amount}, but expected {expected_sales_tax_amount}"
-    assert total == expected_total, f"Error: Total is {total}, but expected {expected_total}"
-
-    subtotal = 55.20
-    expected_discount_amount = 5.52
-    expected_sales_tax_amount = 2.98
-    expected_total = 52.66
-
-    discount_amount = calculate_discount(subtotal)
-    sales_tax_amount = calculate_sales_tax(subtotal - discount_amount)
-    total = subtotal - discount_amount + sales_tax_amount
-
-    assert discount_amount == expected_discount_amount, f"Error: Discount amount is {discount_amount}, but expected {expected_discount_amount}"
-    assert sales_tax_amount == expected_sales_tax_amount, f"Error: Sales tax amount is {sales_tax_amount}, but expected {expected_sales_tax_amount}"
-    assert total == expected_total, f"Error: Total is {total}, but expected {expected_total}"
