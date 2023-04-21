@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String()</title>
+</head>
+
+<body>
+
+    <script>
+        /*
+            In JavaScript, the String() function is used to convert a value to a string data type.
+
+            Here are some examples:
+        */
+
+
+        // Example 1: Converting a number to a string
+        const num = 123;
+        const str = String(num);
+        console.log(typeof str); // Output: string
+
+        // In this example, the String() function converts the num variable, which is a number, to a string, and assigns it to the str variable.
+
+
+        // Example 2: Converting a boolean to a string
+        const bool = true;
+        const str1 = String(bool);
+        console.log(typeof str1); // Output: string
+
+        // In this example, the String() function converts the bool variable, which is a boolean, to a string, and assigns it to the str variable.
+
+
+        // Example 3: Converting an object to a string
+        const obj = { name: "John", age: 30 };
+        const str2 = String(obj);
+        console.log(typeof str2); // Output: string
+
+        // In this example, the String() function converts the obj variable, which is an object, to a string, and assigns it to the str variable.
+
+
+        /*
+            Note that if the value passed to the String() function is null or undefined, it will return the string "null" or "undefined", respectively.
+        */
+
+
+    </script>
+</body>
+
+</html>

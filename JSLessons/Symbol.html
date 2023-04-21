@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Symbol()</title>
+</head>
+
+<body>
+
+    <script>
+        /*
+            In JavaScript, Symbol() is a built-in function that creates a unique, immutable value that can be used as a property key for objects. It was introduced in ECMAScript 2015 (ES6) and is one of the primitive data types in JavaScript along with number, string, boolean, null, and undefined.
+        */
+
+
+        // Here's an example of creating a Symbol:
+        const mySymbol = Symbol();
+
+
+        // You can also provide a description as an optional parameter to make it easier to identify the symbol:
+        const mySymbol1 = Symbol('This is my symbol');
+
+        // Each time you create a Symbol, a new, unique value is generated. This means that symbols can be used to create private properties or methods for objects, without the risk of naming conflicts.
+
+
+        // Here's an example of using Symbol as a property key for an object:
+        const obj = {
+            [Symbol('myProperty')]: 'Hello, world!'
+        };
+
+        console.log(obj[Symbol('myProperty')]); // undefined
+        console.log(obj[Object.getOwnPropertySymbols(obj)[0]]); // Hello, world!
+
+        // In this example, we created a new Symbol and used it as the key for a property in the obj object. When we try to access the property using a new Symbol with the same description, it returns undefined, because the Symbols are not the same. However, when we use Object.getOwnPropertySymbols() to retrieve all the symbols for the object, we can access the property using the symbol that was originally used to create it.
+
+
+        /*
+            Symbols can also be used to define iterable objects or as keys for Map objects. They provide a powerful mechanism for creating unique and private properties in JavaScript.
+        */
+
+
+        // Example Program
+        const myObj = (() => {
+            const privateProperty = Symbol('myPrivateProperty');
+
+            return {
+                setPrivateProperty(value) {
+                    this[privateProperty] = value;
+                },
+                getPrivateProperty() {
+                    return this[privateProperty];
+                }
+            };
+        })();
+
+        myObj.setPrivateProperty('Hello, world!');
+        console.log(myObj.getPrivateProperty()); // Hello, world!
+        console.log(myObj.privateProperty); // undefined
+
+        /*
+            In this example, we create an object using an immediately invoked function expression (IIFE). Within the IIFE, we define a private symbol privateProperty and use it as a key for a property in the returned object. The object has two methods: setPrivateProperty and getPrivateProperty, which respectively set and retrieve the private property using the Symbol.
+
+            When we create an instance of myObj, we can call the setPrivateProperty method to set the private property to a value, and then call the getPrivateProperty method to retrieve the value. When we try to access the private property directly using myObj.privateProperty, it returns undefined, because we can only access the private property using the Symbol key.
+
+            This is just one example of how Symbol can be used in JavaScript to create private properties or methods for objects.
+        */
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>repeat()</title>
+</head>
+
+<body>
+
+    <script>
+        /*
+            The repeat() method is a built-in function in JavaScript that is used to create a new string by repeating a given string a specified number of times.
+        */
+
+
+        // The syntax of the repeat() method is as follows:
+        string.repeat(count);
+
+        // Here, string is the string that you want to repeat, and count is the number of times you want to repeat the string.
+
+
+        // For example, if you want to create a string that repeats the word "hello" three times, you can use the repeat() method as follows:
+        const repeatedString = "hello".repeat(3);
+        console.log(repeatedString); // Output: "hellohellohello"
+
+        // It's important to note that the repeat() method returns an empty string if the count parameter is 0, and it throws a RangeError if the count parameter is negative or if it's larger than or equal to Number.MAX_SAFE_INTEGER.
+
+
+        // Example Program
+        // Ask the user for a number of asterisks to generate
+        const numAsterisks = prompt("How many asterisks do you want to generate?");
+
+        // Generate a string of asterisks using the repeat() method
+        const asterisksString = "*".repeat(numAsterisks);
+
+        // Print the string of asterisks to the console
+        console.log(asterisksString);
+
+        // When you run this program, it will prompt the user to enter a number of asterisks to generate. Once the user enters a number, the program uses the repeat() method to generate a string of that many asterisks, and then prints the string to the console.
+
+
+        // For example, if the user enters the number 5, the program will output the following string of asterisks: *****
+
+    </script>
+</body>
+
+</html>

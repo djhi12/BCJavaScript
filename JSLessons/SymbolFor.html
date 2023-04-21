@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Symbol.for()</title>
+</head>
+
+<body>
+
+    <script>
+        /*
+            In JavaScript, the Symbol.for() method is used to create and retrieve a shared symbol from the global symbol registry. This method creates a symbol if it does not already exist in the registry with the specified key, or returns the existing symbol associated with that key.
+        */
+
+
+        // The syntax for Symbol.for() is as follows:
+        Symbol.for(key)
+
+        // Here, key is a string that is used as the key to look up or create a shared symbol in the global symbol registry. If a symbol with the same key already exists in the registry, the existing symbol is returned. Otherwise, a new symbol is created and added to the registry with the specified key.
+
+
+        // Here is an example of using Symbol.for() to create a shared symbol and retrieve it later:
+        // Create a shared symbol with the key 'mySymbol'
+        const mySymbol = Symbol.for('mySymbol');
+
+        // Retrieve the shared symbol using the same key
+        const mySymbol2 = Symbol.for('mySymbol');
+
+        // These symbols are the same because they were created with the same key
+        console.log(mySymbol === mySymbol2); // true
+
+        /*
+            In this example, the Symbol.for() method is used to create a shared symbol with the key 'mySymbol'. When the method is called again with the same key 'mySymbol', it returns the same symbol that was previously created. The === operator is used to check that the two symbols are the same, which outputs true.
+
+            Note that unlike Symbol(), which creates a new unique symbol each time it is called, Symbol.for() creates and retrieves a shared symbol with the same key. This makes it useful for creating symbols that can be shared and used across different parts of an application.
+        */
+    </script>
+</body>
+
+</html>
