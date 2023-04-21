@@ -37,6 +37,7 @@ import datetime
 
 # Get the current day of the week
 today = datetime.datetime.now().strftime("%A")
+print(today)
 
 # Get the subtotal from the user
 subtotal = float(input("\nPlease enter the subtotal: "))
