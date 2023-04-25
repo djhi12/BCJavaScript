@@ -7,6 +7,7 @@ Here is an example of using the "if statement" block in a Scratch program:
 
 
 In this program, the cat sprite will move to the right if the space key is pressed, and move to the left if the left arrow key is pressed. The "if statement" block is used to check which key is pressed and execute the appropriate code.
+
 Note that in Scratch, the "if statement" block must be connected to a boolean expression block, such as a comparison block, to function properly.
 
 
