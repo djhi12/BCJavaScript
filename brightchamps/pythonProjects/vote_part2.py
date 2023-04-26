@@ -1,5 +1,5 @@
 # Ask the user for their age and store it in a variable
-age = int(input("Enter your age: "))
+age = int(input("\nEnter your age: "))
 
 # Check if the user is old enough to vote
 if age >= 18:
