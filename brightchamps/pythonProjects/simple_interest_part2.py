@@ -13,7 +13,7 @@ time = float(input("Enter the time period in years: "))
 interest = calculate_simple_interest(principal, rate, time)
 
 # Print the result
-print("The simple interest for a principal of Rs.", principal, "at a rate of", rate, "percent per year for", time, "years is Rs.", interest, "\n")
+print("\nThe simple interest for a principal of Peso", principal, "at a rate of", rate, "percent per year for", time, "years is Peso", interest, "\n")
 
 """
     In this updated code, we have defined the calculate_simple_interest function that takes three arguments and returns the simple interest calculated using the formula (P * R * T) / 100. We then call this function with the user input values of principal, rate, and time to calculate the simple interest and store it in the interest variable. Finally, we print the result using the print() function.
