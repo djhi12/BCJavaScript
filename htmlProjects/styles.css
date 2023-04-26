@@ -1,13 +1,24 @@
 body {
-    background: antiquewhite;
-  }
-  p {
-    color: black;
-  }
-  h1 {
-    font-weight: bold;
-  }
-  
-  h2{
-    text-align: center;
-  }
+  background: antiquewhite;
+  font-family: cursive;
+}
+p {
+  color: black;
+}
+h1 {
+  font-weight: bold;
+}
+
+h2{
+  text-align: center;
+}
+
+#about{
+  background-color: aquamarine;
+  border-radius: 10px;
+}
+
+#message{
+  border:2px dashed black;
+  background-color: lightyellow;
+}
