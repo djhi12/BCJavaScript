@@ -1,5 +1,5 @@
 # Get input from the user
-principal = float(input("Enter the principal amount: "))
+principal = float(input("\nEnter the principal amount: "))
 rate = float(input("Enter the rate of interest: "))
 time = float(input("Enter the time period in years: "))
 
@@ -7,7 +7,7 @@ time = float(input("Enter the time period in years: "))
 interest = (principal * rate * time) / 100
 
 # Print the result
-print("The simple interest for a principal of Rs.", principal, "at a rate of", rate, "percent per year for", time, "years is Rs.", interest)
+print("The simple interest for a principal of Rs.", principal, "at a rate of", rate, "percent per year for", time, "years is Rs.", interest, "\n")
 
 
 """

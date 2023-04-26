@@ -5,7 +5,7 @@ def calculate_simple_interest(principal, rate, time):
     return (principal * rate * time) / 100
 
 # Get input from the user
-principal = float(input("Enter the principal amount: "))
+principal = float(input("\nEnter the principal amount: "))
 rate = float(input("Enter the rate of interest: "))
 time = float(input("Enter the time period in years: "))
 
@@ -13,7 +13,7 @@ time = float(input("Enter the time period in years: "))
 interest = calculate_simple_interest(principal, rate, time)
 
 # Print the result
-print("The simple interest for a principal of Rs.", principal, "at a rate of", rate, "percent per year for", time, "years is Rs.", interest)
+print("The simple interest for a principal of Rs.", principal, "at a rate of", rate, "percent per year for", time, "years is Rs.", interest, "\n")
 
 """
     In this updated code, we have defined the calculate_simple_interest function that takes three arguments and returns the simple interest calculated using the formula (P * R * T) / 100. We then call this function with the user input values of principal, rate, and time to calculate the simple interest and store it in the interest variable. Finally, we print the result using the print() function.
