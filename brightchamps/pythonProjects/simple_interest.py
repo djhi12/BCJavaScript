@@ -7,7 +7,7 @@ time = float(input("Enter the time period in years: "))
 interest = (principal * rate * time) / 100
 
 # Print the result
-print("The simple interest for a principal of Rs.", principal, "at a rate of", rate, "percent per year for", time, "years is Rs.", interest, "\n")
+print("\nThe simple interest for a principal of Peso", principal, "at a rate of", rate, "percent per year for", time, "years is Peso.", interest, "\n")
 
 
 """
