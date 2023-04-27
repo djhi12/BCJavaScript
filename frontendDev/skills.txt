@@ -1,0 +1,21 @@
+Web Frontend Engineers are responsible for designing, building, and maintaining the user-facing portion of websites or web applications. The skills required for a Web Frontend Engineer can vary depending on the project, but here are some common skills that are typically expected:
+
+Proficiency in HTML, CSS, and JavaScript: A Web Frontend Engineer should have a deep understanding of HTML, CSS, and JavaScript, as these are the building blocks of the web.
+
+Familiarity with CSS preprocessors: CSS preprocessors like Sass and Less can simplify the process of writing CSS and allow for the creation of more complex styles.
+
+Experience with frontend frameworks: Frameworks like React, Angular, and Vue.js can make it easier to build complex user interfaces and applications.
+
+Understanding of browser compatibility: Web Frontend Engineers should be familiar with browser compatibility issues and be able to write code that works across multiple browsers.
+
+Knowledge of web performance optimization: A Web Frontend Engineer should be familiar with techniques for optimizing web performance, such as lazy loading, minification, and code splitting.
+
+Familiarity with version control systems: Web Frontend Engineers should be comfortable using version control systems like Git to manage code changes.
+
+Ability to work with APIs: Web Frontend Engineers should be able to work with APIs to retrieve and display data from external sources.
+
+Understanding of web accessibility: Web Frontend Engineers should be familiar with accessibility guidelines and best practices to ensure that websites and web applications are accessible to all users.
+
+Design skills: While not always a requirement, having design skills can be beneficial for Web Frontend Engineers as they work on creating user interfaces and layouts.
+
+Communication and collaboration: Web Frontend Engineers often work closely with designers, backend developers, and other stakeholders, so strong communication and collaboration skills are essential.
