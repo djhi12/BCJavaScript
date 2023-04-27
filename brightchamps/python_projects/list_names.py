@@ -1,7 +1,7 @@
 # One possible Python project that makes use of the filter() function is a program that filters a list of strings based on a specific condition. Here's an example program that filters a list of names based on whether they start with a certain letter:
 
 
-names = ['Alice', 'Bob', 'Charlie', 'David', 'Eve', 'Frank', 'Gabriel', 'Harley', 'Inigo', 'James', 'Kelly', 'Leo', 'Michael', 'Neo', 'Omni', 'Parker', 'Quad', 'Rose', 'Stan', 'Uvo', 'Walter', 'Xian', 'Yin', 'Zab']
+names = ['Alice', 'Bob', 'Charlie', 'David', 'Eve', 'Frank', 'Gabriel', 'Harley', 'Inigo', 'James', 'Kelly', 'Leo', 'Michael', 'Neo', 'Omni', 'Parker', 'Quad', 'Rose', 'Stan', 'Tanya', 'Uvo', 'Vince', 'Walter', 'Xian', 'Yin', 'Zab']
 
 def filter_names(starting_letter):
     return list(filter(lambda name: name.startswith(starting_letter), names))
