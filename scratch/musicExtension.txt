@@ -2,10 +2,10 @@ Scratch is a visual programming language that is widely used to teach children h
 
 One of the many extensions available for Scratch is the "music extension." This extension allows users to create and manipulate music within their Scratch projects. With the music extension, users can:
 
-    Play notes and chords using a virtual keyboard
-    Adjust the tempo, volume, and other parameters of their music
-    Create custom melodies and rhythms using the built-in sequencer
-    Import and export MIDI files
-    Use a variety of sound effects and instruments
+Play notes and chords using a virtual keyboard
+Adjust the tempo, volume, and other parameters of their music
+Create custom melodies and rhythms using the built-in sequencer
+Import and export MIDI files
+Use a variety of sound effects and instruments
     
 The music extension is a great tool for anyone who wants to incorporate music into their Scratch projects, whether it's a simple jingle or a full-blown soundtrack. It's easy to use and provides a lot of creative possibilities for users of all skill levels.
