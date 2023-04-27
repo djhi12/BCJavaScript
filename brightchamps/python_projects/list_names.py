@@ -6,10 +6,10 @@ names = ['Alice', 'Bob', 'Charlie', 'David', 'Eve', 'Frank', 'Chavez']
 def filter_names(starting_letter):
     return list(filter(lambda name: name.startswith(starting_letter), names))
 
-starting_letter = input("Type the starting letter: ")
+starting_letter = input("\nType the starting letter: ")
 filtered_names = filter_names(starting_letter.upper())
 
-print(filtered_names)
+print(filtered_names, "\n")
 
 """
     In this example, the filter_names() function takes a single argument, starting_letter, which specifies the letter that we want to filter the list of names by. We use the lambda keyword to define an anonymous function that checks whether each name in the list starts with the specified letter. We then pass this function to the filter() function along with the list of names.
