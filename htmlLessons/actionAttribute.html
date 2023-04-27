@@ -9,7 +9,25 @@
 </head>
 
 <body>
+    <!--
+        In HTML, the "action" attribute is used to specify the URL of the server-side script or program that should be invoked when the user submits a form.
 
+        When a user submits a form, the data entered into the form fields is sent to the server-side script specified in the "action" attribute. The script can then process the data and return a response, which can be displayed to the user in a new web page or within the same page using JavaScript.
+
+        The "action" attribute is usually used in conjunction with the "method" attribute, which specifies the HTTP method to be used when sending the data to the server. The two most common methods are "GET" and "POST", which correspond to the HTTP GET and POST requests, respectively.
+    -->
+
+    <form action="/submit-form.php" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <!--
+        In this example, when the user submits the form, the data entered into the "name" and "email" fields will be sent to the server-side script located at "/submit-form.php" using the HTTP POST method.
+      -->
 </body>
 
 </html>
