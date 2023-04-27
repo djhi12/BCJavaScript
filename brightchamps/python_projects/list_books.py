@@ -22,7 +22,7 @@ def filter_books(title=None):
         
     return list(filtered_books)
 
-title = input("\nBook title: ")
+title = input("\nBook title (keyword): ")
 # author = input("Author: ")
 # year = input("Year: ")
 filtered_books = filter_books(title)
