@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>canvas tag</title>
+</head>
+
+<body>
+    <!--
+        In HTML, the <canvas> element is used to draw graphics, animations, and other visual content on a web page using JavaScript. The <canvas> element has a fixed width and height, and provides a drawing area where JavaScript can be used to render shapes, images, and other graphical elements.
+
+        To use the <canvas> element, you first need to create a canvas object using JavaScript. This is done using the getContext() method of the <canvas> element. The most common context used with <canvas> is the 2D context, which can be created like this:
+    -->
+
+    <canvas id="myCanvas" width="400" height="400"></canvas>
+    <script>
+        var canvas = document.getElementById("myCanvas");
+        var ctx = canvas.getContext("2d");
+
+        var x = 200;
+        var y = 200;
+        var radius = 50;
+        var dx = 5;
+        var dy = 5;
+
+        function draw() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            ctx.beginPath();
+            ctx.arc(x, y, radius, 0, Math.PI * 2);
+            ctx.fillStyle = "red";
+            ctx.fill();
+            ctx.closePath();
+
+            if (x + radius > canvas.width || x - radius < 0) {
+                dx = -dx;
+            }
+
+            if (y + radius > canvas.height || y - radius < 0) {
+                dy = -dy;
+            }
+
+            x += dx;
+            y += dy;
+        }
+
+        setInterval(draw, 10);
+    </script>
+
+    <!--
+        This program creates a canvas element with a width and height of 400 pixels, and draws a red circle that moves around inside the canvas. The draw() function is called repeatedly every 10 milliseconds using the setInterval() method, which updates the position of the circle and redraws it on the canvas.
+
+        The ctx.clearRect() method is used to clear the canvas before each frame is drawn, so that the circle doesn't leave a trail behind it. The if statements check if the circle has reached the edge of the canvas, and if so, reverse its direction by changing the dx and dy values.
+
+        You can try this example program by copying the code into a new HTML file and opening it in a web browser. You should see a red circle bouncing around inside a black-bordered canvas.
+    -->
+</body>
+
+</html>

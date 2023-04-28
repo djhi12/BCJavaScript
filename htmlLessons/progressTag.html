@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>progress tag</title>
+    <style>
+        /*
+            In this example, the progress bar has a gray background color and a green progress bar. The "::webkit-progress-value" selector is used to target the progress bar in WebKit-based browsers like Safari and Chrome.
+        */
+        progress {
+            background-color: #ddd;
+        }
+
+        progress::-webkit-progress-value {
+            background-color: #4CAF50;
+        }
+    </style>
+</head>
+
+<body>
+    <!--
+        The HTML "progress" element is used to represent the progress of a task or a process that is underway. It can be used to display a progress bar, which indicates the percentage of completion of the task or process.
+
+        The "progress" element requires a value and a max attribute to be set. The value attribute represents the current progress of the task, while the max attribute represents the total amount of work that needs to be done.
+    -->
+
+    <progress value="50" max="100"></progress>
+
+    <!--
+        In this example, the progress bar is 50% complete. The maximum value is 100, indicating that the task is halfway done.
+    -->
+</body>
+
+</html>
