@@ -1,0 +1,60 @@
+body {
+    background: antiquewhite;
+    font-family: cursive;
+  }
+  p {
+    color: black;
+  }
+  h1 {
+    font-weight: bold;
+  }
+  
+  h2{
+    text-align: center;
+  }
+  
+  img{
+    border: 3px solid black;
+  }
+  
+  
+  #about{
+    background-color: aquamarine;
+    border-radius: 10px;
+  }
+  
+  #city{
+    border: 8px dotted red ;
+  }
+  
+  #gallery{
+    background-color: aquamarine;
+    border-radius: 10px;
+    display: inline-block;
+  }
+  
+  div.column {
+    width:180px;
+    float:left;
+  }
+  
+  div.column img {
+    width: 100%;
+    height: 200px;
+  }
+  
+  
+  #sports{
+    border: 8px dotted red ;
+  }
+  
+  #book{
+    background-color: aquamarine;
+    border-radius: 10px;
+  }
+  
+  #message{
+    border:2px dashed black;
+    background-color: lightyellow;
+  }
+  
