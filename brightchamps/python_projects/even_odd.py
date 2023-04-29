@@ -1,5 +1,5 @@
 # Ask the user for an input number
-num = int(input("Enter a number: "))
+num = int(input("\nEnter a number: "))
 
 # Check if the number is even
 if num % 2 == 0:
@@ -12,6 +12,6 @@ else:
     num += 1
 
 # Print the final value of the number
-print("The final value of the number is:", num)
+print("The final value of the number is:", num, "\n")
 
 # This program asks the user for an input number, checks if it is even using the modulus operator (%) and the logical operator (==), and then either doubles the number or adds 1 to it depending on whether it is even or odd. Finally, it prints out the final value of the number.
