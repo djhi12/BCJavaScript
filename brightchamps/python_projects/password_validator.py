@@ -30,10 +30,12 @@ while True:
     if any(char.islower() for char in password):
         strength += 1
         
+    # This line checks if the strength variable is equal to 4, meaning all four criteria have been met. If it is, the code prints "Password is strong enough." and breaks out of the infinite loop.
     if strength == 4:
         print("Password is strong enough.\n")
         break
     
+    # If the strength variable is not equal to 4, meaning at least one of the criteria has not been met, the code prints "Password is not strong enough. Please try again." and continues the infinite loop, prompting the user to enter another password.
     else:
         print("Password is not strong enough. Please try again.\n")
 
