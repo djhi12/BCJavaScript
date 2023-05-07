@@ -1,23 +1,23 @@
 Scratch is a block-based programming language that provides various math operators to perform mathematical operations. Here are the Scratch math operators:
 
-	1. Addition: The addition operator is represented by the "+" symbol. It is used to add two or more numbers.
+1. Addition: The addition operator is represented by the "+" symbol. It is used to add two or more numbers.
 	
-	2. Subtraction: The subtraction operator is represented by the "-" symbol. It is used to subtract one number from another.
+2. Subtraction: The subtraction operator is represented by the "-" symbol. It is used to subtract one number from another.
 	
-	3. Multiplication: The multiplication operator is represented by the "*" symbol. It is used to multiply two or more numbers.
+3. Multiplication: The multiplication operator is represented by the "*" symbol. It is used to multiply two or more numbers.
 	
-	4. Division: The division operator is represented by the "/" symbol. It is used to divide one number by another.
+4. Division: The division operator is represented by the "/" symbol. It is used to divide one number by another.
 	
-	5. Modulo: The modulo operator is represented by the "%" symbol. It gives the remainder of a division operation.
+5. Modulo: The modulo operator is represented by the "%" symbol. It gives the remainder of a division operation.
 	
-	6. Exponentiation: The exponentiation operator is represented by the "^" symbol. It is used to raise a number to a power.
+6. Exponentiation: The exponentiation operator is represented by the "^" symbol. It is used to raise a number to a power.
 	
-	7. Random: The random operator is represented by the "pick random" block. It is used to generate a random number within a given range.
+7. Random: The random operator is represented by the "pick random" block. It is used to generate a random number within a given range.
 	
-	8. Absolute value: The absolute value operator is represented by the "abs" block. It is used to return the absolute value of a number.
+8. Absolute value: The absolute value operator is represented by the "abs" block. It is used to return the absolute value of a number.
 	
-	9. Round: The round operator is represented by the "round" block. It is used to round a number to the nearest whole number or to a specified number of decimal places.
+9. Round: The round operator is represented by the "round" block. It is used to round a number to the nearest whole number or to a specified number of decimal places.
 	
-	10. Square root: The square root operator is represented by the "sqrt" block. It is used to find the square root of a number.
+10. Square root: The square root operator is represented by the "sqrt" block. It is used to find the square root of a number.
 
 
