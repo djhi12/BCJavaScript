@@ -1,0 +1,118 @@
+body {
+    background: antiquewhite;
+    font-family: cursive;
+    margin: 20px;
+  }
+  p {
+    color: black;
+  }
+  h1 {
+    font-weight: bold;
+    font-size: 40px;
+  }
+  
+  h1, h2, h3{
+    text-align: center;
+  }
+  
+  img{
+    border: 3px solid black;
+  }
+  
+  div{
+    padding:10px;
+    margin: 10px;
+  }
+  
+  
+  .container{
+    background-color:lightyellow;
+    border: 2px dashed black;
+  }
+  
+  nav{
+    text-align: center;
+    display: inline;
+    width:100%;
+  }
+  
+  nav ul{
+    width: 100%;
+  }
+  
+  nav ul li{
+    display: inline-block;
+    text-align: center;
+    padding:10px;
+    font-size: 20px;
+    font-family: monospace;
+  }
+  
+  nav a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  nav ul li a:hover{
+    color:red;
+  
+  }
+  
+  #about{
+    background-color: aquamarine;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  #about img{
+    height: 200px;
+    width:200px;
+  }
+  
+  #city{
+    border: 8px dotted red ;
+  }
+  
+  #gallery{
+    background-color: aquamarine;
+    border-radius: 10px;
+    display: inline-block;
+    margin:30px;
+    padding:30px;
+  }
+  
+  div.column {
+    width:180px;
+    float:left;
+  }
+  
+  div.column img {
+    width: 100%;
+    height: 200px;
+  }
+  
+  
+  #sports{
+    border: 8px dotted red ;
+  }
+  
+  #sports img, #book img{
+    height: 400px;
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #book{
+    background-color: aquamarine;
+    border-radius: 10px;
+  }
+  
+  
+  #message{
+    border:2px dashed black;
+    background-color: lightyellow;
+  }
+  
