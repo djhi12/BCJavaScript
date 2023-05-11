@@ -43,7 +43,7 @@ while True:
         print("\nInvalid choice, please try again")
 
 """
-    In this updated version of the program, we've added a new function called update_word(). When the user selects option 3, the program prompts them to enter a word to update. If the word is in the dictionary, the program prompts the user to enter the new meaning of the word, and then updates the dictionary with the new meaning using the dictionary[word] = new_meaning syntax.
+In this updated version of the program, we've added a new function called update_word(). When the user selects option 3, the program prompts them to enter a word to update. If the word is in the dictionary, the program prompts the user to enter the new meaning of the word, and then updates the dictionary with the new meaning using the dictionary[word] = new_meaning syntax.
 
-    I hope this updated program helps you add the "Allow users to update existing words and meanings in the dictionary" feature to your own dictionary project!
+I hope this updated program helps you add the "Allow users to update existing words and meanings in the dictionary" feature to your own dictionary project!
 """
