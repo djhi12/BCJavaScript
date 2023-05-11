@@ -49,7 +49,7 @@ while True:
     elif choice == "4":
         delete_word()
     elif choice == "5":
-        print("Goodbye!")
+        print("\nGoodbye!\n")
         break
     else:
         print("Invalid choice, please try again")
