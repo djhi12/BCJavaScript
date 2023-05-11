@@ -24,12 +24,14 @@ while True:
     print("1. Add a new word")
     print("2. Search for a word")
     print("3. Exit")
+    
     choice = input("\nEnter your choice (1, 2, or 3): ")
 
     # If the user selects option 1, it calls a function named add_word() to add a new word and its meaning to the dictionary. The implementation of the add_word() function is not shown in this code snippet.
     if choice == "1":
         add_word()
         
+    # If the user selects option 2, the program prompts the user to enter a word to search for. If the word is found in the dictionary, the program prints its meaning. Otherwise, it prints a message indicating that the word is not in the dictionary.
     elif choice == "2":
         
         word = input("\nEnter a word to search for: ")
@@ -38,10 +40,14 @@ while True:
             print(f"\nThe meaning of {word} is: {dictionary[word]}\n")
         else:
             print(f"\n{word} is not in the dictionary \n")
-            
+    
+    # If the user selects option 3, the program prints a goodbye message and exits the loop.
     elif choice == "3":
         print("Goodbye!")
         break
     
+    # If the user selects an invalid option, the program prints a message asking the user to try again.
     else:
         print("Invalid choice, please try again")
+
+# Overall, this program provides a simple and easy-to-use interface for managing a dictionary of words and their meanings.
