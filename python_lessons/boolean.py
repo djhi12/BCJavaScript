@@ -1,7 +1,7 @@
 """
-    In Python, a boolean is a data type that can have one of two possible values: True or False. Booleans are often used in conditional statements to control program flow.
+In Python, a boolean is a data type that can have one of two possible values: True or False. Booleans are often used in conditional statements to control program flow.
 
-    Boolean values can be assigned to variables, and can also be the result of a comparison or logical operation. For example:
+Boolean values can be assigned to variables, and can also be the result of a comparison or logical operation. For example:
 """
 x = True
 y = False

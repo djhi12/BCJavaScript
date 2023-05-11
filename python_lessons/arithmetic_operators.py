@@ -1,19 +1,19 @@
 """
-    Python has several arithmetic operators that can be used to perform mathematical operations on numerical values. These operators include:
+Python has several arithmetic operators that can be used to perform mathematical operations on numerical values. These operators include:
 
-        Addition (+): This operator is used to add two numerical values together.
+Addition (+): This operator is used to add two numerical values together.
 
-        Subtraction (-): This operator is used to subtract one numerical value from another.
+Subtraction (-): This operator is used to subtract one numerical value from another.
 
-        Multiplication (*): This operator is used to multiply two numerical values together.
+Multiplication (*): This operator is used to multiply two numerical values together.
 
-        Division (/): This operator is used to divide one numerical value by another. Note that in Python 3, division always returns a float value.
+Division (/): This operator is used to divide one numerical value by another. Note that in Python 3, division always returns a float value.
 
-        Floor Division (//): This operator is used to divide one numerical value by another and return only the integer part of the result.
+Floor Division (//): This operator is used to divide one numerical value by another and return only the integer part of the result.
 
-        Modulus (%): This operator is used to find the remainder when one numerical value is divided by another.
+Modulus (%): This operator is used to find the remainder when one numerical value is divided by another.
 
-        Exponentiation (**): This operator is used to raise one numerical value to the power of another.
+Exponentiation (**): This operator is used to raise one numerical value to the power of another.
 """
 
 # Here are some examples of how these operators can be used in Python:
