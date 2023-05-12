@@ -28,26 +28,31 @@ def delete_word():
 
 
 while True:
-    print("Select an option:")
+    print("\nSelect an option:")
     print("1. Add a new word")
     print("2. Search for a word")
     print("3. Update an existing word")
     print("4. Delete a word")
     print("5. Exit")
-    choice = input("Enter your choice (1, 2, 3, 4, or 5): ")
+    choice = input("\nEnter your choice (1, 2, 3, 4, or 5): ")
 
     if choice == "1":
         add_word()
+        
     elif choice == "2":
         word = input("Enter a word to search for: ")
+        
         if word in dictionary:
             print(f"The meaning of {word} is: {dictionary[word]}")
         else:
             print(f"{word} is not in the dictionary")
+            
     elif choice == "3":
         update_word()
+        
     elif choice == "4":
         delete_word()
+        
     elif choice == "5":
         print("\nGoodbye!\n")
         break
