@@ -1,0 +1,50 @@
+body {
+    background: #EDFA8B;
+    font-family: cursive;
+  }
+  
+  p {
+    color: black;
+  }
+  h1 {
+    font-weight: bold;
+  }
+  
+  .center{
+    text-align: center;
+  }
+  
+  /*Nav Bar*/
+  .container{
+    clear:both;
+    overflow:auto;
+  }
+  
+  nav{
+    float:right;
+  }
+  
+  nav a{
+    text-decoration: none;
+    color:black;
+  }
+  
+  nav ul li :hover{
+    color: green;
+  }
+  
+  .logo img{
+    float:left;
+    border-radius: 15px;
+  }
+  
+  .container ul li{
+    display: inline-block; 
+    padding:10px;
+    font-size:18px;
+  }
+  
+  .container ul li:hover{
+    color:orange;
+  
+  }
