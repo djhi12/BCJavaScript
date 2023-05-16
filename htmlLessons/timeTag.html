@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>time tag</title>
+</head>
+
+<body>
+    <!--
+        The <time> tag in HTML is used to represent a specific date and/or time in a machine-readable format. It is often used to indicate the date and time of an event or the time that a particular piece of content was last updated.
+
+        The syntax for the <time> tag is as follows:
+    -->
+
+    <time datetime="YYYY-MM-DDThh:mm:ssTZD">Date and/or time</time>
+
+    <!--
+        Here, the datetime attribute specifies the date and/or time in the ISO 8601 format. The TZD portion represents the time zone offset from Coordinated Universal Time (UTC) in the format +hh:mm or -hh:mm.
+    -->
+
+
+    <!--
+        For example, the following code displays the current date and time in the format YYYY-MM-DDThh:mm:ssTZD:
+    -->
+    <p>The current date and time is <time datetime="2023-05-12T13:30:00-07:00">May 12, 2023 1:30 PM PDT</time>.</p>
+
+    <!--
+        Note that the text inside the <time> tag is used as a fallback for browsers that do not support the <time> tag or cannot parse the datetime attribute.
+    -->
+</body>
+
+</html>
