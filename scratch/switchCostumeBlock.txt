@@ -1,10 +1,11 @@
 The "switch costume to" block is a programming block used in Scratch to change the appearance, or costume, of a sprite. This block is used to switch a sprite's costume to a different one that has already been created and uploaded to the sprite's costume library.
 
 To use the "switch costume to" block in Scratch, follow these steps:
-	1. Drag the "switch costume to" block from the "Looks" category of the Scratch blocks palette to the scripting area.
-	2. Select the sprite you want to change the costume of.
-	3. Choose the costume you want to switch to from the sprite's costume library by clicking the drop-down menu on the "switch costume to" block and selecting the desired costume.
-	4. Run the program to see the sprite change its appearance to the selected costume.
+
+1. Drag the "switch costume to" block from the "Looks" category of the Scratch blocks palette to the scripting area.
+2. Select the sprite you want to change the costume of.
+3. Choose the costume you want to switch to from the sprite's costume library by clicking the drop-down menu on the "switch costume to" block and selecting the desired costume.
+4. Run the program to see the sprite change its appearance to the selected costume.
 
 Note that the "switch costume to" block can be used in combination with other programming blocks to create animations and other visual effects in Scratch.
 

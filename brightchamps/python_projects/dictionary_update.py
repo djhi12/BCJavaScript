@@ -7,11 +7,14 @@ def add_word():
     print(f"{word} has been added to the dictionary with meaning: {meaning}\n")
 
 def update_word():
+    
     word = input("\nEnter a word to update: ")
+    
     if word in dictionary:
         new_meaning = input(f"Enter the new meaning of {word}: ")
         dictionary[word] = new_meaning
         print(f"{word} has been updated with the new meaning: {new_meaning}")
+    
     else:
         print(f"{word} is not in the dictionary")
 
@@ -25,8 +28,10 @@ while True:
     
     if choice == "1":
         add_word()
+        
     elif choice == "2":
         word = input("\nEnter a word to search for: ")
+        
         if word in dictionary:
             print(f"The meaning of {word} is: {dictionary[word]}")
         else:
