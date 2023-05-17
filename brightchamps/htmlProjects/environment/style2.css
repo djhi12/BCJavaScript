@@ -1,0 +1,77 @@
+body {
+    background: #EDFA8B;
+    font-family: cursive;
+}
+
+p {
+    color: black;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+.center {
+    text-align: center;
+}
+
+/*Nav Bar*/
+.container {
+    clear: both;
+    overflow: auto;
+}
+
+nav {
+    float: right;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li :hover {
+    color: green;
+}
+
+.logo img {
+    width: 130px;
+    float: left;
+    border-radius: 15px;
+}
+
+.container ul li {
+    display: inline-block;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.container ul li:hover {
+    color: orange;
+}
+
+/*banner*/
+
+#banner {
+    margin-top: 15px;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#banner img {
+    width: 100%;
+    border: 2px solid green;
+    border-radius: 5px;
+}
+
+.bannerText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    /* Black background with 0.5 opacity */
+    transform: translate(-50%, -50%);
+}

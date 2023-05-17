@@ -24,12 +24,15 @@ while True:
     elif choice == "2":
         item_name = input("\nEnter the item name you want to remove: ")
         found = False
+        
         for item in shopping_list:
+            
             if item["name"] == item_name:
                 shopping_list.remove(item)
                 print(f"{item_name} has been removed from the shopping list.")
                 found = True
                 break
+        
         if not found:
             print("Item not found in the shopping list.")
             
