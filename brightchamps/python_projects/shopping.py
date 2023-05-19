@@ -1,7 +1,7 @@
 shopping_list = []
 
 while True:
-    print("Shopping List:")
+    print("\nShopping List:")
     for i, item in enumerate(shopping_list):
         print(f"{i+1}. {item['name']} - ${item['price']}")
 

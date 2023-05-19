@@ -2,14 +2,14 @@ dictionary = {}
 
 
 def add_word():
-    word = input("Enter a new word: ")
+    word = input("\nEnter a new word: ")
     meaning = input("Enter the meaning of the word: ")
     dictionary[word] = meaning
     print(f"{word} has been added to the dictionary with meaning: {meaning}")
 
 
 def update_word():
-    word = input("Enter a word to update: ")
+    word = input("\nEnter a word to update: ")
     if word in dictionary:
         new_meaning = input(f"Enter the new meaning of {word}: ")
         dictionary[word] = new_meaning
@@ -19,7 +19,7 @@ def update_word():
 
 
 def delete_word():
-    word = input("Enter a word to delete: ")
+    word = input("\nEnter a word to delete: ")
     if word in dictionary:
         del dictionary[word]
         print(f"{word} has been deleted from the dictionary")
