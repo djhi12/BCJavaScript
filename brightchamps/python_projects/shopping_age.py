@@ -1,7 +1,7 @@
 shopping_list = []
 
 while True:
-    print("Shopping List:")
+    print("\nShopping List:")
     for i, item in enumerate(shopping_list):
         name = item['name']
         price = item['price']
@@ -17,7 +17,7 @@ while True:
     print("4. Apply age-based discount")
     print("5. Exit")
 
-    choice = input("Enter your choice: ")
+    choice = input("\nEnter your choice: ")
 
     if choice == "1":
         item_name = input("\nEnter the item name: ")
@@ -59,17 +59,20 @@ while True:
                     f"{name} - ${price:.2f} (Discount: {discount*100:.2f}%) - ${discounted_price:.2f}")
     
     elif choice == "4":
+        
         age = int(input("\nEnter your age: "))
         discount = 0
         
         if age < 18:
             discount = 0.2  # 20% discount for customers below 18
+        
         elif age >= 60:
             discount = 0.1  # 10% discount for customers 60 and above
+        
         for item in shopping_list:
             item['discount'] = discount
-        print(
-            f"Age-based discount of {discount*100:.2f}% applied to all items.")
+        
+        print(f"Age-based discount of {discount*100:.2f}% applied to all items.")
     
     elif choice == "5":
         break
