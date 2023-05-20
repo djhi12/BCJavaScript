@@ -2,14 +2,14 @@ The Events tab in Scratch is one of the several tabs located in the code editor 
 
 The Events tab has several different event blocks that can be used to initiate actions or behaviors in Scratch projects. These blocks include:
 
-    When Green Flag Clicked: This event block is triggered when the user clicks on the green flag icon that is located in the top right corner of the Scratch interface. It is commonly used to start a game or animation.
+When Green Flag Clicked: This event block is triggered when the user clicks on the green flag icon that is located in the top right corner of the Scratch interface. It is commonly used to start a game or animation.
 
-    When Key Pressed: This event block is triggered when the user presses a specific key on the keyboard. It can be used to control the movement or actions of a character in a game.
+When Key Pressed: This event block is triggered when the user presses a specific key on the keyboard. It can be used to control the movement or actions of a character in a game.
 
-    When Sprite Clicked: This event block is triggered when the user clicks on a specific sprite or object in the Scratch project.
+When Sprite Clicked: This event block is triggered when the user clicks on a specific sprite or object in the Scratch project.
 
-    When Stage Clicked: This event block is triggered when the user clicks on the stage area of the Scratch project.
+When Stage Clicked: This event block is triggered when the user clicks on the stage area of the Scratch project.
 
-    When I Receive: This event block is triggered when a message is received by a specific sprite or object in the Scratch project.
+When I Receive: This event block is triggered when a message is received by a specific sprite or object in the Scratch project.
 
 These event blocks can be used to control the behavior of sprites, create animations, and design interactive games and simulations. By combining different event blocks with other Scratch programming blocks, users can create complex projects that respond to user input and provide engaging experiences for their audiences.
