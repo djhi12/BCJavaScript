@@ -1,3 +1,5 @@
+--[[
+    
 Roblox is an online gaming platform that allows users to create and play games. It was launched in 2006 and has become popular among younger audiences, with over 150 million active monthly users.
 
 Users can create their own games using Roblox Studio, a free game development software that includes tools for creating 3D environments, scripting, and designing game mechanics. Once a game is created, it can be published and played by other users on the Roblox platform.
@@ -26,4 +28,6 @@ Web Developer: Lua can be used in web development frameworks such as OpenResty t
 
 Embedded Systems Developer: Lua can be used in embedded systems to provide scripting capabilities and automate processes. A Lua developer working in this field would be responsible for writing Lua scripts for embedded systems to control processes such as automation, data acquisition, and monitoring.
 
-Overall, Lua developers have a variety of potential job opportunities, particularly in the gaming industry, mobile app development, and embedded systems.
+Overall, Lua developers have a variety of potential job opportunities, particularly in the gaming industry, mobile app development, and embedded systems.   
+
+--]]

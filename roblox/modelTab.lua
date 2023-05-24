@@ -1,4 +1,5 @@
-
+--[[
+    
     
 Roblox Model refers to the 3D objects that can be created in Roblox Studio, the development platform used to build games and experiences in the Roblox platform. Roblox models are made up of parts, which can be resized, rotated, and positioned to create various shapes and designs.
 
@@ -6,4 +7,5 @@ In addition to parts, Roblox models can also include various other components su
 
 Roblox models can be used in various ways, including as in-game objects, decorations, and even as assets for sale on the Roblox Marketplace. Creating and sharing models is an essential part of the Roblox community, allowing developers and players to collaborate and build immersive experiences within the platform.
 
-
+    
+--]]
