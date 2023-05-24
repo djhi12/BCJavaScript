@@ -40,3 +40,54 @@ if "hello" in my_list:
 Lists are very useful in Python and are used in many applications.
 
 """
+
+
+# Example Program
+# Creating a list
+fruits = ['apple', 'banana', 'cherry', 'date']
+
+# Accessing elements
+print("Fruits:", fruits)
+print("First fruit:", fruits[0])
+print("Last fruit:", fruits[-1])
+
+# Slicing a list
+print("Sliced list:", fruits[1:3])
+
+# Modifying elements
+fruits[0] = 'avocado'
+print("Modified fruits:", fruits)
+
+# Adding elements
+fruits.append('elderberry')
+print("After append:", fruits)
+
+# Removing elements
+removed_fruit = fruits.pop(2)
+print("Removed fruit:", removed_fruit)
+print("After pop:", fruits)
+
+# Length of a list
+print("Length of the list:", len(fruits))
+
+# Checking existence of an element
+print("Is 'banana' in the list?", 'banana' in fruits)
+
+# Looping through a list
+print("Looping through the list:")
+for fruit in fruits:
+    print(fruit)
+
+# Sorting a list
+fruits.sort()
+print("Sorted list:", fruits)
+
+# Reversing a list
+fruits.reverse()
+print("Reversed list:", fruits)
+
+# Clearing a list
+fruits.clear()
+print("Cleared list:", fruits)
+
+# This program demonstrates how to create a list, access elements by index, slice a list, modify elements, add and remove elements, get the length of a list, check the existence of an element, loop through a list, sort and reverse a list, and clear a list. Feel free to run the code and observe the output!
