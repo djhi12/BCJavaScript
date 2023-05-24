@@ -12,4 +12,4 @@ When Stage Clicked: This event block is triggered when the user clicks on the st
 
 When I Receive: This event block is triggered when a message is received by a specific sprite or object in the Scratch project.
 
-These event blocks can be used to control the behavior of sprites, create animations, and design interactive games and simulations. By combining different event blocks with other Scratch programming blocks, users can create complex projects that respond to user input and provide engaging experiences for their audiences.
+These event blocks can be used to control the behavior of sprites, create animations, and design interactive games and simulations. By combining different event blocks with other Scratch programming blocks, users can create complex projects that respond to user input and provide engaging experiences for their audiences.   
