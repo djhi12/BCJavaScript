@@ -5,7 +5,7 @@ Author: Brother Burton
 Purpose: Practice if statements with loan questions
 """
 
-print("For each of these questions, please provide a 1-10 rating:")
+print("\nFor each of these questions, please provide a 1-10 rating:\n")
 
 loan_size = int(input("How large is the loan? "))
 credit = int(input("How good is your credit history? "))
@@ -41,10 +41,10 @@ else:  # This means its a small loan
             should_loan = False
 
 if should_loan:
-    print("The decision is yes. This is a good loan.")
+    print("The decision is yes. This is a good loan.\n")
 
 else:
-    print("The decision is no. You should not loan this money.")
+    print("The decision is no. You should not loan this money.\n")
 
 # In case you are wondering, all of the above if/elif/else statements
 # could be combined into one great big huge if statement, but I've left it
