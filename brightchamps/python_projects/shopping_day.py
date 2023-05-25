@@ -67,6 +67,7 @@ while True:
             discount = 0.3  # 30% discount for customers aged 50 and above on Mondays
         elif day == "Wednesday" and age < 18:
             discount = 0.2  # 20% discount for customers below 18 on Wednesdays
+        
         for item in shopping_list:
             item['discount'] = discount
         print(

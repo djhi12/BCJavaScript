@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>defer attribute</title>
+</head>
+
+<body>
+    <!--
+        The "defer" attribute in HTML is used to indicate that the execution of a script should be deferred until the HTML document has finished parsing. When a script is marked with the "defer" attribute, it will be downloaded in parallel with the parsing of the HTML document, but its execution will be delayed until the document is fully parsed.
+
+        Here's how the "defer" attribute works:
+
+        The script with the "defer" attribute is fetched by the browser while the HTML document is being parsed. The script is downloaded in the background and does not block the HTML parsing.
+
+        Once the HTML parsing is complete, the deferred script will be executed before the "DOMContentLoaded" event is fired. This ensures that the script has access to the fully parsed HTML structure.
+
+        If multiple scripts have the "defer" attribute, they will be executed in the order they appear in the HTML document.
+
+        The "defer" attribute is useful when you have JavaScript code that depends on the DOM structure of the HTML document. By deferring the execution of the script, you can ensure that the necessary HTML elements are available when the script runs.
+
+        It's important to note that the "defer" attribute is only applicable to external script files referenced using the <script> tag's "src" attribute. Inline scripts or scripts without the "src" attribute do not support the "defer" attribute. Additionally, the "defer" attribute is not supported in older versions of Internet Explorer (prior to IE 10).
+
+        Here's an example of how the "defer" attribute is used:
+    -->
+
+    <script src="script.js" defer></script>
+
+    <!--
+        In this example, the "script.js" file will be fetched and executed after the HTML parsing is complete but before the "DOMContentLoaded" event is triggered, allowing the script to interact with the HTML document as needed.
+    -->
+</body>
+
+</html>

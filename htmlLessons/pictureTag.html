@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>picture tag</title>
+</head>
+
+<body>
+    <!--
+        The HTML <picture> element is used to provide multiple sources for an image, allowing the browser to select the most appropriate one based on factors like the device's screen resolution or the browser's capabilities. It is often used in conjunction with the <source> element to specify different image sources and the conditions under which they should be used.
+
+        Here's an example of how to use the <picture> element:
+    -->
+
+    <picture>
+        <source srcset="image-large.jpg" media="(min-width: 1024px)">
+        <source srcset="image-medium.jpg" media="(min-width: 768px)">
+        <img src="image-small.jpg" alt="Image">
+    </picture>
+
+    <!--
+        In the above example, we have three different image sources specified using the <source> element. The srcset attribute specifies the image file to be used, and the media attribute specifies the conditions under which that image should be used. In this case, if the browser's viewport width is 1024 pixels or larger, it will use "image-large.jpg". If the viewport width is between 768 pixels and 1023 pixels, it will use "image-medium.jpg". Finally, if the viewport width is less than 768 pixels, it will fall back to "image-small.jpg" specified in the <img> element.
+
+        The <img> element is included as the last child of the <picture> element and serves as the fallback for browsers that do not support the <picture> element or do not meet any of the specified conditions.
+
+        By using the <picture> element with multiple sources, you can provide different images optimized for different devices or screen sizes, improving the overall user experience.
+      -->
+</body>
+
+</html>

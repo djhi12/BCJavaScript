@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>async attribute</title>
+</head>
+
+<body>
+    <!--
+        The "async" attribute is used in HTML to indicate that a script should be executed asynchronously. When a script is marked as "async," it means that it can be downloaded and executed in the background without blocking the parsing and rendering of the HTML document.
+
+        Here's an example of how the "async" attribute is used:
+    -->
+
+    <script src="script.js" async></script>
+
+    <!--
+        In the above example, the script file "script.js" will be fetched asynchronously while the HTML document continues to be parsed and rendered. Once the script is downloaded, it will be executed as soon as possible, even if other parts of the page are still loading.
+
+        It's important to note that when a script is marked as "async," there is no guarantee about the order in which the scripts will be executed if multiple scripts are marked as async. They may be executed as soon as they are downloaded, which can lead to potential dependencies or race conditions between scripts. If script order and dependencies are important, you should use the "defer" attribute instead (or load the scripts sequentially).
+
+        Here's an example showing the "defer" attribute for sequential script execution:
+    -->
+
+    <script src="script1.js" defer></script>
+    <script src="script2.js" defer></script>
+    <script src="script3.js" defer></script>
+
+    <!--
+        In this case, the scripts will be downloaded and executed in the order they appear in the HTML document, but they won't block the parsing and rendering of the page.
+
+        Overall, the "async" attribute is useful when you have scripts that don't have any dependencies on each other and can be executed independently as soon as they are downloaded.
+    -->
+</body>
+
+</html>
