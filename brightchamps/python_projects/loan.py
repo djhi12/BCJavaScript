@@ -21,11 +21,13 @@ should_loan = False
 if loan_size >= 5:
     if credit >= 7 and income >= 7:
         should_loan = True
+    
     elif credit >= 7 or income >= 7:
         if down_payment >= 5:
             should_loan = True
         else:
             should_loan = False
+    
     else:
         should_loan = False
 

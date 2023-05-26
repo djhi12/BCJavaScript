@@ -79,6 +79,14 @@ Feel free to customize the code according to your requirements and add error han
 
 # Student Problem
 """
+print("Temperature Converter")
+    print("1. Celsius to Fahrenheit")
+    print("2. Celsius to Kelvin")
+    print("3. Fahrenheit to Celsius")
+    print("4. Fahrenheit to Kelvin")
+    print("5. Kelvin to Celsius")
+    print("6. Kelvin to Fahrenheit")
+    
 The code begins by defining several functions that perform temperature conversions. These functions take a temperature value as an input and return the converted temperature according to the conversion formulas.
 
 The temperature_converter() function is then defined. It serves as the main function that interacts with the user. It displays a menu with six options for temperature conversion. The user is prompted to enter their choice by selecting a number from 1 to 6.
