@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>:focus pseudo-class</title>
+    <style>
+        input[type="text"]:focus {
+            border: 2px solid blue;
+            background-color: lightblue;
+        }
+    </style>
+</head>
+
+<body>
+    <!--
+        In CSS, the :focus pseudo-class is used to select an element that is currently being focused by the user. It is commonly used in combination with interactive elements like form fields, buttons, and links.
+
+        When an element receives focus, typically by clicking on it or navigating to it using the keyboard, it gains a focus state. The :focus pseudo-class allows you to apply specific styles to that element when it is in focus.
+    -->
+
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name">
+
+    <label for="email">Email:</label>
+    <input type="text" id="email" name="email">
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message"></textarea>
+
+    <!--
+        In this example, we have a simple HTML form with three input fields: Name, Email, and Message. The CSS code inside the <style> tags applies styles to the text input fields when they are in focus.
+
+        When you run this code in a browser and click on any of the text input fields, you will notice that the focused input field gets a blue border and a light blue background, as specified by the :focus pseudo-class in the CSS code.
+
+        Feel free to customize the CSS styles or add more elements to experiment further with the :focus pseudo-class in HTML and CSS.
+    -->
+</body>
+
+</html>

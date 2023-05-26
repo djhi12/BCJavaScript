@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>:not pseudo-class</title>
+    <style>
+        li:not(.special) {
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
+
+<body>
+    <!--
+        The :not CSS pseudo-class is used to select elements that do not match a given selector. It allows you to apply styles to elements that don't meet a specific criteria while excluding those that do.
+    -->
+
+    <ul>
+        <li>Item 1</li>
+        <li class="special">Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li class="special">Item 5</li>
+    </ul>
+
+    <!--
+        In this example, we have an unordered list (<ul>) with five list items (<li>). The second and fifth list items have the class "special". We want to apply a background color to all list items except those with the class "special".
+
+        The CSS code within the <style> tags selects all <li> elements that do not have the class "special" using the li:not(.special) selector. It applies a background color of #f1f1f1 to those elements.
+
+        As a result, the first, third, and fourth list items will have a background color of #f1f1f1, while the second and fifth list items (with the "special" class) will remain unaffected.
+    -->
+</body>
+
+</html>

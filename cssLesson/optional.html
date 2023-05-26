@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>:optional pseudo-class</title>
+    <style>
+        input:optional,
+        textarea:optional {
+            background-color: #f5f5f5;
+        }
+
+        /*
+            In this CSS code, the optional fields (input and textarea elements) will have a background color of "#f5f5f5", distinguishing them visually from the required fields.
+
+            Remember that this is just an example, and you can modify the CSS styles and HTML structure to suit your specific requirements.
+        */
+    </style>
+</head>
+
+<body>
+    <!--
+        In CSS, the ":optional" pseudo-class is used to select form elements that do not have the "required" attribute. It targets form elements such as input fields, select boxes, and text areas that are optional or not required to be filled out by the user.
+    -->
+
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <!--
+        In this example, we have a form with three fields: "Name," "Email," and "Message." The "Name" and "Message" fields have the "required" attribute, indicating that they must be filled out by the user. However, the "Email" field does not have the "required" attribute, making it an optional field.
+
+        Now, you can apply CSS styles to the optional fields using the ":optional" pseudo-class as mentioned earlier. For instance, let's say you want to add a different background color to the optional fields:
+    -->
+</body>
+
+</html>
