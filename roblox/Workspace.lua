@@ -1,4 +1,5 @@
 --[[
+    
 Roblox Studio Workspace is the development environment used to create games and experiences on the Roblox platform. It is a powerful and user-friendly tool that allows developers to create, design, script, and publish their own Roblox games.
 
 When you open Roblox Studio, you will be presented with a default workspace that includes various panels, windows, and tabs. These components can be customized and rearranged to suit your preferences and workflow. The default workspace includes the following components:
