@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>textarea tag</title>
+</head>
+
+<body>
+    <!--
+        The <textarea> tag in HTML is used to create a multi-line text input control. It allows users to enter and edit multiple lines of text within a specified area. Here's the basic syntax for the <textarea> tag:
+    -->
+
+    <textarea title="sample" rows="number" cols="number" name="name">Default text</textarea>
+
+    <!--
+        Let's break down the attributes:
+
+        rows: Specifies the number of visible text lines. It determines the height of the textarea in terms of the number of lines.
+        cols: Specifies the visible width of the textarea in terms of the number of characters (usually fixed-width characters like "M").
+        name: Sets a name for the textarea, which is used to identify the input data when the form is submitted.
+        
+        Default text: Specifies an optional default value or initial content for the textarea.
+        Here's an example usage of the <textarea> tag:
+    -->
+
+    <form>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" cols="40">Enter your message here.</textarea>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <!--
+        In this example, a textarea element is created with an initial value of "Enter your message here." It has 4 visible rows and a width of 40 characters. The user can modify the text within the textarea, and when the form is submitted, the entered value can be accessed on the server-side using the name attribute value ("message" in this case).
+    -->
+</body>
+
+</html>
