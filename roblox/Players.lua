@@ -5,15 +5,15 @@
 
     Here are some of the features and functions available in the "Players" section of the Explorer:
 
-        "PlayerList" object: This is the parent object for all the players in the game. You can use this object to access information about the players in the game, such as their name and PlayerId.
+    "PlayerList" object: This is the parent object for all the players in the game. You can use this object to access information about the players in the game, such as their name and PlayerId.
 
-        Player objects: Each player in the game has a corresponding "Player" object in the "Players" section of the Explorer. You can use these objects to access information about individual players, such as their name and PlayerId, and to interact with them, such as by sending them messages.
+    Player objects: Each player in the game has a corresponding "Player" object in the "Players" section of the Explorer. You can use these objects to access information about individual players, such as their name and PlayerId, and to interact with them, such as by sending them messages.
 
-        Kick and ban: You can use the "Players" section to kick or ban players from the game. To kick a player, right-click on their name in the "Players" list and select "Kick". To ban a player, right-click on their name and select "Ban". Note that banning a player will prevent them from joining the game again until you unban them.
+    Kick and ban: You can use the "Players" section to kick or ban players from the game. To kick a player, right-click on their name in the "Players" list and select "Kick". To ban a player, right-click on their name and select "Ban". Note that banning a player will prevent them from joining the game again until you unban them.
 
-        Private messaging: You can use the "Players" section to send private messages to players in the game. To do this, right-click on a player's name and select "Private Message". This will open a chat window where you can type your message.
+    Private messaging: You can use the "Players" section to send private messages to players in the game. To do this, right-click on a player's name and select "Private Message". This will open a chat window where you can type your message.
 
-        Team management: If your game has teams, you can use the "Players" section to manage which team each player is on. To do this, right-click on a player's name and select "Set Team". You can then select the team you want to move the player to.
+    Team management: If your game has teams, you can use the "Players" section to manage which team each player is on. To do this, right-click on a player's name and select "Set Team". You can then select the team you want to move the player to.
 
     Overall, the "Players" section of the Explorer is an important tool for managing and interacting with players in your Roblox game.
 
