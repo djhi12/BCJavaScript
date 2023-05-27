@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>novalidate attribute</title>
+</head>
+
+<body>
+    <!--
+        The novalidate attribute is an attribute used in HTML forms to disable the built-in form validation provided by the browser. When the novalidate attribute is added to a <form> element, it instructs the browser not to perform any client-side validation on the form inputs.
+
+        By default, when a user submits an HTML form, the browser validates the form inputs based on the specified input types, required attributes, and other validation rules. It checks if the inputs meet the specified criteria and displays error messages if any of the inputs are invalid. This client-side validation helps improve user experience by providing instant feedback to users about errors in their form submissions.
+
+        However, in some cases, you may want to handle form validation manually or perform validation on the server-side instead of relying on the browser's built-in validation. In such scenarios, you can use the novalidate attribute to disable the default validation.
+
+        Here's an example of how the novalidate attribute is used:
+    -->
+
+    <form action="/submit" method="post" novalidate>
+        <!-- form inputs go here -->
+        <input title="sample" type="text" name="name" required>
+        <input title="sample" type="email" name="email" required>
+        <button type="submit">Submit</button>
+    </form>
+
+    <!--
+        In the above example, the novalidate attribute is added to the <form> element. This tells the browser not to perform any validation on the form inputs. When the user submits the form, it will be sent to the server as-is, regardless of the validity of the inputs.
+
+        It's important to note that when you use the novalidate attribute, you are responsible for implementing custom validation logic, either on the client-side using JavaScript or on the server-side, to ensure the submitted data is valid.
+    -->
+</body>
+
+</html>
