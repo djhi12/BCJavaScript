@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formtarget attribute</title>
+</head>
+
+<body>
+    <!--
+        In HTML, the formtarget attribute is used to specify the browsing context or target window or frame where the form response should be displayed. It is used in conjunction with the <form> element and the target attribute on form submission elements such as <input type="submit">, <input type="image">, or <button type="submit">.
+
+        The formtarget attribute can take the following values:
+
+        _self: The form response will be displayed in the same window or frame where the form is located (default behavior).
+        _blank: The form response will be displayed in a new, unnamed window or tab.
+        _parent: The form response will be displayed in the parent window or frame of the current window or frame.
+        _top: The form response will be displayed in the top-level browsing context, replacing any frames.
+        <framename>: The form response will be displayed in the named frame. Replace <framename> with the name of the target frame.
+        
+            Here's an example usage of the formtarget attribute:
+    -->
+
+    <form action="submit-form.php" method="post" target="_blank">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <input type="submit" value="Submit" formtarget="_blank">
+    </form>
+
+    <!--
+        In the example above, when the form is submitted, the form response will open in a new, unnamed window or tab due to the target="_blank" attribute on the <form> element. The formtarget="_blank" attribute on the submit button ensures that the response is displayed in the same target window or tab as the form submission.
+    -->
+</body>
+
+</html>

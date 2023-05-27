@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>for attribute</title>
+</head>
+
+<body>
+    <!--
+        In HTML, the for attribute is used in conjunction with the <label> element to associate a label with a form element. It specifies which form element the label is associated with.
+
+        The for attribute is used within the <label> element and its value should match the id attribute of the form element. By doing so, when a user clicks on the label, it will activate or focus the associated form element.
+
+        Here's an example of how the for attribute is used:
+    -->
+
+    <label for="username">Username:</label>
+    <input type="text" id="username">
+
+    <!--
+        In the above example, the for attribute value "username" matches the id attribute of the <input> element. When the user clicks on the label "Username:", it will activate or focus the corresponding input field.
+
+        This association is helpful for accessibility purposes, as it allows users to click on the label text to interact with the associated form element, making it easier to select checkboxes, radio buttons, or activate input fields without needing precise mouse movements.
+
+        It's important to note that the for attribute is case-sensitive and should be unique within the document. Additionally, the id attribute of the associated form element should be unique as well.
+    -->
+</body>
+
+</html>

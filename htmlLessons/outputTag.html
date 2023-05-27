@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>output tag</title>
+</head>
+
+<body>
+    <!--
+        In HTML, there is no specific "output" tag. However, you might be referring to the <output> element, which is used to represent the result of a calculation or user action. The <output> element is typically used in conjunction with JavaScript to display dynamic content.
+
+        Here's an example of how you can use the <output> element:
+    -->
+
+    <form oninput="result.value = parseInt(a.value) + parseInt(b.value)">
+        <input title="sample" type="number" id="a" value="0">
+        +
+        <input title="sample" type="number" id="b" value="0">
+        =
+        <output name="result" for="a b">0</output>
+    </form>
+
+    <!--
+        In this example, when the user changes the values of the input fields with the IDs "a" and "b", the sum of those values is calculated using the oninput event handler and displayed in the <output> element with the name "result".
+
+        Note that the <output> element is mainly used for form-related calculations and displaying results. If you are looking for a general container for outputting text or content, you can simply use a <div> or <span> element and manipulate its content using JavaScript.
+    -->
+
+
+</body>
+
+</html>
