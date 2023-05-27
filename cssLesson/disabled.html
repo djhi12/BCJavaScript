@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>disabled pseudo-class</title>
+    <title>Disabled Elements Example</title>
+    <style>
+        input:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+    </style>
+</head>
+
+<body>
+    <!--
+        In CSS, the ":disabled" pseudo-class is used to select and style form elements that are in a disabled state. Disabled elements are those that cannot be interacted with or edited by the user.
+    -->
+
+    <h1>Disabled Elements Example</h1>
+
+    <label for="name">Name:</label>
+    <input type="text" id="name" disabled>
+
+    <br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email">
+
+    <br>
+
+    <button type="button" disabled>Submit</button>
+
+    <!--
+        In this example, we have an HTML form with three elements: a disabled text input field, an enabled email input field, and a disabled button. The CSS code within the <style> tags selects and styles the disabled elements by using the input:disabled selector.
+
+        When you open this HTML file in a browser, you'll see that the disabled elements (the "Name" input field and the "Submit" button) appear with reduced opacity and have a "not-allowed" cursor, indicating that they are disabled and cannot be interacted with.
+    -->
+</body>
+
+</html>

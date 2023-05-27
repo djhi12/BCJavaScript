@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regular Expression</title>
+</head>
+
+<body>
+    <!--
+        Regular expressions are a powerful tool used for pattern matching and manipulating strings in various programming languages, including JavaScript, which can be used in HTML. Regular expressions provide a concise and flexible way to search, match, and replace text based on specific patterns.
+
+        In HTML, regular expressions can be used in conjunction with JavaScript to perform tasks such as form validation, input filtering, data extraction, and string manipulation. JavaScript provides a built-in RegExp object that allows you to work with regular expressions.
+
+        Here's an example of how you can use a regular expression in JavaScript within an HTML document:
+    -->
+
+    <label for="email">Email:</label>
+    <input type="text" id="email">
+    <button onclick="validateEmail()">Validate</button>
+
+    <script>
+        function validateEmail() {
+            var email = document.getElementById("email").value;
+            var emailRegex = /^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$/;
+
+            if (emailRegex.test(email)) {
+                alert("Valid email address!");
+            } else {
+                alert("Invalid email address!");
+            }
+        }
+    </script>
+
+    <!--
+        In the example above, we define a regular expression pattern to validate an email address. The pattern /^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$/ checks if the input matches the format of a valid email address.
+
+        When the "Validate" button is clicked, the validateEmail() function is called. It retrieves the value of the email input field and tests it against the regular expression using the test() method. Depending on the result, an alert is shown indicating whether the email address is valid or not.
+
+        This is just a simple example to demonstrate the usage of regular expressions in HTML with JavaScript. Regular expressions can be much more complex and versatile, allowing for sophisticated string manipulation and pattern matching in HTML applications.
+      -->
+</body>
+
+</html>
