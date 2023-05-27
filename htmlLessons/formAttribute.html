@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form attribute</title>
+</head>
+
+<body>
+    <!--
+        In HTML, the "form" attribute is used to associate a form element with its corresponding <form> element. It specifies the ID of the <form> element to which the form element belongs. By linking the form element to its parent form, the browser knows which form the element should be submitted with when the form is submitted.
+
+        Here's an example to illustrate how the "form" attribute is used:   
+    -->
+
+    <form id="myForm">
+        <label for="nameInput">Name:</label>
+        <input type="text" id="nameInput" form="myForm" />
+
+        <label for="emailInput">Email:</label>
+        <input type="email" id="emailInput" form="myForm" />
+
+        <input type="submit" value="Submit" />
+    </form>
+
+    <!--
+        In the example above, we have a form with the ID "myForm". The "Name" and "Email" input fields have their "form" attribute set to "myForm", which indicates that they belong to the form with the corresponding ID.
+
+        When the form is submitted, the data from the input fields will be sent as part of the form submission for the form specified in the "form" attribute. In this case, the data from the "nameInput" and "emailInput" fields will be submitted along with the form identified by the "myForm" ID.
+
+        Using the "form" attribute is particularly useful when you have multiple forms on a page, and you want to associate form elements with the correct form for submission.
+    -->
+</body>
+
+</html>

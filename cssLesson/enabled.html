@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>:enabled pseudo-class</title>
+    <style>
+        input:enabled {
+            background-color: #ffffff;
+            color: #000000;
+        }
+
+        button:enabled {
+            background-color: #4caf50;
+            color: #ffffff;
+        }
+    </style>
+</head>
+
+<body>
+    <!--
+        In CSS, the :enabled pseudo-class selector is used to target form elements that are currently enabled or interactive. It matches elements that are capable of receiving user input or interaction.
+    -->
+
+    <form>
+        <input title="sample" type="text" value="Enabled Input" disabled>
+        <input title="sample" type="text" value="Enabled Input">
+        <input title="sample" type="checkbox" disabled>
+        <input title="sample" type="checkbox">
+        <br>
+        <button type="button" disabled>Disabled Button</button>
+        <button type="button">Enabled Button</button>
+    </form>
+
+    <!--
+        In this example, we have a form containing various form elements. The CSS styles defined within the <style> tags target the :enabled state of the input and button elements.
+
+        The first input field has the disabled attribute, so it will be styled differently as it is not enabled. The second input field and checkboxes are enabled, so they will be styled according to the input:enabled selector.
+
+        Similarly, the first button has the disabled attribute, so it will be styled differently as it is not enabled. The second button is enabled, so it will be styled according to the button:enabled selector.
+
+        You can copy and paste this code into an HTML file and open it in a web browser to see the styling in action.
+      -->
+</body>
+
+</html>
