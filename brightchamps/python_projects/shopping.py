@@ -17,9 +17,10 @@ while True:
         item_name = input("\nEnter the item name: ")
         item_price = float(input("Enter the item price: "))
         item = {"name": item_name, "price": item_price}
+        
         shopping_list.append(item)
-        print(
-            f"\n{item_name} (Price: ${item_price}) has been added to the shopping list.")
+        
+        print(f"\n{item_name} (Price: ${item_price}) has been added to the shopping list.")
     
     elif choice == "2":
         item_name = input("\nEnter the item name you want to remove: ")
