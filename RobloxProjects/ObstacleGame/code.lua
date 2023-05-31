@@ -15,7 +15,8 @@ local isJumping = false
 local function onKeyPress(input)
 	if input.KeyCode == Enum.KeyCode.W then
 		humanoid:MoveTo(humanoid.RootPart.Position + humanoid.MoveDirection * walkSpeed)
-	elseif input.KeyCode == Enum.KeyCode.Space then
+	
+    elseif input.KeyCode == Enum.KeyCode.Space then
 		if not isJumping then
 			humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
 			isJumping = true

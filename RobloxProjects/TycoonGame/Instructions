@@ -1,0 +1,52 @@
+Game Setup:
+
+Create a new Roblox place and design the game environment using Roblox Studio.
+Set up a baseplate or terrain where players can build their business empire.
+Create various types of properties or buildings that players can purchase.
+
+
+Player Progression and Currency System:
+Implement an in-game currency system using a fictional currency (e.g., "Money" or "Coins").
+Assign starting funds to players and display their current balance.
+Allow players to earn money through various activities, such as selling products or services.
+
+
+Property Purchasing:
+Design a catalog or shop where players can browse and purchase properties.
+Assign different prices and attributes to each property, such as size, location, and potential earnings.
+Deduct the appropriate amount from the player's currency when they make a purchase.
+Enable players to place purchased properties on the game environment.
+
+
+Building and Customization:
+Allow players to build and customize their purchased properties using in-game tools.
+Provide a variety of construction options, such as adding rooms, decorations, or functional items.
+Enable players to upgrade their properties to increase their earning potential or attractiveness to customers.
+
+
+Employee Management:
+Implement an employee system where players can hire and manage workers for their businesses.
+Allow players to hire different types of employees with various skills and salaries.
+Enable players to assign tasks or job roles to employees and monitor their performance.
+
+
+Business Operations and Earnings:
+Create systems for players to run their businesses and earn profits.
+Implement customer mechanics, such as attracting customers to the properties and serving their needs.
+Determine income based on factors like property type, location, customer satisfaction, and employee efficiency.
+Display earnings and update the player's currency balance accordingly.
+
+
+Expansion and Upgrades:
+Allow players to expand their business empire by purchasing additional properties or upgrading existing ones.
+Provide opportunities for players to unlock new property types, features, or bonuses as they progress.
+
+
+User Interface and Feedback:
+Design a user interface to display the player's currency balance, properties, employees, and earnings.
+Provide informative feedback and notifications about important events, such as property purchases, employee actions, and earnings updates.
+
+
+Remember to plan and design the game progression, balance the gameplay mechanics, and iterate on the features based on player feedback. Additionally, consider adding visual and audio effects, leaderboards, and social interactions to enhance the overall player experience.
+
+Good luck with your Tycoon Game project!
