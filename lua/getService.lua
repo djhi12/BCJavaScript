@@ -1,3 +1,4 @@
+
 -- GetService is not a built-in function in Lua, but it might refer to a method provided by the Roblox Lua API. In the context of Roblox Lua scripting, GetService is a method provided by the game object that is used to retrieve Roblox services, such as the Workspace, Players, ReplicatedStorage, and so on.
 
 -- Here is an example of how to use GetService in Roblox Lua:
