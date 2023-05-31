@@ -10,4 +10,6 @@ Your program must compute and print the number of boxes necessary to hold the it
 import math
 
 manufactured_items = int(input("Enter the number of items: "))
-items_per_box = int(input(""))
+items_per_box = int(input("Enter the number of items per box: "))
+
+print(f"For {manufactured_items}, packing {items_per_box} in each box, you will need {int(manufactured_items / items_per_box + 1)} boxes.")
