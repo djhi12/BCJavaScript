@@ -1,0 +1,15 @@
+C:\Programming_with_Classes\codes\Write\bin\Debug\net7.0\Write.exe
+C:\Programming_with_Classes\codes\Write\bin\Debug\net7.0\Write.deps.json
+C:\Programming_with_Classes\codes\Write\bin\Debug\net7.0\Write.runtimeconfig.json
+C:\Programming_with_Classes\codes\Write\bin\Debug\net7.0\Write.dll
+C:\Programming_with_Classes\codes\Write\bin\Debug\net7.0\Write.pdb
+C:\Programming_with_Classes\codes\Write\obj\Debug\net7.0\Write.csproj.AssemblyReference.cache
+C:\Programming_with_Classes\codes\Write\obj\Debug\net7.0\Write.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programming_with_Classes\codes\Write\obj\Debug\net7.0\Write.AssemblyInfoInputs.cache
+C:\Programming_with_Classes\codes\Write\obj\Debug\net7.0\Write.AssemblyInfo.cs
+C:\Programming_with_Classes\codes\Write\obj\Debug\net7.0\Write.csproj.CoreCompileInputs.cache
+C:\Programming_with_Classes\codes\Write\obj\Debug\net7.0\Write.dll
+C:\Programming_with_Classes\codes\Write\obj\Debug\net7.0\refint\Write.dll
+C:\Programming_with_Classes\codes\Write\obj\Debug\net7.0\Write.pdb
+C:\Programming_with_Classes\codes\Write\obj\Debug\net7.0\Write.genruntimeconfig.cache
+C:\Programming_with_Classes\codes\Write\obj\Debug\net7.0\ref\Write.dll

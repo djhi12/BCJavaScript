@@ -1,0 +1,15 @@
+C:\Programming_with_Classes\codes\ReadAllLines\bin\Debug\net7.0\ReadAllLines.exe
+C:\Programming_with_Classes\codes\ReadAllLines\bin\Debug\net7.0\ReadAllLines.deps.json
+C:\Programming_with_Classes\codes\ReadAllLines\bin\Debug\net7.0\ReadAllLines.runtimeconfig.json
+C:\Programming_with_Classes\codes\ReadAllLines\bin\Debug\net7.0\ReadAllLines.dll
+C:\Programming_with_Classes\codes\ReadAllLines\bin\Debug\net7.0\ReadAllLines.pdb
+C:\Programming_with_Classes\codes\ReadAllLines\obj\Debug\net7.0\ReadAllLines.csproj.AssemblyReference.cache
+C:\Programming_with_Classes\codes\ReadAllLines\obj\Debug\net7.0\ReadAllLines.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programming_with_Classes\codes\ReadAllLines\obj\Debug\net7.0\ReadAllLines.AssemblyInfoInputs.cache
+C:\Programming_with_Classes\codes\ReadAllLines\obj\Debug\net7.0\ReadAllLines.AssemblyInfo.cs
+C:\Programming_with_Classes\codes\ReadAllLines\obj\Debug\net7.0\ReadAllLines.csproj.CoreCompileInputs.cache
+C:\Programming_with_Classes\codes\ReadAllLines\obj\Debug\net7.0\ReadAllLines.dll
+C:\Programming_with_Classes\codes\ReadAllLines\obj\Debug\net7.0\refint\ReadAllLines.dll
+C:\Programming_with_Classes\codes\ReadAllLines\obj\Debug\net7.0\ReadAllLines.pdb
+C:\Programming_with_Classes\codes\ReadAllLines\obj\Debug\net7.0\ReadAllLines.genruntimeconfig.cache
+C:\Programming_with_Classes\codes\ReadAllLines\obj\Debug\net7.0\ref\ReadAllLines.dll

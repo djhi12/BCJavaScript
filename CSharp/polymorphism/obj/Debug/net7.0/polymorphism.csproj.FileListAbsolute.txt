@@ -1,0 +1,15 @@
+C:\Programming_with_Classes\codes\polymorphism\bin\Debug\net7.0\polymorphism.exe
+C:\Programming_with_Classes\codes\polymorphism\bin\Debug\net7.0\polymorphism.deps.json
+C:\Programming_with_Classes\codes\polymorphism\bin\Debug\net7.0\polymorphism.runtimeconfig.json
+C:\Programming_with_Classes\codes\polymorphism\bin\Debug\net7.0\polymorphism.dll
+C:\Programming_with_Classes\codes\polymorphism\bin\Debug\net7.0\polymorphism.pdb
+C:\Programming_with_Classes\codes\polymorphism\obj\Debug\net7.0\polymorphism.csproj.AssemblyReference.cache
+C:\Programming_with_Classes\codes\polymorphism\obj\Debug\net7.0\polymorphism.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programming_with_Classes\codes\polymorphism\obj\Debug\net7.0\polymorphism.AssemblyInfoInputs.cache
+C:\Programming_with_Classes\codes\polymorphism\obj\Debug\net7.0\polymorphism.AssemblyInfo.cs
+C:\Programming_with_Classes\codes\polymorphism\obj\Debug\net7.0\polymorphism.csproj.CoreCompileInputs.cache
+C:\Programming_with_Classes\codes\polymorphism\obj\Debug\net7.0\polymorphism.dll
+C:\Programming_with_Classes\codes\polymorphism\obj\Debug\net7.0\refint\polymorphism.dll
+C:\Programming_with_Classes\codes\polymorphism\obj\Debug\net7.0\polymorphism.pdb
+C:\Programming_with_Classes\codes\polymorphism\obj\Debug\net7.0\polymorphism.genruntimeconfig.cache
+C:\Programming_with_Classes\codes\polymorphism\obj\Debug\net7.0\ref\polymorphism.dll

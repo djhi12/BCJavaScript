@@ -1,0 +1,15 @@
+C:\Programming_with_Classes\codes\variables\bin\Debug\net7.0\variables.exe
+C:\Programming_with_Classes\codes\variables\bin\Debug\net7.0\variables.deps.json
+C:\Programming_with_Classes\codes\variables\bin\Debug\net7.0\variables.runtimeconfig.json
+C:\Programming_with_Classes\codes\variables\bin\Debug\net7.0\variables.dll
+C:\Programming_with_Classes\codes\variables\bin\Debug\net7.0\variables.pdb
+C:\Programming_with_Classes\codes\variables\obj\Debug\net7.0\variables.csproj.AssemblyReference.cache
+C:\Programming_with_Classes\codes\variables\obj\Debug\net7.0\variables.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programming_with_Classes\codes\variables\obj\Debug\net7.0\variables.AssemblyInfoInputs.cache
+C:\Programming_with_Classes\codes\variables\obj\Debug\net7.0\variables.AssemblyInfo.cs
+C:\Programming_with_Classes\codes\variables\obj\Debug\net7.0\variables.csproj.CoreCompileInputs.cache
+C:\Programming_with_Classes\codes\variables\obj\Debug\net7.0\variables.dll
+C:\Programming_with_Classes\codes\variables\obj\Debug\net7.0\refint\variables.dll
+C:\Programming_with_Classes\codes\variables\obj\Debug\net7.0\variables.pdb
+C:\Programming_with_Classes\codes\variables\obj\Debug\net7.0\variables.genruntimeconfig.cache
+C:\Programming_with_Classes\codes\variables\obj\Debug\net7.0\ref\variables.dll

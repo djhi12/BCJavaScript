@@ -1,0 +1,15 @@
+C:\Programming_with_Classes\codes\conditionals\bin\Debug\net7.0\conditionals.exe
+C:\Programming_with_Classes\codes\conditionals\bin\Debug\net7.0\conditionals.deps.json
+C:\Programming_with_Classes\codes\conditionals\bin\Debug\net7.0\conditionals.runtimeconfig.json
+C:\Programming_with_Classes\codes\conditionals\bin\Debug\net7.0\conditionals.dll
+C:\Programming_with_Classes\codes\conditionals\bin\Debug\net7.0\conditionals.pdb
+C:\Programming_with_Classes\codes\conditionals\obj\Debug\net7.0\conditionals.csproj.AssemblyReference.cache
+C:\Programming_with_Classes\codes\conditionals\obj\Debug\net7.0\conditionals.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programming_with_Classes\codes\conditionals\obj\Debug\net7.0\conditionals.AssemblyInfoInputs.cache
+C:\Programming_with_Classes\codes\conditionals\obj\Debug\net7.0\conditionals.AssemblyInfo.cs
+C:\Programming_with_Classes\codes\conditionals\obj\Debug\net7.0\conditionals.csproj.CoreCompileInputs.cache
+C:\Programming_with_Classes\codes\conditionals\obj\Debug\net7.0\conditionals.dll
+C:\Programming_with_Classes\codes\conditionals\obj\Debug\net7.0\refint\conditionals.dll
+C:\Programming_with_Classes\codes\conditionals\obj\Debug\net7.0\conditionals.pdb
+C:\Programming_with_Classes\codes\conditionals\obj\Debug\net7.0\conditionals.genruntimeconfig.cache
+C:\Programming_with_Classes\codes\conditionals\obj\Debug\net7.0\ref\conditionals.dll

@@ -1,0 +1,15 @@
+C:\Programming_with_Classes\codes\nameSpace\bin\Debug\net7.0\nameSpace.exe
+C:\Programming_with_Classes\codes\nameSpace\bin\Debug\net7.0\nameSpace.deps.json
+C:\Programming_with_Classes\codes\nameSpace\bin\Debug\net7.0\nameSpace.runtimeconfig.json
+C:\Programming_with_Classes\codes\nameSpace\bin\Debug\net7.0\nameSpace.dll
+C:\Programming_with_Classes\codes\nameSpace\bin\Debug\net7.0\nameSpace.pdb
+C:\Programming_with_Classes\codes\nameSpace\obj\Debug\net7.0\nameSpace.csproj.AssemblyReference.cache
+C:\Programming_with_Classes\codes\nameSpace\obj\Debug\net7.0\nameSpace.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programming_with_Classes\codes\nameSpace\obj\Debug\net7.0\nameSpace.AssemblyInfoInputs.cache
+C:\Programming_with_Classes\codes\nameSpace\obj\Debug\net7.0\nameSpace.AssemblyInfo.cs
+C:\Programming_with_Classes\codes\nameSpace\obj\Debug\net7.0\nameSpace.csproj.CoreCompileInputs.cache
+C:\Programming_with_Classes\codes\nameSpace\obj\Debug\net7.0\nameSpace.dll
+C:\Programming_with_Classes\codes\nameSpace\obj\Debug\net7.0\refint\nameSpace.dll
+C:\Programming_with_Classes\codes\nameSpace\obj\Debug\net7.0\nameSpace.pdb
+C:\Programming_with_Classes\codes\nameSpace\obj\Debug\net7.0\nameSpace.genruntimeconfig.cache
+C:\Programming_with_Classes\codes\nameSpace\obj\Debug\net7.0\ref\nameSpace.dll

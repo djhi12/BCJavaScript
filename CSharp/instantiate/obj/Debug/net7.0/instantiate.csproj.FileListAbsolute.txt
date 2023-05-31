@@ -1,0 +1,15 @@
+C:\Programming_with_Classes\codes\instantiate\bin\Debug\net7.0\instantiate.exe
+C:\Programming_with_Classes\codes\instantiate\bin\Debug\net7.0\instantiate.deps.json
+C:\Programming_with_Classes\codes\instantiate\bin\Debug\net7.0\instantiate.runtimeconfig.json
+C:\Programming_with_Classes\codes\instantiate\bin\Debug\net7.0\instantiate.dll
+C:\Programming_with_Classes\codes\instantiate\bin\Debug\net7.0\instantiate.pdb
+C:\Programming_with_Classes\codes\instantiate\obj\Debug\net7.0\instantiate.csproj.AssemblyReference.cache
+C:\Programming_with_Classes\codes\instantiate\obj\Debug\net7.0\instantiate.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programming_with_Classes\codes\instantiate\obj\Debug\net7.0\instantiate.AssemblyInfoInputs.cache
+C:\Programming_with_Classes\codes\instantiate\obj\Debug\net7.0\instantiate.AssemblyInfo.cs
+C:\Programming_with_Classes\codes\instantiate\obj\Debug\net7.0\instantiate.csproj.CoreCompileInputs.cache
+C:\Programming_with_Classes\codes\instantiate\obj\Debug\net7.0\instantiate.dll
+C:\Programming_with_Classes\codes\instantiate\obj\Debug\net7.0\refint\instantiate.dll
+C:\Programming_with_Classes\codes\instantiate\obj\Debug\net7.0\instantiate.pdb
+C:\Programming_with_Classes\codes\instantiate\obj\Debug\net7.0\instantiate.genruntimeconfig.cache
+C:\Programming_with_Classes\codes\instantiate\obj\Debug\net7.0\ref\instantiate.dll

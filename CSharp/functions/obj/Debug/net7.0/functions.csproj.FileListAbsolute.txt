@@ -1,0 +1,15 @@
+C:\Programming_with_Classes\codes\functions\bin\Debug\net7.0\functions.exe
+C:\Programming_with_Classes\codes\functions\bin\Debug\net7.0\functions.deps.json
+C:\Programming_with_Classes\codes\functions\bin\Debug\net7.0\functions.runtimeconfig.json
+C:\Programming_with_Classes\codes\functions\bin\Debug\net7.0\functions.dll
+C:\Programming_with_Classes\codes\functions\bin\Debug\net7.0\functions.pdb
+C:\Programming_with_Classes\codes\functions\obj\Debug\net7.0\functions.csproj.AssemblyReference.cache
+C:\Programming_with_Classes\codes\functions\obj\Debug\net7.0\functions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programming_with_Classes\codes\functions\obj\Debug\net7.0\functions.AssemblyInfoInputs.cache
+C:\Programming_with_Classes\codes\functions\obj\Debug\net7.0\functions.AssemblyInfo.cs
+C:\Programming_with_Classes\codes\functions\obj\Debug\net7.0\functions.csproj.CoreCompileInputs.cache
+C:\Programming_with_Classes\codes\functions\obj\Debug\net7.0\functions.dll
+C:\Programming_with_Classes\codes\functions\obj\Debug\net7.0\refint\functions.dll
+C:\Programming_with_Classes\codes\functions\obj\Debug\net7.0\functions.pdb
+C:\Programming_with_Classes\codes\functions\obj\Debug\net7.0\functions.genruntimeconfig.cache
+C:\Programming_with_Classes\codes\functions\obj\Debug\net7.0\ref\functions.dll

@@ -1,0 +1,15 @@
+C:\Programming_with_Classes\codes\private\bin\Debug\net7.0\private.exe
+C:\Programming_with_Classes\codes\private\bin\Debug\net7.0\private.deps.json
+C:\Programming_with_Classes\codes\private\bin\Debug\net7.0\private.runtimeconfig.json
+C:\Programming_with_Classes\codes\private\bin\Debug\net7.0\private.dll
+C:\Programming_with_Classes\codes\private\bin\Debug\net7.0\private.pdb
+C:\Programming_with_Classes\codes\private\obj\Debug\net7.0\private.csproj.AssemblyReference.cache
+C:\Programming_with_Classes\codes\private\obj\Debug\net7.0\private.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programming_with_Classes\codes\private\obj\Debug\net7.0\private.AssemblyInfoInputs.cache
+C:\Programming_with_Classes\codes\private\obj\Debug\net7.0\private.AssemblyInfo.cs
+C:\Programming_with_Classes\codes\private\obj\Debug\net7.0\private.csproj.CoreCompileInputs.cache
+C:\Programming_with_Classes\codes\private\obj\Debug\net7.0\private.dll
+C:\Programming_with_Classes\codes\private\obj\Debug\net7.0\refint\private.dll
+C:\Programming_with_Classes\codes\private\obj\Debug\net7.0\private.pdb
+C:\Programming_with_Classes\codes\private\obj\Debug\net7.0\private.genruntimeconfig.cache
+C:\Programming_with_Classes\codes\private\obj\Debug\net7.0\ref\private.dll

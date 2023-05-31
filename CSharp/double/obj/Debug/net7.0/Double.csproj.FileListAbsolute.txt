@@ -1,0 +1,15 @@
+C:\Programming_with_Classes\codes\Double\bin\Debug\net7.0\Double.exe
+C:\Programming_with_Classes\codes\Double\bin\Debug\net7.0\Double.deps.json
+C:\Programming_with_Classes\codes\Double\bin\Debug\net7.0\Double.runtimeconfig.json
+C:\Programming_with_Classes\codes\Double\bin\Debug\net7.0\Double.dll
+C:\Programming_with_Classes\codes\Double\bin\Debug\net7.0\Double.pdb
+C:\Programming_with_Classes\codes\Double\obj\Debug\net7.0\Double.csproj.AssemblyReference.cache
+C:\Programming_with_Classes\codes\Double\obj\Debug\net7.0\Double.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programming_with_Classes\codes\Double\obj\Debug\net7.0\Double.AssemblyInfoInputs.cache
+C:\Programming_with_Classes\codes\Double\obj\Debug\net7.0\Double.AssemblyInfo.cs
+C:\Programming_with_Classes\codes\Double\obj\Debug\net7.0\Double.csproj.CoreCompileInputs.cache
+C:\Programming_with_Classes\codes\Double\obj\Debug\net7.0\Double.dll
+C:\Programming_with_Classes\codes\Double\obj\Debug\net7.0\refint\Double.dll
+C:\Programming_with_Classes\codes\Double\obj\Debug\net7.0\Double.pdb
+C:\Programming_with_Classes\codes\Double\obj\Debug\net7.0\Double.genruntimeconfig.cache
+C:\Programming_with_Classes\codes\Double\obj\Debug\net7.0\ref\Double.dll

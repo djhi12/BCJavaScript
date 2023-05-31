@@ -1,0 +1,15 @@
+C:\Programming_with_Classes\codes\inheritance\bin\Debug\net7.0\inheritance.exe
+C:\Programming_with_Classes\codes\inheritance\bin\Debug\net7.0\inheritance.deps.json
+C:\Programming_with_Classes\codes\inheritance\bin\Debug\net7.0\inheritance.runtimeconfig.json
+C:\Programming_with_Classes\codes\inheritance\bin\Debug\net7.0\inheritance.dll
+C:\Programming_with_Classes\codes\inheritance\bin\Debug\net7.0\inheritance.pdb
+C:\Programming_with_Classes\codes\inheritance\obj\Debug\net7.0\inheritance.csproj.AssemblyReference.cache
+C:\Programming_with_Classes\codes\inheritance\obj\Debug\net7.0\inheritance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programming_with_Classes\codes\inheritance\obj\Debug\net7.0\inheritance.AssemblyInfoInputs.cache
+C:\Programming_with_Classes\codes\inheritance\obj\Debug\net7.0\inheritance.AssemblyInfo.cs
+C:\Programming_with_Classes\codes\inheritance\obj\Debug\net7.0\inheritance.csproj.CoreCompileInputs.cache
+C:\Programming_with_Classes\codes\inheritance\obj\Debug\net7.0\inheritance.dll
+C:\Programming_with_Classes\codes\inheritance\obj\Debug\net7.0\refint\inheritance.dll
+C:\Programming_with_Classes\codes\inheritance\obj\Debug\net7.0\inheritance.pdb
+C:\Programming_with_Classes\codes\inheritance\obj\Debug\net7.0\inheritance.genruntimeconfig.cache
+C:\Programming_with_Classes\codes\inheritance\obj\Debug\net7.0\ref\inheritance.dll

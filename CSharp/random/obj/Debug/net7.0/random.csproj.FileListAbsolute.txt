@@ -1,0 +1,15 @@
+C:\Programming_with_Classes\codes\random\bin\Debug\net7.0\random.exe
+C:\Programming_with_Classes\codes\random\bin\Debug\net7.0\random.deps.json
+C:\Programming_with_Classes\codes\random\bin\Debug\net7.0\random.runtimeconfig.json
+C:\Programming_with_Classes\codes\random\bin\Debug\net7.0\random.dll
+C:\Programming_with_Classes\codes\random\bin\Debug\net7.0\random.pdb
+C:\Programming_with_Classes\codes\random\obj\Debug\net7.0\random.csproj.AssemblyReference.cache
+C:\Programming_with_Classes\codes\random\obj\Debug\net7.0\random.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programming_with_Classes\codes\random\obj\Debug\net7.0\random.AssemblyInfoInputs.cache
+C:\Programming_with_Classes\codes\random\obj\Debug\net7.0\random.AssemblyInfo.cs
+C:\Programming_with_Classes\codes\random\obj\Debug\net7.0\random.csproj.CoreCompileInputs.cache
+C:\Programming_with_Classes\codes\random\obj\Debug\net7.0\random.dll
+C:\Programming_with_Classes\codes\random\obj\Debug\net7.0\refint\random.dll
+C:\Programming_with_Classes\codes\random\obj\Debug\net7.0\random.pdb
+C:\Programming_with_Classes\codes\random\obj\Debug\net7.0\random.genruntimeconfig.cache
+C:\Programming_with_Classes\codes\random\obj\Debug\net7.0\ref\random.dll

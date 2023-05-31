@@ -1,0 +1,5 @@
+C:\Programming_with_Classes\codes\loops\obj\Debug\net7.0\loops.csproj.AssemblyReference.cache
+C:\Programming_with_Classes\codes\loops\obj\Debug\net7.0\loops.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programming_with_Classes\codes\loops\obj\Debug\net7.0\loops.AssemblyInfoInputs.cache
+C:\Programming_with_Classes\codes\loops\obj\Debug\net7.0\loops.AssemblyInfo.cs
+C:\Programming_with_Classes\codes\loops\obj\Debug\net7.0\loops.csproj.CoreCompileInputs.cache

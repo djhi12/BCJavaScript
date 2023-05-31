@@ -1,0 +1,15 @@
+C:\Programming_with_Classes\codes\ReadLine\bin\Debug\net7.0\ReadLine.exe
+C:\Programming_with_Classes\codes\ReadLine\bin\Debug\net7.0\ReadLine.deps.json
+C:\Programming_with_Classes\codes\ReadLine\bin\Debug\net7.0\ReadLine.runtimeconfig.json
+C:\Programming_with_Classes\codes\ReadLine\bin\Debug\net7.0\ReadLine.dll
+C:\Programming_with_Classes\codes\ReadLine\bin\Debug\net7.0\ReadLine.pdb
+C:\Programming_with_Classes\codes\ReadLine\obj\Debug\net7.0\ReadLine.csproj.AssemblyReference.cache
+C:\Programming_with_Classes\codes\ReadLine\obj\Debug\net7.0\ReadLine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programming_with_Classes\codes\ReadLine\obj\Debug\net7.0\ReadLine.AssemblyInfoInputs.cache
+C:\Programming_with_Classes\codes\ReadLine\obj\Debug\net7.0\ReadLine.AssemblyInfo.cs
+C:\Programming_with_Classes\codes\ReadLine\obj\Debug\net7.0\ReadLine.csproj.CoreCompileInputs.cache
+C:\Programming_with_Classes\codes\ReadLine\obj\Debug\net7.0\ReadLine.dll
+C:\Programming_with_Classes\codes\ReadLine\obj\Debug\net7.0\refint\ReadLine.dll
+C:\Programming_with_Classes\codes\ReadLine\obj\Debug\net7.0\ReadLine.pdb
+C:\Programming_with_Classes\codes\ReadLine\obj\Debug\net7.0\ReadLine.genruntimeconfig.cache
+C:\Programming_with_Classes\codes\ReadLine\obj\Debug\net7.0\ref\ReadLine.dll

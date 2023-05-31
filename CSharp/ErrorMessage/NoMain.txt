@@ -1,0 +1,18 @@
+This error message is commonly encountered when trying to compile a C# program without a Main method or with a non-static Main method.
+
+The Main method is the entry point of a C# program, and it must be declared as static. It also must have a specific signature: static void Main(string[] args).
+
+To resolve this error, make sure that your C# program has a Main method that is declared as static and has the correct signature. Here's an example of a basic C# program with a Main method:
+
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Console.WriteLine("Hello, world!");
+    }
+}
+
+
+If your program already has a Main method but you're still getting the error, make sure that it is declared as static and has the correct signature.

@@ -1,0 +1,60 @@
+This error occurs in C# when you have written top-level statements (i.e., code that is not enclosed within a class or a namespace) after a namespace or type declaration.
+
+In C#, all code must be defined within a namespace or type declaration. If you try to define code outside of these constructs, you will receive the error "Top-level statements must precede namespace and type declarations".
+
+To fix this error, you need to move the top-level statements before any namespace or type declaration in your code. Alternatively, you can enclose your top-level statements within a class or namespace declaration.
+
+Here is an example of code that will cause this error:
+
+namespace MyNamespace
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello, World!");
+        }
+    }
+}
+
+Console.WriteLine("This line will cause an error!");
+
+To fix this error, move the top-level statement inside a namespace or class:
+
+using System;
+
+namespace MyNamespace
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello, World!");
+        }
+    }
+
+    class MyClass
+    {
+        static void MyMethod()
+        {
+            Console.WriteLine("This line is inside a class and will not cause an error!");
+        }
+    }
+}
+
+Alternatively, you can enclose the top-level statements within a namespace:
+
+using System;
+
+namespace MyNamespace
+{
+    Console.WriteLine("This line is inside a namespace and will not cause an error!");
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello, World!");
+        }
+    }
+}
