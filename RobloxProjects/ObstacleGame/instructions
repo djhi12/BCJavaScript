@@ -30,6 +30,57 @@ Setting Up Player Movement and Controls:
     Use the provided Lua code to handle player movement and jump mechanics.
     Explain how to customize the walk speed and adjust input controls if needed.
 
+--[[
+local player = game.Players.LocalPlayer
+local character = player.Character or player.CharacterAdded:Wait()
+local humanoid = character:WaitForChild("Humanoid")
+local rootPart = character:WaitForChild("HumanoidRootPart")
+
+-- Customize walk speed
+humanoid.WalkSpeed = 16 -- Adjust this value to change the walk speed
+
+-- Adjust input controls if needed
+local userInputService = game:GetService("UserInputService")
+local jumpKeyPressed = false
+
+-- Function to handle player movement
+local function handlePlayerMovement()
+    local moveDir = Vector3.new()
+    local camera = workspace.CurrentCamera
+
+    if userInputService:IsKeyDown(Enum.KeyCode.W) then
+        moveDir = moveDir + camera.CFrame.LookVector
+    end
+    if userInputService:IsKeyDown(Enum.KeyCode.S) then
+        moveDir = moveDir - camera.CFrame.LookVector
+    end
+    if userInputService:IsKeyDown(Enum.KeyCode.A) then
+        moveDir = moveDir - camera.CFrame.RightVector
+    end
+    if userInputService:IsKeyDown(Enum.KeyCode.D) then
+        moveDir = moveDir + camera.CFrame.RightVector
+    end
+
+    moveDir = moveDir * humanoid.WalkSpeed
+    moveDir = Vector3.new(moveDir.X, 0, moveDir.Z)
+
+    humanoid:Move(moveDir, false)
+
+    -- Handle jumping
+    if userInputService:IsKeyDown(Enum.KeyCode.Space) and humanoid.FloorMaterial ~= Enum.Material.Air and not jumpKeyPressed then
+        jumpKeyPressed = true
+        humanoid.Jump = true
+    end
+    if not userInputService:IsKeyDown(Enum.KeyCode.Space) then
+        jumpKeyPressed = false
+    end
+end
+
+-- Connect the handlePlayerMovement function to the Heartbeat event
+game:GetService("RunService").Heartbeat:Connect(handlePlayerMovement)
+    
+--]]
+
 
 Implementing Progress Tracking:
     Instruct students to place invisible checkpoints as Parts throughout the obstacle course.
