@@ -1,0 +1,59 @@
+Title: Obstacle Course Adventure
+
+DESCRIPTION:
+Obstacle Course Adventure is an exciting game project that challenges players to navigate through a thrilling obstacle course. Students will have the opportunity to design and develop their own Roblox game, incorporating various obstacles, platforms, and hazards to create a challenging and engaging gameplay experience.
+
+
+KEY FEATURES:
+Custom Obstacle Course: Students will use Roblox Studio to design and build a unique obstacle course using a wide range of tools and assets available in the Roblox platform. They can unleash their creativity and design levels that are fun, challenging, and visually appealing.
+
+Player Movement and Controls: Students will implement player movement mechanics using Roblox's Lua programming language. They will learn how to handle user input, allowing players to move their character, jump, and interact with the game environment effectively.
+
+Progress Tracking: Students will incorporate checkpoints throughout the obstacle course to track the player's progress. They will learn how to detect when a player reaches a checkpoint, update their progress, and provide feedback to the player about their current position in the course.
+
+Win Condition: Students will implement a win condition that triggers when the player successfully completes the obstacle course. They will design a final obstacle or finish line, and once the player reaches it, they will be declared the winner. Students will learn about win conditions, game flow, and rewarding players for their achievements.
+
+
+LEARNING OBJECTIVES:
+Introduction to Game Development: Students will gain hands-on experience in developing a complete game project, from designing the obstacle course to implementing gameplay mechanics and win conditions.
+Lua Programming: Students will learn the fundamentals of Lua programming and apply their knowledge to control player movement, track progress, and handle game logic.
+
+Problem Solving and Creativity: Students will develop critical thinking and problem-solving skills as they design challenging obstacles, create engaging gameplay, and iterate on their designs based on player feedback.
+Collaboration and Iterative Design: Students can work individually or in teams to develop their obstacle course game. They will learn how to collaborate, give and receive feedback, and continuously improve their game through an iterative design process.
+
+By working on the Obstacle Course Adventure project, students will not only have fun playing their own game but also gain valuable skills in game development, programming, problem-solving, and teamwork. They will have a tangible final product to showcase their creativity and technical abilities, and they can further enhance and customize the game based on their own ideas and preferences.
+
+
+CODE INSTRUCTIONS
+Setting Up Player Movement and Controls:
+    Create a script in a Part or a LocalScript in StarterPlayerScripts.
+    Use the provided Lua code to handle player movement and jump mechanics.
+    Explain how to customize the walk speed and adjust input controls if needed.
+
+
+Implementing Progress Tracking:
+    Instruct students to place invisible checkpoints as Parts throughout the obstacle course.
+    Show how to create a script that detects when a player touches a checkpoint and updates their progress.
+    Encourage students to name the checkpoints and provide visual feedback to the player.
+
+
+Creating a Win Condition:
+    Explain the concept of a win condition and how it adds a goal to the game.
+    Instruct students to place a final obstacle or finish line.
+    Show how to create a script that triggers the win condition when the player reaches the finish line.
+
+
+Testing and Iteration:
+    Emphasize the importance of testing the game regularly during development.
+    Encourage students to iterate on their designs based on player feedback and playtesting results.
+
+    Suggest adding additional obstacles, improving level design, or adjusting difficulty as part of the iteration process.
+
+
+Additional Challenges and Features:
+    Provide suggestions for additional features students can implement, such as power-ups, time trials, or multiplayer support.
+    Encourage students to explore Roblox documentation and resources to expand their game with more advanced mechanics or visuals.
+
+Remember to provide code examples, comments, and explanations to help students understand and modify the code according to their own game design. Encourage them to experiment, be creative, and seek help or collaborate with their peers if they encounter any challenges during the coding process.
+
+By combining the program description with these code instructions, students will have a clear understanding of the project's objectives, features, and the steps they need to take to bring their Obstacle Course Adventure to life.
