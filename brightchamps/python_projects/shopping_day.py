@@ -85,5 +85,5 @@ In this updated version, the program considers both the current day of the week 
 
 On Mondays, customers aged 50 and above receive a 30% discount on all items.
 On Wednesdays, customers below 18 receive a 20% discount on all items.
-For other days and age groups, no
+For other days and age groups, no discount.
 """
