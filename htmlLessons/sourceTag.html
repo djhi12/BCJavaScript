@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>source tag</title>
+</head>
+
+<body>
+    <!--
+        In HTML, the <source> tag is used as a child element within the <audio> or <video> elements to specify alternative media sources for the browser to choose from. It allows you to provide multiple versions of the same audio or video content in different formats or qualities, ensuring compatibility across different browsers and devices.
+
+        Here is the basic syntax for the <source> tag:
+    -->
+
+    <audio>
+        <source src="audio.ogg" type="audio/ogg">
+        <source src="audio.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <!--
+        In this example, two <source> tags are used within the <audio> element. The src attribute specifies the URL of the media file, and the type attribute indicates the MIME type of the file. The browser will try to load the sources in the order they appear, and will use the first one it can successfully play. If none of the sources are supported, the fallback content between the opening and closing <audio> tags will be displayed.
+
+        Similarly, the <source> tag can be used within the <video> element to specify different video formats:
+    -->
+
+    <video>
+        <source src="video.webm" type="video/webm">
+        <source src="video.mp4" type="video/mp4">
+        Your browser does not support the video element.
+    </video>
+
+    <!--
+        By providing multiple sources with different formats, you increase the chances of the media being playable across various browsers and platforms.
+    -->
+</body>
+
+</html>

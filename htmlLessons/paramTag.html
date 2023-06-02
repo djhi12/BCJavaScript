@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>param tag</title>
+</head>
+
+<body>
+    <!--
+        In HTML, the <param> tag is used to define parameters for an object element. The <param> tag is typically used within the <object> element to specify various parameters or settings for embedded content, such as multimedia objects like audio, video, or plugins.
+
+        Here's an example of how the <param> tag can be used:
+    -->
+
+    <object data="example.swf" type="application/x-shockwave-flash">
+        <param name="movie" value="example.swf">
+        <param name="bgcolor" value="#FFFFFF">
+        <param name="quality" value="high">
+        <!-- Additional parameters can be added here -->
+    </object>
+
+    <!--
+        In this example, the <object> element is used to embed a Flash animation (example.swf). The <param> tags within the <object> element specify different parameters for the Flash animation. For example, the movie parameter specifies the URL of the Flash animation, the bgcolor parameter sets the background color, and the quality parameter sets the quality of the animation.
+
+        It's important to note that the <param> tag is not supported in HTML5. It was used in older versions of HTML, particularly for embedding objects that required plugins. In HTML5, it's generally recommended to use other techniques, such as the <video> or <audio> elements, which provide more flexibility and native support for multimedia content.
+    -->
+</body>
+
+</html>

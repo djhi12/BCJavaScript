@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>muted attribute</title>
+</head>
+
+<body>
+    <!--
+        In HTML, the "muted" attribute is used with the <video> element to indicate that the video should be initially muted when it starts playing. This attribute is a boolean attribute, which means it does not require a value. If the "muted" attribute is present, it is considered true, and the video is muted. If the attribute is not present, or if it is present with an empty value, the video will play with sound.
+
+        Here's an example of how to use the "muted" attribute with the <video> element:
+    -->
+
+    <video muted>
+        <source src="video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <!--
+        In the above example, the "muted" attribute is added to the <video> element without a value. This will cause the video to be muted when it starts playing.
+
+        You can also use JavaScript to control the muted state of a video dynamically. You can access the video element in JavaScript and change its muted property to true or false based on your requirements.
+    -->
+
+    <script>
+        var video = document.getElementById("myVideo");
+        video.muted = true; // Mute the video
+        video.muted = false; // Unmute the video
+
+    </script>
+
+    <!-- 
+        Remember to replace "myVideo" with the actual id of your video element.
+    -->
+</body>
+
+</html>
