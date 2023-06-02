@@ -1,6 +1,6 @@
 Calculating the price per item involves considering various factors, including the cost of materials, manufacturing, overhead expenses, desired profit margin, and market competition. Here's a general approach to calculating the price per item:
 
-Determine your Costs:
+DETERMINE YOUR COSTS:
 Materials: Calculate the cost of raw materials required to produce each item, including the cost of clay, ceramic, plastic, or any other materials used.
 
 Manufacturing: Consider the expenses related to the manufacturing process, such as labor, equipment, energy, and any outsourcing costs if applicable.
@@ -10,19 +10,37 @@ Overhead Expenses: Account for overhead costs like rent, utilities, insurance, m
 Research: Analyze the prices offered by competitors to ensure your pricing is competitive while considering your unique selling points and target market.
 
 
-Calculate the Total Cost per Item:
+CALCULATE THE TOTAL COST PER ITEM:
 Add up the costs determined in the previous step: materials, manufacturing, and overhead expenses. This will give you the total cost per item.
 
 
-Determine the Desired Profit Margin:
+DETERMINE THE DESIRED PROFIT MARGIN:
 Decide on the profit margin you want to achieve per item. This margin should consider your business goals, market conditions, and the perceived value of your products.
 
 The profit margin is typically expressed as a percentage of the total cost per item.
 
-Calculate the Price per Item:
+
+CALCULATE THE PRICE PER ITEM:
 Add the desired profit margin percentage to the total cost per item calculated in step 2.
 
-The formula for calculating the price per item is:
+
+THE FORMULA FOR CALCULATING THE PRICE PER ITEM IS:
 Price per Item = Total Cost per Item + (Total Cost per Item × Desired Profit Margin)
 
+
 It's important to regularly review and adjust your pricing strategy based on factors like market demand, production efficiency, and changes in costs. Additionally, consider conducting market research and competitor analysis to ensure your pricing remains competitive and aligned with your target market's expectations.
+
+
+
+EXAMPLE CALCULATION:
+Certainly! Let's assume that the total cost per item, calculated in step 2, is $10. Now, let's add a desired profit margin percentage of 30% to calculate the price per item.
+
+Step 1: Calculate the desired profit amount:
+Desired Profit = Total Cost per Item × Desired Profit Margin
+Desired Profit = $10 × 0.30 = $3
+
+Step 2: Calculate the price per item:
+Price per Item = Total Cost per Item + Desired Profit
+Price per Item = $10 + $3 = $13
+
+So, in this example, with a total cost per item of $10 and a desired profit margin of 30%, the price per item would be $13.

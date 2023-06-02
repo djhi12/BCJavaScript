@@ -79,13 +79,13 @@ Feel free to customize the code according to your requirements and add error han
 
 # Student Problem
 """
-print("Temperature Converter")
-    print("1. Celsius to Fahrenheit")
-    print("2. Celsius to Kelvin")
-    print("3. Fahrenheit to Celsius")
-    print("4. Fahrenheit to Kelvin")
-    print("5. Kelvin to Celsius")
-    print("6. Kelvin to Fahrenheit")
+Temperature Converter
+1. Celsius to Fahrenheit
+2. Celsius to Kelvin
+3. Fahrenheit to Celsius
+4. Fahrenheit to Kelvin
+5. Kelvin to Celsius
+6. Kelvin to Fahrenheit
     
 The code begins by defining several functions that perform temperature conversions. These functions take a temperature value as an input and return the converted temperature according to the conversion formulas.
 
