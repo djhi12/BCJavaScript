@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formmethod attribute</title>
+</head>
+
+<body>
+    <!--
+        In HTML, the "formmethod" attribute is used to specify the HTTP method to be used when submitting a form. The HTTP methods commonly used with forms are "GET" and "POST". The "formmethod" attribute can be applied to the <button> and <input> elements within a <form>.
+
+        Here's an example of how the "formmethod" attribute is used:
+    -->
+
+    <form action="/submit-form" method="post">
+        <input type="text" name="username" placeholder="Username">
+        <input type="submit" value="Submit" formmethod="get">
+        <input type="submit" value="Submit" formmethod="post">
+    </form>
+
+    <!--
+        In the example above, we have a form with the action attribute set to "/submit-form" and the method attribute set to "post" (the default method). Within the form, we have two submit buttons. The first button has the "formmethod" attribute set to "get", while the second button uses the default "post" method.
+
+        When the form is submitted, the browser will use the specified HTTP method (either "GET" or "POST") to send the form data to the server, based on the form submission button that was clicked.
+
+        It's important to note that the "formmethod" attribute is not widely supported in older browsers, so it's recommended to provide a fallback solution or use JavaScript to handle different form submission methods if you need to support those browsers.
+    -->
+</body>
+
+</html>

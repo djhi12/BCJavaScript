@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>preload attribute</title>
+</head>
+
+<body>
+    <!--
+        The preload attribute is an HTML attribute used to provide a hint to the browser on how a particular resource should be loaded. It allows you to specify resources, such as images, videos, audio files, or even entire web pages, that should be fetched and prepared in advance, before they are actually needed.
+
+        By using the preload attribute, you can improve the performance of your web page by reducing the latency involved in fetching resources when they are requested. It allows the browser to start downloading and caching the specified resources in the background, so they are readily available when needed.
+
+        The preload attribute can be added to several HTML elements, including <link>, <img>, <audio>, <video>, and <script>. The specific syntax for the preload attribute depends on the element it is used with. Here are a few examples:
+    -->
+
+    <!-- Preloading a CSS file: -->
+    <link rel="preload" href="styles.css" as="style">
+
+
+    <!-- Preloading an image: -->
+    <img src="placeholder.jpg" alt="Placeholder" data-src="image.jpg" data-srcset="image.jpg 1x, image@2x.jpg 2x"
+        loading="lazy" importance="high">
+
+
+    <!-- Preloading a JavaScript file: -->
+    <script src="script.js" defer preload></script>
+
+
+    <!--
+        The as attribute is used to specify the type of resource being preloaded. Possible values include "style", "image", "audio", "video", "document", "font", and more. The loading attribute with a value of "lazy" indicates that the resource should be lazily loaded, meaning it will be fetched only when it is about to be displayed. The importance attribute is used to indicate the relative priority of the resource.
+
+        It's important to note that the preload attribute is a performance optimization technique and should be used judiciously. Preloading too many resources or unnecessarily large resources can negatively impact the overall performance and user experience. It's recommended to measure and analyze the impact of preloading resources to ensure it provides the desired performance benefits.
+    -->
+</body>
+
+</html>

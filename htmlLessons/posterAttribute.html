@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>poster attribute</title>
+</head>
+
+<body>
+    <!--
+        The "poster" attribute is used in HTML to specify an image or video thumbnail that represents the content of a <video> element. It allows you to display a static image or a poster frame before the video starts playing. When the video is not yet loaded or the user's browser does not support the <video> element, the specified poster image will be displayed instead.
+
+        Here's an example of how the "poster" attribute is used:
+    -->
+
+    <video controls poster="path/to/poster-image.jpg">
+        <source src="path/to/video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <!--
+        In the example above, the "poster" attribute is added to the <video> element, and its value is set to the path of the poster image file ("path/to/poster-image.jpg"). When the page is loaded, the specified image will be displayed as the poster for the video.
+
+        It's important to note that the "poster" attribute is optional. If you don't provide a poster image, some browsers may display a default play button or a blank area instead. Additionally, if the video is set to autoplay (autoplay attribute), the poster image will not be displayed as the video will start playing immediately.
+    -->
+</body>
+
+</html>

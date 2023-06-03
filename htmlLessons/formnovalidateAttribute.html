@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formnovalidate attribute</title>
+</head>
+
+<body>
+    <!--
+        The formnovalidate attribute is an HTML attribute that can be used within a <button> or <input> element to disable form validation when the associated form is submitted.
+
+        By default, when a form is submitted, the browser performs form validation to ensure that the required fields are filled out correctly (e.g., validating email addresses, checking for required fields, etc.). However, in some cases, you may want to disable this validation and submit the form without checking the input values.
+
+        The formnovalidate attribute allows you to achieve this. When applied to a submit button or an input element with type="submit", it tells the browser not to perform form validation when that specific button is clicked.
+
+        Here's an example of how to use the formnovalidate attribute:
+    -->
+
+    <form>
+        <input title="sample" type="email" required>
+        <button type="submit" formnovalidate>Submit</button>
+    </form>
+
+    <!--
+        In the above example, the form contains an email input field that is marked as required. Normally, if you try to submit the form without filling in a valid email address, the browser would display an error message. However, by adding the formnovalidate attribute to the submit button, the form will be submitted without validating the email field.
+
+        It's important to note that the formnovalidate attribute only affects the specific button or input element to which it is applied. Other form elements in the same form will still undergo validation when other submit buttons are clicked.
+    -->
+</body>
+
+</html>
