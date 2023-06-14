@@ -1,0 +1,35 @@
+For Day 3's scripting fundamentals, you can assign a simple project idea that allows participants to apply the scripting concepts they have learned. Here's an example project idea:
+
+Project: "Interactive Maze"
+
+Description:
+Participants will create an interactive maze game where players navigate through a maze to reach the goal. They will script the player's movement, collision detection, and win/lose conditions.
+
+Steps:
+
+Design the Maze:
+Use Roblox Studio's building tools to create a maze layout using walls and paths.
+Add a starting point and a goal point in the maze.
+
+Player Movement:
+Script the player's movement using arrow keys or WASD controls.
+Ensure the player cannot move through walls by implementing collision detection.
+
+Collision Detection:
+Write code that detects collisions between the player and the maze walls.
+If the player collides with a wall, prevent their movement in that direction.
+
+Win/Lose Conditions:
+Define win and lose conditions for the game.
+When the player reaches the goal, display a "You Win!" message and stop the game.
+If the player hits a certain number of walls or exceeds a time limit, display a "Game Over" message and stop the game.
+
+Additional Features:
+Enhance the game by adding power-ups, obstacles, or different maze levels.
+
+Implement a timer to track the player's time to complete the maze.
+
+Include visual and audio effects to provide feedback to the player.
+
+
+Throughout the project, encourage participants to experiment and customize their maze game by adding their own creative elements. This project will help them reinforce their understanding of scripting fundamentals while creating an engaging and interactive game experience.
