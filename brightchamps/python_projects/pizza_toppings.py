@@ -3,13 +3,13 @@ pizzas = [
     {'name': 'Pepperoni', 'toppings': ['tomato', 'mozzarella', 'pepperoni']},
     {'name': 'Hawaiian', 'toppings': ['tomato', 'mozzarella', 'ham', 'pineapple']}
 ]
-
+print()
 for pizza in pizzas:
     pizza_name = pizza['name']
     pizza_toppings = ', '.join(pizza['toppings'])
     print("I like", pizza_name, "pizza with", pizza_toppings, "toppings.")
 
-print("\nPizza is one of my favorite foods!")
+print("\nPizza is one of my favorite foods!\n")
 
 
 """
