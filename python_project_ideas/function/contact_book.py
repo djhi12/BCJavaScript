@@ -1,16 +1,16 @@
 contacts = []
 
 def add_contact():
-    name = input("Enter the contact's name: ")
+    name = input("\nEnter the contact's name: ")
     phone = input("Enter the contact's phone number: ")
     email = input("Enter the contact's email address: ")
     contact = {"name": name, "phone": phone, "email": email}
     contacts.append(contact)
-    print("Contact added successfully!")
+    print("\nContact added successfully!\n")
     print(contacts,)
 
 def search_contact():
-    name = input("Enter the name to search: ")
+    name = input("\nEnter the name to search: ")
     found = False
     for contact in contacts:
         if contact["name"].lower() == name.lower():
@@ -24,7 +24,7 @@ def search_contact():
         print("Contact not found.")
 
 def update_contact():
-    name = input("Enter the name of the contact to update: ")
+    name = input("\nEnter the name of the contact to update: ")
     found = False
     for contact in contacts:
         if contact["name"].lower() == name.lower():
@@ -42,7 +42,7 @@ def update_contact():
         print("Contact not found.")
 
 def delete_contact():
-    name = input("Enter the name of the contact to delete: ")
+    name = input("\nEnter the name of the contact to delete: ")
     found = False
     for contact in contacts:
         if contact["name"].lower() == name.lower():
@@ -62,7 +62,7 @@ def main():
         print("4. Delete Contact")
         print("5. Exit")
 
-        choice = input("Enter your choice (1-5): ")
+        choice = input("\nEnter your choice (1-5): ")
 
         if choice == "1":
             add_contact()
