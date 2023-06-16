@@ -1,0 +1,54 @@
+Lesson 1: Introduction to Advanced Python Concepts
+
+Duration: 2 hours
+
+Objective: By the end of this lesson, students will have a clear understanding of the advanced concepts covered in the course and will be able to recap Python fundamentals. They will also be introduced to advanced topics such as decorators, generators, and context managers.
+
+
+1.1 Overview of the course (15 minutes)
+Provide a brief introduction to the Python Advanced Course.
+Explain the goals and objectives of the course.
+Discuss the importance of learning advanced Python concepts.
+Highlight the practical applications of these concepts in real-world scenarios.
+
+
+1.2 Recap of Python fundamentals (30 minutes)
+Review the key concepts of Python programming covered in the prerequisite Python course.
+Refresh students' knowledge of basic data types, control structures, functions, and classes.
+Discuss any additional topics that are necessary for understanding advanced concepts.
+
+
+1.3 Introduction to decorators (30 minutes)
+Define decorators and their purpose in Python.
+Explain how decorators can modify the behavior of functions or classes.
+Show examples of commonly used decorators.
+Discuss the advantages and best practices of using decorators.
+
+
+1.4 Introduction to generators (30 minutes)
+Introduce the concept of generators and their role in Python.
+Explain the difference between traditional functions and generator functions.
+Demonstrate how to create generator functions using the yield statement.
+Showcase the benefits of using generators in terms of memory efficiency and lazy evaluation.
+
+
+1.5 Introduction to context managers (30 minutes)
+Define context managers and their significance in Python.
+Discuss scenarios where context managers are useful (e.g., file handling, resource management).
+Explain the with statement and its role in working with context managers.
+Show examples of creating context managers using the contextlib module.
+
+
+1.6 Hands-on exercises (15 minutes)
+Provide a set of exercises that allow students to practice the concepts covered in this lesson.
+Encourage students to write code implementing decorators, generators, and context managers.
+Assist and provide guidance as needed during the exercise session.
+
+
+1.7 Recap and Q&A (15 minutes)
+Recap the key points covered in the lesson.
+Address any questions or concerns raised by the students.
+Provide additional resources for further exploration of the topics covered.
+
+
+Note: Throughout the lesson, encourage active student participation by asking questions, encouraging discussions, and providing real-world examples to reinforce the concepts taught.
