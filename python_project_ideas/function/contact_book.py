@@ -7,6 +7,7 @@ def add_contact():
     contact = {"name": name, "phone": phone, "email": email}
     contacts.append(contact)
     print("Contact added successfully!")
+    print(contacts,)
 
 def search_contact():
     name = input("Enter the name to search: ")
