@@ -1,8 +1,8 @@
 The "when this sprite clicked" block in Scratch is used to trigger an action or set of actions when the sprite is clicked by the user. To remove this block, simply follow these steps:
 
-	1. Click on the "when this sprite clicked" block in the Scratch programming area to select it.
-	2. Press the "delete" or "backspace" key on your keyboard to remove the block from your program.
-	3. Alternatively, you can also drag the block out of your programming area and drop it outside of the stage to remove it.
+1. Click on the "when this sprite clicked" block in the Scratch programming area to select it.
+2. Press the "delete" or "backspace" key on your keyboard to remove the block from your program.
+3. Alternatively, you can also drag the block out of your programming area and drop it outside of the stage to remove it.
 
 After removing the "when this sprite clicked" block, you may need to adjust the rest of your code to ensure that your program still functions correctly.
 
