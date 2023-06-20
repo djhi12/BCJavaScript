@@ -16,5 +16,6 @@ Click on the plugin name to enable it and access its features.
 
 Once a plugin is installed and enabled, its functionality will be available within Roblox Studio. This can include things like additional modeling tools, asset management systems, code editors, and more. The specific features and capabilities of a plugin will vary depending on its purpose and design.
 
-It's important to note that while plugins can greatly enhance your development experience, you should only install plugins from trusted sources. Be cautious when downloading and installing plugins from unknown or unverified websites, as they could potentially contain malicious code or cause compatibility issues with Roblox Studio.    
+It's important to note that while plugins can greatly enhance your development experience, you should only install plugins from trusted sources. Be cautious when downloading and installing plugins from unknown or unverified websites, as they could potentially contain malicious code or cause compatibility issues with Roblox Studio.  
+  
 --]]
