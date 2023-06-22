@@ -3,7 +3,7 @@ In Python, the term "approx" is not a built-in keyword or function. It is typica
 
 For example, if you have a variable representing the approximate value of pi, you might name it approx_pi to indicate that it is not the exact mathematical constant:
 """
-
+result = 0
 approx_pi = 3.14
 
 # Similarly, you might have a function that calculates an approximate value for a complex mathematical operation, and you can use "approx" as part of the function name:
