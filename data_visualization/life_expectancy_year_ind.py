@@ -18,3 +18,27 @@ with open(filename) as life_expectancies:
             # print("Life Expectancy:", life_detail_clean[3])
             
         print(f"{life_detail_clean[2]}")
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    
+        
+        
+        
+        
+        
+        
+        
+        
+        
