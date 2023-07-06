@@ -1,3 +1,5 @@
+Project Name: RPG
+
 Creating an RPG with quests, battles, character progression, and a combat system involves several components. Here's a high-level overview of the steps you can take to develop such a game in Roblox using Lua:
 
 Game Setup:
