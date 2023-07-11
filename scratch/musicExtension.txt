@@ -8,4 +8,4 @@ Create custom melodies and rhythms using the built-in sequencer
 Import and export MIDI files
 Use a variety of sound effects and instruments
     
-The music extension is a great tool for anyone who wants to incorporate music into their Scratch projects, whether it's a simple jingle or a full-blown soundtrack. It's easy to use and provides a lot of creative possibilities for users of all skill levels.
+The music extension is a great tool for anyone who wants to incorporate music into their Scratch projects, whether it's a simple jingle or a full-blown soundtrack. It's easy to use and provides a lot of creative possibilities for users of all skill levels.    
