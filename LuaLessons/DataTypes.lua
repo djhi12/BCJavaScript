@@ -53,7 +53,11 @@ local g = io.stdin
 print(type(g)) -- output: "userdata"
 
 -- thread data type
-local function h() print("hello from thread") end
+local function h() 
+    print("hello from thread") 
+
+end
+
 local i = coroutine.create(h)
 print(type(i)) -- output: "thread"
 coroutine.resume(i) -- output: "hello from thread"
