@@ -2,9 +2,11 @@
 The sorted() function in Python is used to sort an iterable object such as a list, tuple, or string, and returns a new sorted list. It does not modify the original object; instead, it creates a new sorted version of the object.
 
 The general syntax of the sorted() function is as follows:
-"""
 
 sorted(iterable, key=None, reverse=False)
+
+"""
+
 
 """
 Here's a breakdown of the parameters:
