@@ -16,5 +16,6 @@ Altair: Altair is a declarative statistical visualization library that allows yo
 ggplot: ggplot is a Python implementation of the popular ggplot2 library in R. It follows the grammar of graphics concept, allowing you to create complex visualizations by combining different graphical elements.
 
 These libraries offer a range of capabilities, from basic plots to advanced interactive visualizations. Depending on your specific needs and preferences, you can choose the library that best suits your requirements.
+
 """
 
