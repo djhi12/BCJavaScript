@@ -12,12 +12,13 @@ with open(filename) as life_expectancies:
 
         if i > 1 and life_detail_clean[2] == year_input:
             # Print all details for the specified year
-            # print("Country:", life_detail_clean[0])
-            # print("Code:", life_detail_clean[1])
-            # print("Year:", life_detail_clean[2])
-            # print("Life Expectancy:", life_detail_clean[3])
+            print("Country:", life_detail_clean[0])
+            print("Code:", life_detail_clean[1])
+            print("Year:", life_detail_clean[2])
+            print("Life Expectancy:", life_detail_clean[3])
+            print()
 
-            print(f"{life_detail_clean[2]}, {life_detail_clean[0]}, {life_detail_clean[1]}, {life_detail_clean[3]}")
+            # print(f"{life_detail_clean[2]}, {life_detail_clean[0]}, {life_detail_clean[1]}, {life_detail_clean[3]}")
 
 
 # import csv
