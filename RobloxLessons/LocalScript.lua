@@ -10,6 +10,7 @@ Right-click on the "Workspace" or any other desired location (e.g., StarterPlaye
 Go to "Insert Object" and select "LocalScript."
 The local script will appear in the Explorer and be ready for editing.
 
+
 Writing Code in a Local Script:
 Once you have created a local script, you can double-click on it to open the code editor. Here, you can write Lua code to define the behavior of the client-side features you want to implement.
 
