@@ -1,6 +1,6 @@
 Student: 
 
-Course: JavaScript
+Course: 
 
 Unfortunately, the student did not attend the scheduled class. Text/call was made to contact the student, but there was no response. The student has been marked as absent. Faculty and administrative staff have been informed of the situation. If you have any questions or concerns, please feel free to contact our admin.
 
