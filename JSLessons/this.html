@@ -18,13 +18,13 @@
 
             Here are some common scenarios that determine the value of this:
 
-                Global Context: When this is used outside of any function, it refers to the global object (window in the browser, or global in Node.js).
+            Global Context: When this is used outside of any function, it refers to the global object (window in the browser, or global in Node.js).
 
-                Object Method: When this is used inside a method of an object, it refers to the object itself.
+            Object Method: When this is used inside a method of an object, it refers to the object itself.
 
-                Function: When this is used inside a regular function, it depends on how the function is called. If the function is called with a context object using call, apply or bind, this refers to that object. Otherwise, in strict mode, this is undefined, and in non-strict mode, this refers to the global object.
+            Function: When this is used inside a regular function, it depends on how the function is called. If the function is called with a context object using call, apply or bind, this refers to that object. Otherwise, in strict mode, this is undefined, and in non-strict mode, this refers to the global object.
 
-                Constructor: When this is used inside a constructor function, it refers to the newly created object.
+            Constructor: When this is used inside a constructor function, it refers to the newly created object.
 
             Understanding the value of this is important for writing correct and maintainable JavaScript code.
         */
@@ -65,10 +65,13 @@
         /*
             In the above example, the this keyword is used in different contexts:
 
-                In the global context, this refers to the Window object in the browser.
-                In the greet method of the myObj object, this refers to the myObj object itself.
-                In the sayHello regular function, this depends on how the function is called. In the example, it's called without any context, so it refers to the global object in non-strict mode. But when it's called with the call method and passed a person object as the context, this refers to the person object.
-                In the Person constructor function, this refers to the newly created object, which is returned by the new operator.
+            In the global context, this refers to the Window object in the browser.
+            
+            In the greet method of the myObj object, this refers to the myObj object itself.
+
+            In the sayHello regular function, this depends on how the function is called. In the example, it's called without any context, so it refers to the global object in non-strict mode. But when it's called with the call method and passed a person object as the context, this refers to the person object.
+
+            In the Person constructor function, this refers to the newly created object, which is returned by the new operator.
         */
     </script>
 </body>
