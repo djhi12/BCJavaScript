@@ -1,0 +1,11 @@
+FTP stands for File Transfer Protocol. It is a standard network protocol used to transfer files from one host to another over a TCP-based network, such as the Internet or an intranet. FTP has been widely used for many years as a simple and efficient method for exchanging files between computers.
+
+When it comes to the web, FTP is often used in the context of web development and website maintenance. Web developers and administrators may use FTP to upload, download, and manage files on a web server. Some common use cases include:
+
+Uploading website files: When a website is created or updated, the files (HTML, CSS, JavaScript, images, etc.) need to be transferred to the web server so that they can be accessed and displayed on the internet. FTP allows developers to upload these files from their local computer to the server.
+
+Website maintenance: Web administrators may need to make changes to a live website, such as updating content, fixing issues, or adding new features. FTP enables them to access the server remotely and make the necessary modifications.
+
+Backing up website data: FTP can be used to create backups of a website's files and databases, ensuring that important data is stored safely.
+
+It's worth noting that while FTP has been widely used historically, its security has been a concern due to the lack of encryption in its original form. Sensitive information, such as usernames and passwords, are transmitted in plain text, making it vulnerable to eavesdropping and interception. As a result, secure alternatives like FTPS (FTP Secure) and SFTP (SSH File Transfer Protocol) have become more popular for secure file transfers over the years. These protocols add encryption to protect data during transmission, providing a safer option for web-related file transfers.

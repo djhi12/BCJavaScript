@@ -1,0 +1,13 @@
+In the context of the web, SSH stands for "Secure Shell." It is a network protocol that provides a secure way to access and manage a remote computer or server over an unsecured network. SSH allows you to establish a secure encrypted connection between a local computer and a remote server, providing a safer alternative to traditional methods like Telnet, which transmit data in plain text.
+
+SSH is widely used in web development and server administration to perform various tasks, such as:
+
+Remote server administration: SSH allows administrators to log in to remote servers and perform various administrative tasks, such as installing software, managing files, and configuring settings.
+
+Secure file transfer: SSH supports secure file transfer through utilities like SCP (Secure Copy) and SFTP (Secure File Transfer Protocol). These tools enable users to transfer files securely between their local machine and a remote server.
+
+Secure access to Git repositories: Developers often use SSH to securely connect to version control systems like Git. SSH keys are used to authenticate users and allow secure access to repositories.
+
+Secure remote access: SSH enables users to access a remote computer's command-line interface securely, providing a way to manage the server even if its graphical interface is not available.
+
+When using SSH, the data transmitted between the client (local computer) and the server is encrypted, providing confidentiality and protection against eavesdropping and data tampering. SSH is an essential tool for web developers and system administrators as it ensures secure access and communication with remote servers and machines.
