@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NaN</title>
+</head>
+
+<body>
+    <script>
+        /*
+        In JavaScript, "NaN" stands for "Not a Number." It is a special value representing the result of an invalid or undefined mathematical operation.
+
+        When you perform a mathematical operation that doesn't produce a valid number, JavaScript returns "NaN" as the result. For example:
+        */
+
+        const result = 10 / "apple";
+        console.log(result); // Output: NaN
+
+        /*
+        In this example, dividing a number by a string ("apple") is not a valid mathematical operation, so the result is "NaN."
+
+        "NaN" is of the data type "number," but it represents an undefined or unrepresentable numeric value. One important thing to note is that "NaN" is not equal to any other value, including itself. This means that if you try to compare "NaN" to anything (including another "NaN"), the result will always be false.
+        */
+
+        console.log(NaN === NaN); // Output: false
+
+        // To check if a value is "NaN," you can use the isNaN() function:
+        console.log(isNaN(NaN)); // Output: true
+        console.log(isNaN("Hello")); // Output: true (because "Hello" can't be converted to a number)
+        console.log(isNaN(42)); // Output: false (42 is a valid number)
+
+        // To handle potential "NaN" values in your code, you can use conditional checks with isNaN() or use the Number.isNaN() method:
+
+        const value = parseInt(someInputValue); // Attempt to parse the input value as an integer
+        if (Number.isNaN(value)) {
+            console.log("Invalid input!");
+        } else {
+            console.log("Parsed value:", value);
+        }
+
+        // By using Number.isNaN(), you ensure that only actual "NaN" values return true, and other non-numeric values are not considered as "NaN."
+
+    </script>
+</body>
+
+</html>

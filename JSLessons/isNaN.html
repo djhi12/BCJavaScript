@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>isNaN</title>
+</head>
+
+<body>
+    <script>
+        /*
+        In JavaScript, the "isNaN" function is used to determine whether a value is "Not-a-Number" (NaN). NaN is a special value in JavaScript that represents an undefined or unrepresentable value resulting from an operation that cannot produce a valid number.
+
+        The "isNaN" function takes a single argument and returns a Boolean value. Here's the syntax:
+
+        isNaN(value)
+
+        value: The value that you want to check whether it is NaN or not. It can be any data type.
+        */
+
+
+        // The function returns true if the given value is NaN, and false if it is a valid number or can be converted to a number. Here are some examples:
+        isNaN(42);      // false, 42 is a valid number
+        isNaN("Hello"); // true, "Hello" cannot be converted to a number
+        isNaN("42");    // false, "42" can be converted to the number 42
+        isNaN(NaN);     // true, NaN is NaN by definition
+        isNaN(undefined); // true, undefined cannot be converted to a number
+
+        // It's important to note that the "isNaN" function tries to coerce the input to a number before making the determination. So, if you pass a non-numeric string that can be coerced to a valid number, the function will return false.
+
+
+        // To check if a value is a valid number without coercion, you can use the "Number.isNaN()" method, introduced in ECMAScript 6 (ES6):
+        Number.isNaN(42);       // false, 42 is a valid number
+        Number.isNaN("Hello");  // false, "Hello" is not a number, but no coercion is done
+        Number.isNaN("42");     // false, "42" is not a number, but no coercion is done
+        Number.isNaN(NaN);      // true, NaN is NaN by definition
+        Number.isNaN(undefined);// false, undefined is not a number, and no coercion is done
+
+        // Using "Number.isNaN()" is more appropriate if you want to check if a value is a NaN without any coercion, whereas "isNaN()" is useful if you want to check if a value can be converted to a number or not.
+    </script>
+</body>
+
+</html>
