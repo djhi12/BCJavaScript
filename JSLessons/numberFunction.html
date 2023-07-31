@@ -13,11 +13,11 @@
     <script>
         /*
             In JavaScript, the Number() function is used to convert a given value into a number. It can be used to convert a string that represents a number, a boolean value, or even an object into a number.
+
+            Here's the syntax for the Number() function:
+            Number(value)
         */
 
-
-        // Here's the syntax for the Number() function:
-        Number(value)
 
         // The value parameter can be any value that you want to convert to a number. If the value parameter is a string, it will be parsed as a number. If the value parameter is a boolean value, true will be converted to 1 and false will be converted to 0. If the value parameter is an object, JavaScript will try to call the object's valueOf() method and convert the result to a number.
 
@@ -29,6 +29,22 @@
         Number(true) // returns 1
         Number(false) // returns 0
         Number({ valueOf: function () { return 42; } }) // returns 42
+
+
+        // Example Program
+        // Example: Prompting the user for input and converting to a number
+        let userInput = window.prompt("Enter a number:");
+        let convertedNumber = Number(userInput);
+
+        if (isNaN(convertedNumber)) {
+            console.log("Invalid input! Please enter a valid number.");
+        } else {
+            console.log("Converted Number:", convertedNumber);
+            console.log("Type of convertedNumber:", typeof convertedNumber);
+        }
+
+        // When you run this code in a browser, it will prompt the user to enter a number. The entered value will then be converted to a number using the Number() function, and the result will be displayed in the console. If the user enters an invalid input (e.g., a non-numeric value), the program will inform the user that the input is invalid.
+
 
     </script>
 </body>

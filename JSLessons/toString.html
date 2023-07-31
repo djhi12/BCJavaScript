@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>toString()</title>
+</head>
+
+<body>
+    <script>
+        /*
+        In JavaScript, toString() is a method that is available on most objects, including primitive data types like numbers, strings, booleans, and objects. This method is used to convert a value to its string representation.
+
+        The toString() method can be called on any object, and when called on primitive data types, JavaScript automatically converts the primitive value to its corresponding object wrapper (e.g., a number becomes a Number object). Then, the method is executed on that object.
+
+        Here are some examples of using toString():
+        */
+
+
+        // On Numbers:
+        const number = 42;
+        const numberAsString = number.toString(); // "42"
+
+
+        // On Strings (no effect, as strings are already primitive values):
+        const str = "Hello, world!";
+        const strAsString = str.toString(); // "Hello, world!"
+
+
+        // On Booleans:
+        const bool = true;
+        const boolAsString = bool.toString(); // "true"
+
+
+        // On Objects:
+        const obj = { key: "value" };
+        const objAsString = obj.toString(); // "[object Object]"
+
+
+        // Note: The toString() method can also be called with a radix parameter to specify the base for representing numbers (e.g., binary, octal, hexadecimal). For example:
+
+        const num = 255;
+        const binaryString = num.toString(2); // "11111111"
+        const hexString = num.toString(16); // "ff"
+
+        // Keep in mind that the toString() method doesn't modify the original value; it returns a new string representation of the value. If you want to convert a value to a string in a different base, you can use the toString() method with a radix parameter, as shown in the last example.
+
+
+        // Example Program
+        // Example program using the toString() method
+
+        // Numbers
+        const number1 = 42;
+        const binaryString1 = number.toString(2);
+        const octalString = number.toString(8);
+        const hexadecimalString = number.toString(16);
+
+        console.log("Number:", number1); // Output: Number: 42
+        console.log("Binary:", binaryString1); // Output: Binary: 101010
+        console.log("Octal:", octalString1); // Output: Octal: 52
+        console.log("Hexadecimal:", hexadecimalString1); // Output: Hexadecimal: 2a
+
+        // Strings
+        const str1 = "Hello, world!";
+        const strAsString1 = str1.toString();
+
+        console.log("String:", str1); // Output: String: Hello, world!
+        console.log("String as String:", strAsString1); // Output: String as String: Hello, world!
+
+        // Booleans
+        const bool1 = true;
+        const boolAsString1 = bool.toString();
+
+        console.log("Boolean:", bool1); // Output: Boolean: true
+        console.log("Boolean as String:", boolAsString1); // Output: Boolean as String: true
+
+        // Objects
+        const obj1 = { key: "value" };
+        const objAsString1 = obj1.toString();
+
+        console.log("Object:", obj1); // Output: Object: { key: 'value' }
+        console.log("Object as String:", objAsString1); // Output: Object as String: [object Object]
+
+    </script>
+</body>
+
+</html>

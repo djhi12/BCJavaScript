@@ -47,6 +47,27 @@
         */
 
 
+        // Example Program
+        // Prompt the user for input
+        var userInput = prompt("Please enter something:");
+
+        // Convert the input to a string using the String() function
+        var stringifiedInput = String(userInput);
+
+        // Check the type of the stringified input
+        var inputType = typeof stringifiedInput;
+
+        // Display the results
+        console.log("User input:", userInput);
+        console.log("Stringified input:", stringifiedInput);
+        console.log("Type of stringified input:", inputType);
+
+        /*
+        In this code, prompt() is used to display a dialog box to the user, where they can enter some value. The String() function is then used to convert the user input into a string, regardless of the original data type of the input. Finally, the code logs the original user input, the stringified version of the input, and the type of the stringified input to the console.
+
+        Keep in mind that prompt() is usually used in browser-based JavaScript applications. If you are running this code in an environment without a prompt, you may need to use a different method to take user input, like reading from the command line or using an HTML input field in a web page.
+        */
+
     </script>
 </body>
 

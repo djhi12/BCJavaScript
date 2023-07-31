@@ -32,6 +32,35 @@
         console.log(num); // Output: NaN
 
         // In this example, the string "foo" cannot be parsed as an integer, so parseInt returns NaN.
+
+
+        // Example Program
+        // Function to prompt the user for input and convert it to an integer
+        function getUserInput() {
+            // Prompt the user for input
+            let userInput = prompt("Enter a number:");
+
+            // Check if the user clicked "Cancel" or entered an empty value
+            if (userInput === null || userInput === "") {
+                alert("Invalid input. Please enter a valid number.");
+                return;
+            }
+
+            // Convert the user input to an integer using parseInt()
+            let parsedNumber = parseInt(userInput);
+
+            // Check if the conversion was successful
+            if (isNaN(parsedNumber)) {
+                alert("Invalid input. Please enter a valid number.");
+            } else {
+                alert("You entered: " + parsedNumber);
+            }
+        }
+
+        // Call the function when the page loads
+        getUserInput();
+
+        // When you open this HTML file in a browser, it will display a prompt asking the user to enter a number. The program will then attempt to convert the input into an integer using parseInt(). If the input is a valid number, it will show an alert with the parsed number. If the input is not a valid number (e.g., contains letters or symbols), it will show an error alert. If the user clicks "Cancel" or enters an empty value, it will also show an error alert.
     </script>
 </body>
 
