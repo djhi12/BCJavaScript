@@ -14,7 +14,7 @@
 
     <script>
         // Video:
-        
+
         /*
             parseFloat is a built-in function in JavaScript that converts a string into a floating-point number. It parses a string argument and returns a floating-point number.
         */
@@ -43,6 +43,22 @@
 
         // In this example, parseFloat returns 2.8 instead of NaN because it stops parsing the string at the second dot character and ignores the rest of the string. However, this behavior may not be desirable in all cases, so it's important to be aware of it when using parseFloat.
 
+
+        // Example Program
+        // Prompt the user for input
+        let userInput = prompt("Enter a number:");
+
+        // Parse the user input to a floating-point number
+        let parsedNumber = parseFloat(userInput);
+
+        // Check if the parsedNumber is a valid number or NaN
+        if (!isNaN(parsedNumber)) {
+            // Display the parsed number
+            alert("Parsed number: " + parsedNumber);
+        } else {
+            // Handle the case when the input is not a valid number
+            alert("Invalid input! Please enter a valid number.");
+        }
     </script>
 </body>
 

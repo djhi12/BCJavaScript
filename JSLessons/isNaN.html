@@ -38,7 +38,26 @@
         Number.isNaN(undefined);// false, undefined is not a number, and no coercion is done
 
         // Using "Number.isNaN()" is more appropriate if you want to check if a value is a NaN without any coercion, whereas "isNaN()" is useful if you want to check if a value can be converted to a number or not.
+
+
+        // Example Program
+        function checkNumber() {
+            // Get user input from the input field
+            var userInput = document.getElementById("userInput").value;
+
+            // Check if the user input is a valid number or not
+            if (isNaN(userInput)) {
+                alert("Invalid input: Not a number!");
+            } else {
+                alert("Valid input: It's a number!");
+            }
+        }
     </script>
+
+    <h1>Number Checker</h1>
+    <label for="userInput">Enter a number:</label>
+    <input type="text" id="userInput" />
+    <button onclick="checkNumber()">Check</button>
 </body>
 
 </html>
