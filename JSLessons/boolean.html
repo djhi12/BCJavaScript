@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boolean</title>
+</head>
+
+<body>
+    <script>
+        /*
+        In JavaScript, "boolean" refers to the data type that represents two possible values: true and false. Booleans are commonly used in programming to control the flow of logic, make decisions, and determine the truth or falsehood of conditions.
+
+        You can create a boolean variable in JavaScript using the true and false keywords:
+        */
+
+        var isTrue = true;
+        var isFalse = false;
+
+
+        // Booleans are essential for conditional statements like if, else if, else, and loops, where code execution depends on whether certain conditions are true or false:
+        var age = 25;
+
+        if (age >= 18) {
+            console.log("You are an adult.");
+        } else {
+            console.log("You are a minor.");
+        }
+
+        // In this example, the code checks if the variable age is greater than or equal to 18. If the condition is true, it will print "You are an adult."; otherwise, it will print "You are a minor."
+
+
+        // JavaScript provides various ways to create boolean values implicitly, based on comparisons, logical operations, and other types. For example:
+        var a = 10;
+        var b = 5;
+
+        var greaterThan = a > b; // true, because 10 is greater than 5
+        var equalTo = a === b;   // false, because 10 is not equal to 5
+
+        var logicalAnd = true && false; // false, because both operands must be true for the result to be true
+        var logicalOr = true || false;  // true, because only one operand needs to be true for the result to be true
+        var logicalNot = !true;         // false, because the negation of true is false
+
+        // These boolean operations are fundamental for building complex logic in JavaScript programs.
+
+
+
+        // Example Program
+        // Function to check if a number is even
+        function isEven(number) {
+            return number % 2 === 0;
+        }
+
+        // Function to check if a number is odd
+        function isOdd(number) {
+            return !isEven(number);
+        }
+
+        // Example usage
+        var num1 = 7;
+        var num2 = 12;
+
+        if (isEven(num1)) {
+            console.log(num1 + " is even.");
+        } else {
+            console.log(num1 + " is odd.");
+        }
+
+        if (isEven(num2)) {
+            console.log(num2 + " is even.");
+        } else {
+            console.log(num2 + " is odd.");
+        }
+
+        // In this example, we define two functions isEven and isOdd that return a boolean value true if the input number is even or odd, respectively. The isEven function checks if the number is divisible by 2 with no remainder (i.e., number % 2 === 0), and the isOdd function simply negates the result of the isEven function using the logical NOT operator (!).
+        
+    </script>
+</body>
+
+</html>
