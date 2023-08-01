@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>undefined</title>
+</head>
+
+<body>
+    <script>
+        /*
+        In JavaScript, "undefined" is a primitive data type that represents the absence of a meaningful value. It is also a global variable with a special value of "undefined".
+
+        When a variable is declared but not assigned a value, it is automatically assigned the value of "undefined". For example:
+
+        let x; // The value of x is undefined
+
+        "undefined" is also returned when accessing properties or variables that do not exist, or when a function does not explicitly return a value.
+
+        Here are some examples:
+        */
+
+        // Accessing an undefined variable or property:
+        let obj = { name: "John" };
+        console.log(obj.age); // Outputs: undefined
+
+
+        // A function that doesn't return a value explicitly returns "undefined":
+        function doSomething() {
+            // Some code here...
+        }
+
+        let result = doSomething();
+        console.log(result); // Outputs: undefined
+
+        // It is important to be cautious about handling "undefined" values to prevent potential errors in your code. You can use conditional statements or the typeof operator to check if a variable has a value or not before using it.
+
+
+        // Example Program
+        function getProperty(obj, propertyName) {
+            if (obj.hasOwnProperty(propertyName)) {
+                return obj[propertyName];
+            } else {
+                return undefined;
+            }
+        }
+
+        // Example usage:
+        let person = {
+            name: "John",
+            age: 30,
+            occupation: "Software Engineer"
+        };
+
+        let name = getProperty(person, "name");
+        let city = getProperty(person, "city");
+
+        console.log("Name:", name); // Outputs: Name: John
+        console.log("City:", city); // Outputs: City: undefined
+
+        /*
+        In this program, we define the getProperty function that takes two parameters: obj (the object we want to check) and propertyName (the property we want to access). The function first checks if the object has the specified property using the hasOwnProperty method. If the property exists, it returns the value of that property using bracket notation (obj[propertyName]). If the property doesn't exist, the function explicitly returns "undefined".
+
+        In the example usage, we have an object person with properties "name," "age," and "occupation." We use the getProperty function to access the "name" and "city" properties. As expected, "name" exists, and its value is "John," while "city" does not exist, and its value is "undefined."
+        */
+    </script>
+</body>
+
+</html>
