@@ -8,7 +8,7 @@ class ClassName:
     pass
     # Class variables and methods go here
 
-    def __init__(self, parameters):
+    def __init__(self, value1, value2, value...):
         pass
         # Constructor (initializer) method
         # This method is called when an object is created
