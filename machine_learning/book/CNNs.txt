@@ -1,0 +1,9 @@
+In the context of Machine Learning, "CNNs" stands for Convolutional Neural Networks.
+
+Convolutional Neural Networks (CNNs) are a specific type of deep learning model designed to process and analyze visual data, such as images and videos. They are widely used in computer vision tasks like image classification, object detection, segmentation, and more.
+
+The key feature of CNNs is their ability to automatically learn hierarchical patterns and features from the input data by employing convolutional layers. These layers use convolutional filters to scan the input data, identifying local patterns and features and gradually learning more abstract and complex representations at deeper layers. This hierarchical approach allows CNNs to recognize patterns in images and understand the spatial relationships between different elements in the data.
+
+CNNs have shown remarkable success in various computer vision tasks and have become the go-to architecture for many image-related applications in the field of Machine Learning and Artificial Intelligence.
+
+
