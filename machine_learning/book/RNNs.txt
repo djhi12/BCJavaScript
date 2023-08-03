@@ -1,0 +1,7 @@
+"RNNs" stands for Recurrent Neural Networks. They are a class of artificial neural networks designed for sequential data processing, making them particularly useful for tasks involving time series data or sequential patterns. RNNs have connections that loop back on themselves, allowing information to persist and be shared across different time steps.
+
+The key characteristic of RNNs is their ability to maintain hidden states or memory over time, making them well-suited for tasks where context and temporal dependencies matter. They can process input sequences of varying lengths and are commonly used in natural language processing (NLP), speech recognition, language translation, sentiment analysis, and other tasks that involve sequential data.
+
+Despite their advantages, traditional RNNs have some limitations, such as difficulties in capturing long-term dependencies due to the vanishing or exploding gradient problem. To address these issues, more advanced variants of RNNs have been developed, including Long Short-Term Memory (LSTM) networks and Gated Recurrent Units (GRUs). These variants incorporate gating mechanisms that allow the network to selectively remember and forget information, making them more effective at handling longer sequences and mitigating the vanishing gradient problem.
+
+Overall, RNNs and their variants have been instrumental in advancing the field of machine learning, particularly in tasks that involve sequential data processing.
