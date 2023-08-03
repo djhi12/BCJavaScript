@@ -1,0 +1,19 @@
+In the context of machine learning, "transformers" refer to a specific type of deep learning model architecture that has gained significant popularity and success in various natural language processing (NLP) tasks. The term "transformers" was introduced in the groundbreaking paper "Attention is All You Need" published by Vaswani et al. in 2017.
+
+The transformer architecture is designed to process sequential data, such as text or time series data, by leveraging a mechanism called self-attention (also known as scaled dot-product attention). Unlike traditional recurrent neural networks (RNNs) or convolutional neural networks (CNNs), transformers do not rely on sequential processing. Instead, they process the input data in parallel, allowing for more efficient training and evaluation.
+
+The key components of a transformer model include:
+
+Self-Attention Mechanism: This mechanism allows the model to weigh the importance of different words or elements in the input sequence while processing each word. It helps the model to learn the contextual relationships between words.
+
+Encoder-Decoder Structure: Transformers often consist of an encoder and decoder architecture. The encoder processes the input data, while the decoder generates the output for tasks like language translation.
+
+Multi-Head Attention: Transformers use multiple attention heads to capture different types of information and learn more diverse contextual relationships.
+
+Positional Encoding: Since transformers do not inherently maintain the positional information of words in the input sequence (unlike RNNs or CNNs), positional encodings are added to the input embeddings to provide the model with positional information.
+
+Feed-Forward Neural Networks: Transformers employ feed-forward neural networks to process the information captured through self-attention.
+
+Transformers have achieved state-of-the-art results in various NLP tasks, including machine translation, text summarization, sentiment analysis, question-answering, and more. The most famous transformer-based models include BERT (Bidirectional Encoder Representations from Transformers), GPT (Generative Pre-trained Transformer), RoBERTa, and T5 (Text-to-Text Transfer Transformer), among others.
+
+Due to their parallel processing capability and superior performance, transformers have revolutionized the field of NLP and have been extended to other domains beyond sequential data, such as image generation and audio processing.
