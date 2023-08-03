@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample 1</title>
+    <style media="screen">
+        #container {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        #container>div {
+            height: 5em;
+            width: 5em;
+            background-color: purple;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container"></div>
+
+    <script>
+        var div,
+            container = document.getElementById("container");
+
+        for (let i = 0; i < 5; i++) {
+            div = document.createElement('div')
+            div.onclick = function () {
+                alert('This is box #' + i)
+            }
+            container.appendChild(div)
+        }
+    </script>
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+</body>
+
+</html>
