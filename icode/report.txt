@@ -11,6 +11,8 @@ Student:
 
 Course:
 
+Reason:
+
 We regret to inform you that the student attended the scheduled class but left the Zoom session prematurely, and as a result, the class is considered incomplete. Despite attempts to contact the student via text and call, there was no response, and unfortunately, the absence will still be noted.
 
 Both the faculty and administrative staff have been made aware of the situation. If you have any questions or concerns regarding this matter, please don't hesitate to reach out to our admin.
