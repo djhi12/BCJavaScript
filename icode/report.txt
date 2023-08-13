@@ -18,3 +18,12 @@ We regret to inform you that the student attended the scheduled class but left t
 Both the faculty and administrative staff have been made aware of the situation. If you have any questions or concerns regarding this matter, please don't hesitate to reach out to our admin.
 
 Thank you for your attention to this issue.
+
+
+<!--- ---->
+
+Student: [Student's Full Name]
+Course: [Course Name and Code]
+Reason: Internet Connection Issue
+
+We deeply regret to inform you that, despite the student's dedicated effort to attend the scheduled class, an unforeseen internet connectivity issue resulted in their premature disconnection from the Zoom session. Unfortunately, this incident has led to the class being considered incomplete for the student.
