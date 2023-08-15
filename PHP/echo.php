@@ -75,7 +75,7 @@
     $variable = "PHP is powerful!";
     echo "<p>" . $variable . "</p>";
 
-    // Remember that the echo statement is used to send output directly to the client's screen. If you're working with more complex scenarios, such as generating dynamic HTML content or handling user inputs, you might want to explore templates and frameworks to manage your code more efficiently.
+    // Remember that the echo statement is used to send output directly to the client's screen. If you're working with more complex scenarios, such as generating dynamic HTML content or handling user inputs, you might want to explore templates and frameworks to manage your code more efficiently..
 
     ?>
     </body>
